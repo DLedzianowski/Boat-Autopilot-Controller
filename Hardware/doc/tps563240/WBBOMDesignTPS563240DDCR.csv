@@ -1,0 +1,9 @@
+﻿Part,Manufacturer,Part Number,Quantity,Price ($),Footprint (mm²),Description
+Rfbt,Vishay-Dale,CRCW040245K3FKED,1,0.01,3,Resistance: 45.3 kΩ  Tolerance: 1.0%  Power: 63 mW  
+Rfbb,Yageo,RC0201FR-0710KL,1,0.01,2.08,Resistance: 10 kΩ  Tolerance: 1.0%  Power: 50 mW  
+U1,Texas Instruments,TPS563240DDCR,1,0.23,10.47,
+L1,Coilcraft,SER1590-152MLB,1,1.12,324.12,L: 1.5 µH  DCR: 1.1 mΩ  IDC: 19 A  
+Cin,MuRata,GRM21BR61E106MA73L,2,0.04,6.75,Cap: 10 µF  Total Derated Cap: 2.8 µF  VDC: 25 V  ESR: 4 mΩ  Package: 0805  
+Cboot,Taiyo Yuden,EMK107B7104KA-T,1,0.01,4.68,Cap: 100 nF  Total Derated Cap: 100 nF  VDC: 16 V  ESR: 1 mΩ  Package: 0603  
+Cout,MuRata,GRM188R60J226MEA0D,3,0.04,4.68,Cap: 22 µF  Total Derated Cap: 24 µF  VDC: 6.3 V  ESR: 1 mΩ  Package: 0603  
+Cinx,Yageo,CC0805KRX7R9BB104,1,0.02,6.75,Cap: 100 nF  Total Derated Cap: 98 nF  VDC: 50 V  ESR: 1 mΩ  Package: 0805  
