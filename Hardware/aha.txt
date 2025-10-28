@@ -1,0 +1,5 @@
+Magnetometr
+IMU
+Czujnik głębokości
+Kill-switch
+LED - sygnalizacja pracy/błędu, brak połaczenia z pilotem(zeby nie odpłynął)
