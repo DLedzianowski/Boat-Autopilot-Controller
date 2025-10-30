@@ -577,6 +577,14 @@
       "version": 1
     },
     "net_format_name": "",
+    "ngspice": {
+      "fix_include_paths": true,
+      "meta": {
+        "version": 0
+      },
+      "model_mode": 4,
+      "workbook_filename": ""
+    },
     "page_layout_descr_file": "",
     "plot_directory": "",
     "space_save_all_events": true,
@@ -593,6 +601,14 @@
     [
       "064b0dc2-c3a5-4c74-8cbf-4fc3d8c84854",
       "Root"
+    ],
+    [
+      "14f85070-237d-42f7-a449-5fde0a107bb8",
+      "+3.3V Regulator"
+    ],
+    [
+      "78eb9aea-0547-4f4a-abb0-0c3a4f278188",
+      "Interfaces"
     ]
   ],
   "text_variables": {}
