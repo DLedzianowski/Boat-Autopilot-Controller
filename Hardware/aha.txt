@@ -4,4 +4,10 @@ Czujnik głębokości
 Kill-switch
 LED - sygnalizacja pracy/błędu, brak połaczenia z pilotem(zeby nie odpłynął)
 
-rezystory 0805
+
+29.10
+Grupa 66
+raczej 0805 wszystko
+sterownik DC zewnetrzny, tylko wyprowadzenie PWM z opto
+sterownik servo moze byc na
+
