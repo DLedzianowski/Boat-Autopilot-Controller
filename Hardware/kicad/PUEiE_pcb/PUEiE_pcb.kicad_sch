@@ -1016,30 +1016,28 @@
 			)
 			(embedded_fonts no)
 		)
-		(symbol "Interface_USB:CH340E"
+		(symbol "Driver_Motor:DRV8461SPWP"
 			(exclude_from_sim no)
 			(in_bom yes)
 			(on_board yes)
 			(property "Reference" "U"
-				(at -5.08 13.97 0)
+				(at -8.89 21.59 0)
 				(effects
 					(font
 						(size 1.27 1.27)
 					)
-					(justify right)
 				)
 			)
-			(property "Value" "CH340E"
-				(at 1.27 13.97 0)
+			(property "Value" "DRV8461SPWP"
+				(at 12.7 21.59 0)
 				(effects
 					(font
 						(size 1.27 1.27)
 					)
-					(justify left)
 				)
 			)
-			(property "Footprint" "Package_SO:MSOP-10_3x3mm_P0.5mm"
-				(at 1.27 -13.97 0)
+			(property "Footprint" "Package_SO:Texas_PWP0020A"
+				(at 20.32 -26.67 0)
 				(effects
 					(font
 						(size 1.27 1.27)
@@ -1048,16 +1046,17 @@
 					(hide yes)
 				)
 			)
-			(property "Datasheet" "https://www.mpja.com/download/35227cpdata.pdf"
-				(at -8.89 20.32 0)
+			(property "Datasheet" "https://www.ti.com/lit/ds/symlink/drv8461.pdf"
+				(at 20.32 -29.21 0)
 				(effects
 					(font
 						(size 1.27 1.27)
 					)
+					(justify left)
 					(hide yes)
 				)
 			)
-			(property "Description" "USB serial converter, UART, MSOP-10"
+			(property "Description" "65V, 3A SPI Stepper motor controller with integrated MOSFETs, automatic torque, automatic microstep, HTSSOP-28"
 				(at 0 0 0)
 				(effects
 					(font
@@ -1066,7 +1065,7 @@
 					(hide yes)
 				)
 			)
-			(property "ki_keywords" "USB UART Serial Converter Interface"
+			(property "ki_keywords" "texas ti microstep driver silent STEP DIR"
 				(at 0 0 0)
 				(effects
 					(font
@@ -1075,7 +1074,7 @@
 					(hide yes)
 				)
 			)
-			(property "ki_fp_filters" "MSOP*3x3mm*P0.5mm*"
+			(property "ki_fp_filters" "Texas*PWP*"
 				(at 0 0 0)
 				(effects
 					(font
@@ -1084,31 +1083,18 @@
 					(hide yes)
 				)
 			)
-			(symbol "CH340E_0_1"
-				(rectangle
-					(start -7.62 12.7)
-					(end 7.62 -12.7)
-					(stroke
-						(width 0.254)
-						(type default)
-					)
-					(fill
-						(type background)
-					)
-				)
-			)
-			(symbol "CH340E_1_1"
-				(pin bidirectional line
-					(at -10.16 2.54 0)
+			(symbol "DRV8461SPWP_0_0"
+				(pin input line
+					(at -12.7 12.7 0)
 					(length 2.54)
-					(name "UD+"
+					(name "VREF"
 						(effects
 							(font
 								(size 1.27 1.27)
 							)
 						)
 					)
-					(number "1"
+					(number "17"
 						(effects
 							(font
 								(size 1.27 1.27)
@@ -1116,17 +1102,161 @@
 						)
 					)
 				)
-				(pin bidirectional line
-					(at -10.16 0 0)
+				(pin input line
+					(at -12.7 7.62 0)
 					(length 2.54)
-					(name "UD-"
+					(name "SCLK"
 						(effects
 							(font
 								(size 1.27 1.27)
 							)
 						)
 					)
-					(number "2"
+					(number "22"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin input line
+					(at -12.7 5.08 0)
+					(length 2.54)
+					(name "SDI"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "21"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin output line
+					(at -12.7 2.54 0)
+					(length 2.54)
+					(name "SDO"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "20"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin input line
+					(at -12.7 0 0)
+					(length 2.54)
+					(name "~{SCS}"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "18"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin input line
+					(at -12.7 -5.08 0)
+					(length 2.54)
+					(name "STEP"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "23"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin input line
+					(at -12.7 -7.62 0)
+					(length 2.54)
+					(name "DIR"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "24"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin input line
+					(at -12.7 -10.16 0)
+					(length 2.54)
+					(name "ENABLE"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "25"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin input line
+					(at -12.7 -12.7 0)
+					(length 2.54)
+					(name "~{SLEEP}"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "26"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin open_collector line
+					(at -12.7 -15.24 0)
+					(length 2.54)
+					(name "~{FAULT}"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "16"
 						(effects
 							(font
 								(size 1.27 1.27)
@@ -1135,7 +1265,7 @@
 					)
 				)
 				(pin power_in line
-					(at -2.54 15.24 270)
+					(at 0 22.86 270)
 					(length 2.54)
 					(name "VCC"
 						(effects
@@ -1144,25 +1274,7 @@
 							)
 						)
 					)
-					(number "7"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-				)
-				(pin power_out line
-					(at 0 15.24 270)
-					(length 2.54)
-					(name "V3"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-					(number "10"
+					(number "19"
 						(effects
 							(font
 								(size 1.27 1.27)
@@ -1171,7 +1283,7 @@
 					)
 				)
 				(pin power_in line
-					(at 0 -15.24 90)
+					(at 0 -22.86 90)
 					(length 2.54)
 					(name "GND"
 						(effects
@@ -1188,53 +1300,17 @@
 						)
 					)
 				)
-				(pin output line
-					(at 10.16 10.16 180)
-					(length 2.54)
-					(name "TXD"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-					(number "8"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-				)
 				(pin input line
-					(at 10.16 7.62 180)
+					(at 12.7 15.24 180)
 					(length 2.54)
-					(name "RXD"
+					(name "VCP"
 						(effects
 							(font
 								(size 1.27 1.27)
 							)
 						)
 					)
-					(number "9"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-				)
-				(pin input line
-					(at 10.16 2.54 180)
-					(length 2.54)
-					(name "~{CTS}"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-					(number "5"
+					(number "1"
 						(effects
 							(font
 								(size 1.27 1.27)
@@ -1243,9 +1319,27 @@
 					)
 				)
 				(pin output line
-					(at 10.16 -7.62 180)
+					(at 12.7 10.16 180)
 					(length 2.54)
-					(name "TNOW"
+					(name "AOUT1"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "4"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin output line
+					(at 12.7 5.08 180)
+					(length 2.54)
+					(name "AOUT2"
 						(effects
 							(font
 								(size 1.27 1.27)
@@ -1261,21 +1355,278 @@
 					)
 				)
 				(pin output line
-					(at 10.16 -10.16 180)
+					(at 12.7 0 180)
 					(length 2.54)
-					(name "~{RTS}"
+					(name "BOUT2"
 						(effects
 							(font
 								(size 1.27 1.27)
 							)
 						)
 					)
-					(number "4"
+					(number "8"
 						(effects
 							(font
 								(size 1.27 1.27)
 							)
 						)
+					)
+				)
+				(pin output line
+					(at 12.7 -5.08 180)
+					(length 2.54)
+					(name "BOUT1"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "10"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin input line
+					(at 12.7 -10.16 180)
+					(length 2.54)
+					(name "CPL"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "27"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin input line
+					(at 12.7 -15.24 180)
+					(length 2.54)
+					(name "CPH"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "28"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+			)
+			(symbol "DRV8461SPWP_1_0"
+				(pin power_out line
+					(at -12.7 17.78 0)
+					(length 2.54)
+					(name "DVDD"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "15"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin passive line
+					(at 0 -22.86 90)
+					(length 2.54)
+					(hide yes)
+					(name "GND"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "12"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin passive line
+					(at 0 -22.86 90)
+					(length 2.54)
+					(hide yes)
+					(name "GND"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "14"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin passive line
+					(at 0 -22.86 90)
+					(length 2.54)
+					(hide yes)
+					(name "GND"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "29"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin passive line
+					(at 5.08 22.86 270)
+					(length 2.54)
+					(hide yes)
+					(name "VM"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "13"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin power_in line
+					(at 5.08 22.86 270)
+					(length 2.54)
+					(name "VM"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "2"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin passive line
+					(at 12.7 10.16 180)
+					(length 2.54)
+					(hide yes)
+					(name "AOUT1"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "5"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin passive line
+					(at 12.7 5.08 180)
+					(length 2.54)
+					(hide yes)
+					(name "AOUT2"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "7"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin passive line
+					(at 12.7 0 180)
+					(length 2.54)
+					(hide yes)
+					(name "BOUT2"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "9"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin passive line
+					(at 12.7 -5.08 180)
+					(length 2.54)
+					(hide yes)
+					(name "BOUT1"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "11"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+			)
+			(symbol "DRV8461SPWP_1_1"
+				(rectangle
+					(start -10.16 20.32)
+					(end 10.16 -20.32)
+					(stroke
+						(width 0.254)
+						(type default)
+					)
+					(fill
+						(type background)
 					)
 				)
 			)
@@ -1728,6 +2079,306 @@
 			)
 			(embedded_fonts no)
 		)
+		(symbol "Sensor_Magnetic:LIS3MDL"
+			(exclude_from_sim no)
+			(in_bom yes)
+			(on_board yes)
+			(property "Reference" "U"
+				(at -8.89 11.43 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "Value" "LIS3MDL"
+				(at 7.62 11.43 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "Footprint" "Package_LGA:LGA-12_2x2mm_P0.5mm"
+				(at 30.48 -7.62 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "Datasheet" "https://www.st.com/resource/en/datasheet/lis3mdl.pdf"
+				(at 38.1 -10.16 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "Description" "Ultra-low-power, 3-axis digital output magnetometer, LGA-12"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "ki_keywords" "digital magnetometer"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "ki_fp_filters" "LGA*2x2mm*P0.5mm*"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(symbol "LIS3MDL_0_1"
+				(rectangle
+					(start -10.16 10.16)
+					(end 10.16 -10.16)
+					(stroke
+						(width 0.254)
+						(type default)
+					)
+					(fill
+						(type background)
+					)
+				)
+			)
+			(symbol "LIS3MDL_1_1"
+				(pin input line
+					(at -12.7 5.08 0)
+					(length 2.54)
+					(name "~{CS}"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "10"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin input line
+					(at -12.7 2.54 0)
+					(length 2.54)
+					(name "SCL/SPC"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "1"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin bidirectional line
+					(at -12.7 0 0)
+					(length 2.54)
+					(name "SDA/SDI/SDO"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "11"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin bidirectional line
+					(at -12.7 -2.54 0)
+					(length 2.54)
+					(name "SDO/SA1"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "9"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin power_in line
+					(at 0 12.7 270)
+					(length 2.54)
+					(name "Vdd"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "5"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin passive line
+					(at 0 -12.7 90)
+					(length 2.54)
+					(hide yes)
+					(name "GND"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "12"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin passive line
+					(at 0 -12.7 90)
+					(length 2.54)
+					(hide yes)
+					(name "GND"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "2"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin power_in line
+					(at 0 -12.7 90)
+					(length 2.54)
+					(name "GND"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "3"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin power_in line
+					(at 2.54 12.7 270)
+					(length 2.54)
+					(name "Vdd_IO"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "6"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin output line
+					(at 12.7 5.08 180)
+					(length 2.54)
+					(name "DRDY"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "8"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin output line
+					(at 12.7 2.54 180)
+					(length 2.54)
+					(name "INT"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "7"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin power_out line
+					(at 12.7 -2.54 180)
+					(length 2.54)
+					(name "C1"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "4"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+			)
+			(embedded_fonts no)
+		)
 		(symbol "power:GND"
 			(power)
 			(pin_numbers
@@ -1966,9 +2617,9 @@
 		)
 		(uuid "6236a62d-78b8-4595-8d6e-c6f90304307e")
 	)
-	(text "gnss ipx/sma\nscrews terminal\nusb interface / usb to uart\nbattery voltage monitor (adc)"
+	(text "gnss ipx/sma\nscrews terminal\nusb interface / usb to uart\nbattery voltage monitor (adc)\n\nstm32\nmagnetometr\ni sterownik do silnika krokowego"
 		(exclude_from_sim no)
-		(at 88.646 23.114 0)
+		(at 85.344 29.718 0)
 		(effects
 			(font
 				(size 2.54 2.54)
@@ -2640,6 +3291,159 @@
 		)
 	)
 	(symbol
+		(lib_id "Driver_Motor:DRV8461SPWP")
+		(at 189.23 86.36 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "955133be-58c9-4416-92e1-3d5ba42ed4df")
+		(property "Reference" "U4"
+			(at 191.3733 109.22 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Value" "DRV8461SPWP"
+			(at 191.3733 111.76 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Footprint" "Package_SO:Texas_PWP0020A"
+			(at 209.55 113.03 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "https://www.ti.com/lit/ds/symlink/drv8461.pdf"
+			(at 209.55 115.57 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+				(hide yes)
+			)
+		)
+		(property "Description" "65V, 3A SPI Stepper motor controller with integrated MOSFETs, automatic torque, automatic microstep, HTSSOP-28"
+			(at 189.23 86.36 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "18"
+			(uuid "5f2d582c-258d-4328-ba85-2a458f1d5d97")
+		)
+		(pin "22"
+			(uuid "bed16254-5677-4f54-bf75-7263de1cdbc6")
+		)
+		(pin "15"
+			(uuid "f8f8743f-e174-4e0e-a8b5-d92f1c21f5fe")
+		)
+		(pin "4"
+			(uuid "f1a0313c-3c4b-4a88-8e4c-8a41d22fdece")
+		)
+		(pin "9"
+			(uuid "8e610acb-65f0-4fa9-b745-67d6e8b063d8")
+		)
+		(pin "5"
+			(uuid "7b6a986b-0ea8-4d18-802f-7cb54785a613")
+		)
+		(pin "21"
+			(uuid "d30e98d2-509c-47b0-981b-5e0ded2740c3")
+		)
+		(pin "23"
+			(uuid "aa276e20-4bf5-4d37-a128-0c5797ef9b1a")
+		)
+		(pin "26"
+			(uuid "58de1488-993f-4251-b703-ba9e3558cce8")
+		)
+		(pin "8"
+			(uuid "b9c74048-59e9-468f-bc0e-1101e543cd21")
+		)
+		(pin "27"
+			(uuid "c4b57a9c-89c4-4225-bedf-822cd339d162")
+		)
+		(pin "13"
+			(uuid "7f32c005-00d5-4ecc-885c-b91022bb1666")
+		)
+		(pin "12"
+			(uuid "ee82a779-67eb-49a1-9423-94cbfdaf31a4")
+		)
+		(pin "19"
+			(uuid "70e3e420-70ea-4da8-83d1-6af1bd7100ff")
+		)
+		(pin "16"
+			(uuid "a9a1495f-cb63-43a6-995b-4e079aca7aab")
+		)
+		(pin "3"
+			(uuid "b2a0ff1e-4bc6-4e55-8d8e-0bcd844c529f")
+		)
+		(pin "17"
+			(uuid "b19f1372-f1dd-4b2b-a0ce-762a4f2a1774")
+		)
+		(pin "28"
+			(uuid "037c1d44-4170-472e-8bd2-26d26600573e")
+		)
+		(pin "2"
+			(uuid "09cdd7b8-461a-47ce-b9ae-22676b9fd9b3")
+		)
+		(pin "20"
+			(uuid "8c9a888e-a071-4533-9f94-be2a6eca51ab")
+		)
+		(pin "7"
+			(uuid "587bf3cb-5394-4baf-a48b-ad26deeb6dd4")
+		)
+		(pin "24"
+			(uuid "1cd4ff0a-d8bd-401f-98cb-22e94c4566c6")
+		)
+		(pin "25"
+			(uuid "242edc7c-0c84-4616-b2dd-7bd1e29c5fe0")
+		)
+		(pin "6"
+			(uuid "efeb6c52-5d89-4c8e-8c5e-c8dafc8fb4e0")
+		)
+		(pin "10"
+			(uuid "f0d00569-4089-4f0b-979e-73bada17bfb1")
+		)
+		(pin "1"
+			(uuid "bcd4ee20-38d7-434e-9218-4783d5e5474f")
+		)
+		(pin "14"
+			(uuid "6c06ba57-ab10-4ff3-90e7-6e685b1e149f")
+		)
+		(pin "11"
+			(uuid "5f681889-2b41-4cf7-a16a-3ca89e94b947")
+		)
+		(pin "29"
+			(uuid "e5b5fe34-bf4b-41d6-8632-a452a24767df")
+		)
+		(instances
+			(project ""
+				(path "/064b0dc2-c3a5-4c74-8cbf-4fc3d8c84854"
+					(reference "U4")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
 		(lib_id "Device:R")
 		(at 57.15 154.94 90)
 		(unit 1)
@@ -3065,16 +3869,17 @@
 		)
 	)
 	(symbol
-		(lib_id "Interface_USB:CH340E")
-		(at 252.73 143.51 0)
+		(lib_id "Sensor_Magnetic:LIS3MDL")
+		(at 199.39 31.75 0)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
 		(on_board yes)
 		(dnp no)
-		(uuid "ec3d4826-4db0-4d75-bc21-3e28b3e590a1")
-		(property "Reference" "U4"
-			(at 257.556 129.54 0)
+		(fields_autoplaced yes)
+		(uuid "e3b718dd-54c8-415a-b9d8-43feb255b337")
+		(property "Reference" "U6"
+			(at 201.5333 44.45 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -3082,8 +3887,8 @@
 				(justify left)
 			)
 		)
-		(property "Value" "CH340E"
-			(at 252.984 157.48 0)
+		(property "Value" "LIS3MDL"
+			(at 201.5333 46.99 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -3091,18 +3896,8 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" "Package_SO:MSOP-10_3x3mm_P0.5mm"
-			(at 254 157.48 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-				(hide yes)
-			)
-		)
-		(property "Datasheet" "https://www.mpja.com/download/35227cpdata.pdf"
-			(at 243.84 123.19 0)
+		(property "Footprint" "Package_LGA:LGA-12_2x2mm_P0.5mm"
+			(at 229.87 39.37 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -3110,8 +3905,8 @@
 				(hide yes)
 			)
 		)
-		(property "Description" "USB serial converter, UART, MSOP-10"
-			(at 252.73 143.51 0)
+		(property "Datasheet" "https://www.st.com/resource/en/datasheet/lis3mdl.pdf"
+			(at 237.49 41.91 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -3119,8 +3914,8 @@
 				(hide yes)
 			)
 		)
-		(property "Link 1" "https://jlcpcb.com/parts/componentSearch?searchTxt=ch340e"
-			(at 252.73 143.51 0)
+		(property "Description" "Ultra-low-power, 3-axis digital output magnetometer, LGA-12"
+			(at 199.39 31.75 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -3128,40 +3923,55 @@
 				(hide yes)
 			)
 		)
-		(pin "2"
-			(uuid "68849d92-9a5e-470d-ad97-0e6206303a14")
+		(property "Link 1" "https://jlcpcb.com/partdetail/STMicroelectronics-LIS3MDLTR/C478483"
+			(at 199.39 31.75 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
 		)
 		(pin "5"
-			(uuid "2721b103-db4e-424d-a6ec-2dc5501481cc")
+			(uuid "0c08cc84-23b7-4d81-b321-f3926bb1f2f3")
 		)
-		(pin "10"
-			(uuid "00510520-b657-4316-99ef-953132ecc9fa")
-		)
-		(pin "1"
-			(uuid "b394f606-0186-434f-b675-1b48b2c9c43e")
-		)
-		(pin "7"
-			(uuid "93da8a03-752e-445c-9e1b-ac2df9e4f068")
-		)
-		(pin "3"
-			(uuid "f6c60b6c-11ff-4545-ad9a-a0db7745b255")
-		)
-		(pin "8"
-			(uuid "00cd6c97-b267-4437-8d4a-f815d6334baf")
+		(pin "11"
+			(uuid "f4feec90-6f75-4c39-8bbe-d64e2dabc830")
 		)
 		(pin "9"
-			(uuid "20cd30b6-c2c2-453d-b8b6-244d5bd2e3f6")
+			(uuid "876479f4-9245-4deb-add9-2577dd65cbbc")
 		)
-		(pin "6"
-			(uuid "88bada93-9caf-48a4-bfc6-f5b2c921352d")
+		(pin "7"
+			(uuid "75779d50-3ca4-429d-a62d-246b2306a625")
+		)
+		(pin "10"
+			(uuid "c3d3b54f-1edb-4970-a11b-c580f6cd9cf3")
+		)
+		(pin "2"
+			(uuid "f924a2d2-b06e-4ac5-82a6-ea9035f98ff0")
 		)
 		(pin "4"
-			(uuid "cf145b73-1d9f-47ff-bc5d-8198dfbb9351")
+			(uuid "251aa795-e6b7-45cf-9bf3-54f22f699960")
+		)
+		(pin "12"
+			(uuid "d0040f05-640a-48c9-a759-ff0d25a44d69")
+		)
+		(pin "8"
+			(uuid "10080899-58e3-4aab-b37f-d63c7014d176")
+		)
+		(pin "6"
+			(uuid "087450cf-d060-4d9d-8214-68425f654ec4")
+		)
+		(pin "1"
+			(uuid "07a1760e-bce2-4808-a4f0-35c0fe188f46")
+		)
+		(pin "3"
+			(uuid "af05432e-b743-4449-a5b9-4aae596a4f56")
 		)
 		(instances
 			(project ""
 				(path "/064b0dc2-c3a5-4c74-8cbf-4fc3d8c84854"
-					(reference "U4")
+					(reference "U6")
 					(unit 1)
 				)
 			)
