@@ -4,6 +4,12 @@
 	(generator_version "9.0")
 	(uuid "a0a948dc-fc10-4935-9280-75ce7341b454")
 	(paper "A4")
+	(title_block
+		(title "Boat Autopilot Controller")
+		(date "2025-11-11")
+		(rev "0.1")
+		(company "Dominik Ledzianowski / Klaudia Lewandowska")
+	)
 	(lib_symbols
 		(symbol "Connector:Conn_01x04_Socket"
 			(pin_names
@@ -171,6 +177,206 @@
 					(start 0 -5.588)
 					(mid -0.5058 -5.08)
 					(end 0 -4.572)
+					(stroke
+						(width 0.1524)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(pin passive line
+					(at -5.08 2.54 0)
+					(length 3.81)
+					(name "Pin_1"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "1"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin passive line
+					(at -5.08 0 0)
+					(length 3.81)
+					(name "Pin_2"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "2"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin passive line
+					(at -5.08 -2.54 0)
+					(length 3.81)
+					(name "Pin_3"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "3"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin passive line
+					(at -5.08 -5.08 0)
+					(length 3.81)
+					(name "Pin_4"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "4"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+			)
+			(embedded_fonts no)
+		)
+		(symbol "Connector_Generic:Conn_01x04"
+			(pin_names
+				(offset 1.016)
+				(hide yes)
+			)
+			(exclude_from_sim no)
+			(in_bom yes)
+			(on_board yes)
+			(property "Reference" "J"
+				(at 0 5.08 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "Value" "Conn_01x04"
+				(at 0 -7.62 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "Footprint" ""
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "Datasheet" "~"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "Description" "Generic connector, single row, 01x04, script generated (kicad-library-utils/schlib/autogen/connector/)"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "ki_keywords" "connector"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "ki_fp_filters" "Connector*:*_1x??_*"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(symbol "Conn_01x04_1_1"
+				(rectangle
+					(start -1.27 3.81)
+					(end 1.27 -6.35)
+					(stroke
+						(width 0.254)
+						(type default)
+					)
+					(fill
+						(type background)
+					)
+				)
+				(rectangle
+					(start -1.27 2.667)
+					(end 0 2.413)
+					(stroke
+						(width 0.1524)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(rectangle
+					(start -1.27 0.127)
+					(end 0 -0.127)
+					(stroke
+						(width 0.1524)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(rectangle
+					(start -1.27 -2.413)
+					(end 0 -2.667)
+					(stroke
+						(width 0.1524)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(rectangle
+					(start -1.27 -4.953)
+					(end 0 -5.207)
 					(stroke
 						(width 0.1524)
 						(type default)
@@ -3548,6 +3754,12 @@
 		(uuid "07f9b8fa-b24c-4c3c-a2f4-a34467cea1ac")
 	)
 	(junction
+		(at 77.47 68.58)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "0a3fe206-7366-481a-83a3-7ed60f5d08d3")
+	)
+	(junction
 		(at 228.6 44.45)
 		(diameter 0)
 		(color 0 0 0 0)
@@ -3600,6 +3812,12 @@
 		(diameter 0)
 		(color 0 0 0 0)
 		(uuid "5b136ed7-e5a5-41a7-a88e-ab975370fce3")
+	)
+	(junction
+		(at 194.31 102.87)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "6980e725-f7a5-49f7-b76e-d061f75a36d4")
 	)
 	(junction
 		(at 22.86 59.69)
@@ -3667,6 +3885,12 @@
 		(color 0 0 0 0)
 		(uuid "e25cf498-a6ef-4190-be9b-ff3b8502b6ca")
 	)
+	(junction
+		(at 194.31 110.49)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "fc5430de-f64b-4fff-95fd-6fa5dcc01abe")
+	)
 	(no_connect
 		(at 86.36 71.12)
 		(uuid "16109fe1-d053-4a9a-ac4f-201c6197de9a")
@@ -3731,6 +3955,16 @@
 	)
 	(wire
 		(pts
+			(xy 194.31 110.49) (xy 194.31 113.03)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "0070083d-f389-4c6d-90be-950eac53d9df")
+	)
+	(wire
+		(pts
 			(xy 115.57 36.83) (xy 118.11 36.83)
 		)
 		(stroke
@@ -3738,6 +3972,16 @@
 			(type default)
 		)
 		(uuid "03d6c73b-9e78-45ea-8629-5dbfd3a5fc7c")
+	)
+	(wire
+		(pts
+			(xy 194.31 102.87) (xy 194.31 100.33)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "05997883-950a-4f60-84fd-53e442849e00")
 	)
 	(wire
 		(pts
@@ -3791,7 +4035,7 @@
 	)
 	(wire
 		(pts
-			(xy 43.18 59.69) (xy 43.18 68.58)
+			(xy 43.18 59.69) (xy 43.18 64.77)
 		)
 		(stroke
 			(width 0)
@@ -3871,6 +4115,16 @@
 	)
 	(wire
 		(pts
+			(xy 196.85 102.87) (xy 194.31 102.87)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "3202ba67-04aa-4fd7-b847-31907d339821")
+	)
+	(wire
+		(pts
 			(xy 107.95 172.72) (xy 107.95 176.53)
 		)
 		(stroke
@@ -3881,7 +4135,7 @@
 	)
 	(wire
 		(pts
-			(xy 43.18 76.2) (xy 43.18 77.47)
+			(xy 43.18 72.39) (xy 43.18 73.66)
 		)
 		(stroke
 			(width 0)
@@ -4163,7 +4417,7 @@
 	)
 	(wire
 		(pts
-			(xy 22.86 59.69) (xy 22.86 68.58)
+			(xy 22.86 59.69) (xy 22.86 64.77)
 		)
 		(stroke
 			(width 0)
@@ -4243,6 +4497,16 @@
 	)
 	(wire
 		(pts
+			(xy 77.47 67.31) (xy 77.47 68.58)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "9140f246-5811-41ad-ba34-605f296fe00d")
+	)
+	(wire
+		(pts
 			(xy 52.07 157.48) (xy 53.34 157.48)
 		)
 		(stroke
@@ -4303,7 +4567,7 @@
 	)
 	(wire
 		(pts
-			(xy 83.82 68.58) (xy 86.36 68.58)
+			(xy 72.39 68.58) (xy 77.47 68.58)
 		)
 		(stroke
 			(width 0)
@@ -4320,6 +4584,26 @@
 			(type default)
 		)
 		(uuid "a18d7dc6-cbce-480f-9bc3-dfa15bbd730c")
+	)
+	(wire
+		(pts
+			(xy 77.47 68.58) (xy 86.36 68.58)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "a4ee5fc8-428d-4387-99d2-9003004d9f1b")
+	)
+	(wire
+		(pts
+			(xy 179.07 110.49) (xy 194.31 110.49)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "a6a8e1a8-9243-4443-b690-56426d453fc6")
 	)
 	(wire
 		(pts
@@ -4453,6 +4737,16 @@
 	)
 	(wire
 		(pts
+			(xy 179.07 102.87) (xy 194.31 102.87)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "d44a37f6-c4b1-44f8-a6ab-2aa5cd9f8f7b")
+	)
+	(wire
+		(pts
 			(xy 90.17 175.26) (xy 95.25 175.26)
 		)
 		(stroke
@@ -4473,7 +4767,7 @@
 	)
 	(wire
 		(pts
-			(xy 22.86 76.2) (xy 22.86 77.47)
+			(xy 22.86 72.39) (xy 22.86 73.66)
 		)
 		(stroke
 			(width 0)
@@ -4490,6 +4784,16 @@
 			(type default)
 		)
 		(uuid "dd7705f5-34d6-4c43-8773-e30098c18fc9")
+	)
+	(wire
+		(pts
+			(xy 196.85 110.49) (xy 194.31 110.49)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "df888277-2fe4-4e1f-be76-426640175a11")
 	)
 	(wire
 		(pts
@@ -4630,7 +4934,7 @@
 		)
 	)
 	(global_label "BACKUP"
-		(shape input)
+		(shape output)
 		(at 101.6 40.64 90)
 		(fields_autoplaced yes)
 		(effects
@@ -4653,7 +4957,7 @@
 	)
 	(global_label "GPS_RESET"
 		(shape input)
-		(at 83.82 68.58 180)
+		(at 72.39 68.58 180)
 		(fields_autoplaced yes)
 		(effects
 			(font
@@ -4663,7 +4967,7 @@
 		)
 		(uuid "5f99e34a-5063-49f3-9755-e4d4c93532f3")
 		(property "Intersheetrefs" "${INTERSHEET_REFS}"
-			(at 70.3726 68.58 0)
+			(at 58.9426 68.58 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -4770,7 +5074,7 @@
 		(on_board yes)
 		(dnp no)
 		(uuid "0094ae64-d23d-4041-a45f-e2a19fd1aa81")
-		(property "Reference" "#PWR057"
+		(property "Reference" "#PWR068"
 			(at 85.09 130.81 0)
 			(effects
 				(font
@@ -4821,7 +5125,7 @@
 		(instances
 			(project "PUEiE_pcb"
 				(path "/064b0dc2-c3a5-4c74-8cbf-4fc3d8c84854/78eb9aea-0547-4f4a-abb0-0c3a4f278188"
-					(reference "#PWR057")
+					(reference "#PWR068")
 					(unit 1)
 				)
 			)
@@ -4836,7 +5140,7 @@
 		(on_board yes)
 		(dnp no)
 		(uuid "071de468-04bd-41b1-aa77-f6309f7d0a48")
-		(property "Reference" "C17"
+		(property "Reference" "C308"
 			(at 99.06 119.38 0)
 			(effects
 				(font
@@ -4890,7 +5194,7 @@
 		(instances
 			(project "PUEiE_pcb"
 				(path "/064b0dc2-c3a5-4c74-8cbf-4fc3d8c84854/78eb9aea-0547-4f4a-abb0-0c3a4f278188"
-					(reference "C17")
+					(reference "C308")
 					(unit 1)
 				)
 			)
@@ -4905,7 +5209,7 @@
 		(on_board yes)
 		(dnp no)
 		(uuid "07bbbbaf-f998-4fb1-b869-a37d8607642f")
-		(property "Reference" "#PWR036"
+		(property "Reference" "#PWR057"
 			(at 217.17 48.26 0)
 			(effects
 				(font
@@ -4956,7 +5260,7 @@
 		(instances
 			(project "PUEiE_pcb"
 				(path "/064b0dc2-c3a5-4c74-8cbf-4fc3d8c84854/78eb9aea-0547-4f4a-abb0-0c3a4f278188"
-					(reference "#PWR036")
+					(reference "#PWR057")
 					(unit 1)
 				)
 			)
@@ -4972,7 +5276,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "0cf75221-d3be-44c1-a2a3-15e9365cb35b")
-		(property "Reference" "J2"
+		(property "Reference" "J301"
 			(at 121.92 137.1599 0)
 			(effects
 				(font
@@ -5032,7 +5336,7 @@
 		(instances
 			(project "PUEiE_pcb"
 				(path "/064b0dc2-c3a5-4c74-8cbf-4fc3d8c84854/78eb9aea-0547-4f4a-abb0-0c3a4f278188"
-					(reference "J2")
+					(reference "J301")
 					(unit 1)
 				)
 			)
@@ -5047,7 +5351,7 @@
 		(on_board yes)
 		(dnp no)
 		(uuid "0e822148-4d90-40b9-9eb5-120f1eb57d74")
-		(property "Reference" "R7"
+		(property "Reference" "R305"
 			(at 87.884 180.34 90)
 			(effects
 				(font
@@ -5099,7 +5403,7 @@
 		(instances
 			(project "PUEiE_pcb"
 				(path "/064b0dc2-c3a5-4c74-8cbf-4fc3d8c84854/78eb9aea-0547-4f4a-abb0-0c3a4f278188"
-					(reference "R7")
+					(reference "R305")
 					(unit 1)
 				)
 			)
@@ -5114,7 +5418,7 @@
 		(on_board yes)
 		(dnp no)
 		(uuid "0fc7a88d-8c6c-42de-8990-f51369e247bb")
-		(property "Reference" "JP5"
+		(property "Reference" "JP303"
 			(at 18.034 133.096 90)
 			(effects
 				(font
@@ -5169,7 +5473,7 @@
 		(instances
 			(project "PUEiE_pcb"
 				(path "/064b0dc2-c3a5-4c74-8cbf-4fc3d8c84854/78eb9aea-0547-4f4a-abb0-0c3a4f278188"
-					(reference "JP5")
+					(reference "JP303")
 					(unit 1)
 				)
 			)
@@ -5184,7 +5488,7 @@
 		(on_board yes)
 		(dnp no)
 		(uuid "1602a925-a42a-4dbf-84b9-d9ce8412feaf")
-		(property "Reference" "C14"
+		(property "Reference" "C304"
 			(at 243.332 64.516 90)
 			(effects
 				(font
@@ -5238,7 +5542,7 @@
 		(instances
 			(project "PUEiE_pcb"
 				(path "/064b0dc2-c3a5-4c74-8cbf-4fc3d8c84854/78eb9aea-0547-4f4a-abb0-0c3a4f278188"
-					(reference "C14")
+					(reference "C304")
 					(unit 1)
 				)
 			)
@@ -5253,7 +5557,7 @@
 		(on_board yes)
 		(dnp no)
 		(uuid "20d0750f-78ae-4130-ad46-1f450e0e9c9a")
-		(property "Reference" "#PWR013"
+		(property "Reference" "#PWR055"
 			(at 22.86 41.91 0)
 			(effects
 				(font
@@ -5303,7 +5607,7 @@
 		(instances
 			(project "PUEiE_pcb"
 				(path "/064b0dc2-c3a5-4c74-8cbf-4fc3d8c84854/78eb9aea-0547-4f4a-abb0-0c3a4f278188"
-					(reference "#PWR013")
+					(reference "#PWR055")
 					(unit 1)
 				)
 			)
@@ -5318,7 +5622,7 @@
 		(on_board yes)
 		(dnp no)
 		(uuid "2159ed63-5c7b-4600-a910-210b90accb88")
-		(property "Reference" "#PWR056"
+		(property "Reference" "#PWR059"
 			(at 255.27 60.96 0)
 			(effects
 				(font
@@ -5369,7 +5673,7 @@
 		(instances
 			(project "PUEiE_pcb"
 				(path "/064b0dc2-c3a5-4c74-8cbf-4fc3d8c84854/78eb9aea-0547-4f4a-abb0-0c3a4f278188"
-					(reference "#PWR056")
+					(reference "#PWR059")
 					(unit 1)
 				)
 			)
@@ -5384,7 +5688,7 @@
 		(on_board yes)
 		(dnp no)
 		(uuid "25f7bb96-2497-44c0-ab95-312b879e259b")
-		(property "Reference" "C19"
+		(property "Reference" "C314"
 			(at 45.212 128.27 90)
 			(effects
 				(font
@@ -5438,7 +5742,73 @@
 		(instances
 			(project "PUEiE_pcb"
 				(path "/064b0dc2-c3a5-4c74-8cbf-4fc3d8c84854/78eb9aea-0547-4f4a-abb0-0c3a4f278188"
-					(reference "C19")
+					(reference "C314")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "power:GND")
+		(at 194.31 113.03 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(uuid "270fab0d-18f9-4eb8-b6ff-97bfd36abec7")
+		(property "Reference" "#PWR0303"
+			(at 194.31 119.38 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Value" "GND"
+			(at 194.31 117.094 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Footprint" ""
+			(at 194.31 113.03 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" ""
+			(at 194.31 113.03 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Power symbol creates a global label with name \"GND\" , ground"
+			(at 194.31 113.03 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "19909549-eb0e-438d-b25b-d9608ffd783e")
+		)
+		(instances
+			(project "PUEiE_pcb"
+				(path "/064b0dc2-c3a5-4c74-8cbf-4fc3d8c84854/78eb9aea-0547-4f4a-abb0-0c3a4f278188"
+					(reference "#PWR0303")
 					(unit 1)
 				)
 			)
@@ -5453,7 +5823,7 @@
 		(on_board yes)
 		(dnp no)
 		(uuid "28cd4b33-9fb8-4475-9a8b-bd0db81117fe")
-		(property "Reference" "#PWR046"
+		(property "Reference" "#PWR082"
 			(at 102.87 190.5 0)
 			(effects
 				(font
@@ -5504,7 +5874,76 @@
 		(instances
 			(project "PUEiE_pcb"
 				(path "/064b0dc2-c3a5-4c74-8cbf-4fc3d8c84854/78eb9aea-0547-4f4a-abb0-0c3a4f278188"
-					(reference "#PWR046")
+					(reference "#PWR082")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Device:R")
+		(at 77.47 63.5 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(uuid "2ac1d60b-6bb5-44bd-8ba3-7e3a543f4680")
+		(property "Reference" "R307"
+			(at 70.866 62.23 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Value" "10k"
+			(at 72.136 64.77 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Footprint" "Resistor_SMD:R_0201_0603Metric"
+			(at 75.692 63.5 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "https://jlcpcb.com/partdetail/YAGEO-RC0201FR0710KL/C106225"
+			(at 77.47 63.5 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "10 kΩ +- 1.0% Power = 50 mW"
+			(at 77.47 63.5 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "2"
+			(uuid "89b199a9-236b-456c-a3af-ab2dc00205b6")
+		)
+		(pin "1"
+			(uuid "d37ff02c-db15-4abf-b70e-3bbb9b5ed588")
+		)
+		(instances
+			(project "PUEiE_pcb"
+				(path "/064b0dc2-c3a5-4c74-8cbf-4fc3d8c84854/78eb9aea-0547-4f4a-abb0-0c3a4f278188"
+					(reference "R307")
 					(unit 1)
 				)
 			)
@@ -5521,7 +5960,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "2d211088-b5f2-4f4c-9f5a-4f104d86eadd")
-		(property "Reference" "JP1"
+		(property "Reference" "JP301"
 			(at 76.2 41.91 0)
 			(effects
 				(font
@@ -5577,7 +6016,7 @@
 		(instances
 			(project "PUEiE_pcb"
 				(path "/064b0dc2-c3a5-4c74-8cbf-4fc3d8c84854/78eb9aea-0547-4f4a-abb0-0c3a4f278188"
-					(reference "JP1")
+					(reference "JP301")
 					(unit 1)
 				)
 			)
@@ -5593,7 +6032,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "343d96c1-164f-4c3c-9513-663c56e7ff47")
-		(property "Reference" "U2"
+		(property "Reference" "U301"
 			(at 103.7941 76.2 0)
 			(effects
 				(font
@@ -5704,7 +6143,7 @@
 		(instances
 			(project "PUEiE_pcb"
 				(path "/064b0dc2-c3a5-4c74-8cbf-4fc3d8c84854/78eb9aea-0547-4f4a-abb0-0c3a4f278188"
-					(reference "U2")
+					(reference "U301")
 					(unit 1)
 				)
 			)
@@ -5719,7 +6158,7 @@
 		(on_board yes)
 		(dnp no)
 		(uuid "3a60e726-9512-4820-9646-5cb70ba8ade7")
-		(property "Reference" "C23"
+		(property "Reference" "C309"
 			(at 109.22 119.38 0)
 			(effects
 				(font
@@ -5773,7 +6212,7 @@
 		(instances
 			(project "PUEiE_pcb"
 				(path "/064b0dc2-c3a5-4c74-8cbf-4fc3d8c84854/78eb9aea-0547-4f4a-abb0-0c3a4f278188"
-					(reference "C23")
+					(reference "C309")
 					(unit 1)
 				)
 			)
@@ -5788,7 +6227,7 @@
 		(on_board yes)
 		(dnp no)
 		(uuid "40813b1c-0761-4486-8d9c-0eb42b250f2f")
-		(property "Reference" "#PWR050"
+		(property "Reference" "#PWR077"
 			(at 46.99 149.86 0)
 			(effects
 				(font
@@ -5839,7 +6278,7 @@
 		(instances
 			(project "PUEiE_pcb"
 				(path "/064b0dc2-c3a5-4c74-8cbf-4fc3d8c84854/78eb9aea-0547-4f4a-abb0-0c3a4f278188"
-					(reference "#PWR050")
+					(reference "#PWR077")
 					(unit 1)
 				)
 			)
@@ -5855,7 +6294,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "422fd09d-8579-49db-bc22-20591c4b7423")
-		(property "Reference" "D4"
+		(property "Reference" "D302"
 			(at 125.73 64.7699 90)
 			(effects
 				(font
@@ -5909,7 +6348,7 @@
 		(instances
 			(project ""
 				(path "/064b0dc2-c3a5-4c74-8cbf-4fc3d8c84854/78eb9aea-0547-4f4a-abb0-0c3a4f278188"
-					(reference "D4")
+					(reference "D302")
 					(unit 1)
 				)
 			)
@@ -5924,7 +6363,7 @@
 		(on_board yes)
 		(dnp no)
 		(uuid "42ff9680-65f4-4595-bb39-50dee9abf606")
-		(property "Reference" "R11"
+		(property "Reference" "R301"
 			(at 109.728 32.512 90)
 			(effects
 				(font
@@ -5933,7 +6372,7 @@
 				(justify right)
 			)
 		)
-		(property "Value" "10"
+		(property "Value" "10R"
 			(at 110.49 34.29 90)
 			(effects
 				(font
@@ -5978,7 +6417,7 @@
 		(instances
 			(project "PUEiE_pcb"
 				(path "/064b0dc2-c3a5-4c74-8cbf-4fc3d8c84854/78eb9aea-0547-4f4a-abb0-0c3a4f278188"
-					(reference "R11")
+					(reference "R301")
 					(unit 1)
 				)
 			)
@@ -5994,7 +6433,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "43fa8f42-deca-4ea8-b641-9d1a89d40147")
-		(property "Reference" "L3"
+		(property "Reference" "L301"
 			(at 124.46 31.75 90)
 			(effects
 				(font
@@ -6028,7 +6467,7 @@
 				(hide yes)
 			)
 		)
-		(property "Description" "Inductor"
+		(property "Description" "impedance >500 Ω at GNSS frequency, current >300 mA."
 			(at 124.46 36.83 0)
 			(effects
 				(font
@@ -6046,7 +6485,7 @@
 		(instances
 			(project ""
 				(path "/064b0dc2-c3a5-4c74-8cbf-4fc3d8c84854/78eb9aea-0547-4f4a-abb0-0c3a4f278188"
-					(reference "L3")
+					(reference "L301")
 					(unit 1)
 				)
 			)
@@ -6062,7 +6501,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "46568658-d507-430d-aef4-b858e6d4aa4b")
-		(property "Reference" "AE1"
+		(property "Reference" "AE301"
 			(at 133.35 24.7649 0)
 			(effects
 				(font
@@ -6116,7 +6555,7 @@
 		(instances
 			(project "PUEiE_pcb"
 				(path "/064b0dc2-c3a5-4c74-8cbf-4fc3d8c84854/78eb9aea-0547-4f4a-abb0-0c3a4f278188"
-					(reference "AE1")
+					(reference "AE301")
 					(unit 1)
 				)
 			)
@@ -6131,7 +6570,7 @@
 		(on_board yes)
 		(dnp no)
 		(uuid "5459fb71-4e00-4a3c-bb0b-b0777b0755dd")
-		(property "Reference" "C26"
+		(property "Reference" "C303"
 			(at 120.65 40.64 0)
 			(effects
 				(font
@@ -6185,7 +6624,7 @@
 		(instances
 			(project "PUEiE_pcb"
 				(path "/064b0dc2-c3a5-4c74-8cbf-4fc3d8c84854/78eb9aea-0547-4f4a-abb0-0c3a4f278188"
-					(reference "C26")
+					(reference "C303")
 					(unit 1)
 				)
 			)
@@ -6200,7 +6639,7 @@
 		(on_board yes)
 		(dnp no)
 		(uuid "54990cdd-642f-401f-b991-1af60883ed1b")
-		(property "Reference" "#PWR017"
+		(property "Reference" "#PWR052"
 			(at 76.2 36.83 0)
 			(effects
 				(font
@@ -6250,7 +6689,7 @@
 		(instances
 			(project "PUEiE_pcb"
 				(path "/064b0dc2-c3a5-4c74-8cbf-4fc3d8c84854/78eb9aea-0547-4f4a-abb0-0c3a4f278188"
-					(reference "#PWR017")
+					(reference "#PWR052")
 					(unit 1)
 				)
 			)
@@ -6266,7 +6705,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "58269bc6-ee52-43f0-9610-0135eb9f631a")
-		(property "Reference" "D1"
+		(property "Reference" "D301"
 			(at 25.4 40.9574 90)
 			(effects
 				(font
@@ -6329,7 +6768,7 @@
 		(instances
 			(project "PUEiE_pcb"
 				(path "/064b0dc2-c3a5-4c74-8cbf-4fc3d8c84854/78eb9aea-0547-4f4a-abb0-0c3a4f278188"
-					(reference "D1")
+					(reference "D301")
 					(unit 1)
 				)
 			)
@@ -6344,7 +6783,7 @@
 		(on_board yes)
 		(dnp no)
 		(uuid "5c97f883-1e9a-4fc4-aac8-89b6fca14b52")
-		(property "Reference" "#PWR011"
+		(property "Reference" "#PWR062"
 			(at 101.6 82.55 0)
 			(effects
 				(font
@@ -6395,7 +6834,7 @@
 		(instances
 			(project "PUEiE_pcb"
 				(path "/064b0dc2-c3a5-4c74-8cbf-4fc3d8c84854/78eb9aea-0547-4f4a-abb0-0c3a4f278188"
-					(reference "#PWR011")
+					(reference "#PWR062")
 					(unit 1)
 				)
 			)
@@ -6410,7 +6849,7 @@
 		(on_board yes)
 		(dnp no)
 		(uuid "5e4c9039-c64a-4c79-939a-006de0be3567")
-		(property "Reference" "#PWR047"
+		(property "Reference" "#PWR083"
 			(at 107.95 190.5 0)
 			(effects
 				(font
@@ -6461,7 +6900,7 @@
 		(instances
 			(project "PUEiE_pcb"
 				(path "/064b0dc2-c3a5-4c74-8cbf-4fc3d8c84854/78eb9aea-0547-4f4a-abb0-0c3a4f278188"
-					(reference "#PWR047")
+					(reference "#PWR083")
 					(unit 1)
 				)
 			)
@@ -6477,7 +6916,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "60ead0ef-06b4-4217-a431-95a7f18cdabe")
-		(property "Reference" "#PWR049"
+		(property "Reference" "#PWR075"
 			(at 25.4 130.81 0)
 			(effects
 				(font
@@ -6527,7 +6966,76 @@
 		(instances
 			(project "PUEiE_pcb"
 				(path "/064b0dc2-c3a5-4c74-8cbf-4fc3d8c84854/78eb9aea-0547-4f4a-abb0-0c3a4f278188"
-					(reference "#PWR049")
+					(reference "#PWR075")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Device:C")
+		(at 179.07 106.68 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(uuid "677a9084-1a3e-4ba5-a8d9-6834601ba522")
+		(property "Reference" "C317"
+			(at 181.61 105.41 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Value" "100n"
+			(at 181.61 107.95 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Footprint" "Capacitor_SMD:C_0805_2012Metric"
+			(at 180.0352 110.49 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "https://jlcpcb.com/partdetail/YAGEO-CC0805KRX7R9BB104/C49678"
+			(at 179.07 106.68 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "100nF 50V X7R ±10% 0805 Multilayer Ceramic Capacitors"
+			(at 179.07 106.68 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "85908051-2969-4592-ab7d-6804d6345f8a")
+		)
+		(pin "2"
+			(uuid "8d2f4055-374c-4c4a-9a85-5664c7023c9b")
+		)
+		(instances
+			(project "PUEiE_pcb"
+				(path "/064b0dc2-c3a5-4c74-8cbf-4fc3d8c84854/78eb9aea-0547-4f4a-abb0-0c3a4f278188"
+					(reference "C317")
 					(unit 1)
 				)
 			)
@@ -6543,7 +7051,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "6863c5d5-7455-4d8b-bb1c-00e8c4154cd3")
-		(property "Reference" "JP4"
+		(property "Reference" "JP305"
 			(at 110.49 179.0699 90)
 			(effects
 				(font
@@ -6598,7 +7106,7 @@
 		(instances
 			(project "PUEiE_pcb"
 				(path "/064b0dc2-c3a5-4c74-8cbf-4fc3d8c84854/78eb9aea-0547-4f4a-abb0-0c3a4f278188"
-					(reference "JP4")
+					(reference "JP305")
 					(unit 1)
 				)
 			)
@@ -6613,7 +7121,7 @@
 		(on_board yes)
 		(dnp no)
 		(uuid "6ad4d963-0930-4d45-805f-28d4a8feb51b")
-		(property "Reference" "#PWR039"
+		(property "Reference" "#PWR074"
 			(at 54.61 132.08 0)
 			(effects
 				(font
@@ -6664,7 +7172,7 @@
 		(instances
 			(project "PUEiE_pcb"
 				(path "/064b0dc2-c3a5-4c74-8cbf-4fc3d8c84854/78eb9aea-0547-4f4a-abb0-0c3a4f278188"
-					(reference "#PWR039")
+					(reference "#PWR074")
 					(unit 1)
 				)
 			)
@@ -6672,15 +7180,15 @@
 	)
 	(symbol
 		(lib_id "power:GND")
-		(at 43.18 77.47 0)
+		(at 43.18 73.66 0)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
 		(on_board yes)
 		(dnp no)
 		(uuid "6d1d1215-d785-4f75-b8ae-da9de00d546f")
-		(property "Reference" "#PWR015"
-			(at 43.18 83.82 0)
+		(property "Reference" "#PWR064"
+			(at 43.18 80.01 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -6689,7 +7197,7 @@
 			)
 		)
 		(property "Value" "GND"
-			(at 43.18 81.534 0)
+			(at 43.18 77.724 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -6698,7 +7206,7 @@
 			)
 		)
 		(property "Footprint" ""
-			(at 43.18 77.47 0)
+			(at 43.18 73.66 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -6707,7 +7215,7 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 43.18 77.47 0)
+			(at 43.18 73.66 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -6716,7 +7224,7 @@
 			)
 		)
 		(property "Description" "Power symbol creates a global label with name \"GND\" , ground"
-			(at 43.18 77.47 0)
+			(at 43.18 73.66 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -6730,7 +7238,7 @@
 		(instances
 			(project "PUEiE_pcb"
 				(path "/064b0dc2-c3a5-4c74-8cbf-4fc3d8c84854/78eb9aea-0547-4f4a-abb0-0c3a4f278188"
-					(reference "#PWR015")
+					(reference "#PWR064")
 					(unit 1)
 				)
 			)
@@ -6746,7 +7254,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "705c21c2-1e96-4046-b15a-3e985f132371")
-		(property "Reference" "#PWR040"
+		(property "Reference" "#PWR065"
 			(at 54.61 120.65 0)
 			(effects
 				(font
@@ -6796,7 +7304,7 @@
 		(instances
 			(project "PUEiE_pcb"
 				(path "/064b0dc2-c3a5-4c74-8cbf-4fc3d8c84854/78eb9aea-0547-4f4a-abb0-0c3a4f278188"
-					(reference "#PWR040")
+					(reference "#PWR065")
 					(unit 1)
 				)
 			)
@@ -6811,7 +7319,7 @@
 		(on_board yes)
 		(dnp no)
 		(uuid "7099638c-0e18-428f-9a0b-d55ff2d6c005")
-		(property "Reference" "#PWR038"
+		(property "Reference" "#PWR079"
 			(at 68.58 189.23 0)
 			(effects
 				(font
@@ -6862,7 +7370,7 @@
 		(instances
 			(project "PUEiE_pcb"
 				(path "/064b0dc2-c3a5-4c74-8cbf-4fc3d8c84854/78eb9aea-0547-4f4a-abb0-0c3a4f278188"
-					(reference "#PWR038")
+					(reference "#PWR079")
 					(unit 1)
 				)
 			)
@@ -6877,7 +7385,7 @@
 		(on_board yes)
 		(dnp no)
 		(uuid "711e9811-1099-4139-a6b2-274f379bcfd3")
-		(property "Reference" "C12"
+		(property "Reference" "C301"
 			(at 209.55 36.83 0)
 			(effects
 				(font
@@ -6931,7 +7439,7 @@
 		(instances
 			(project "PUEiE_pcb"
 				(path "/064b0dc2-c3a5-4c74-8cbf-4fc3d8c84854/78eb9aea-0547-4f4a-abb0-0c3a4f278188"
-					(reference "C12")
+					(reference "C301")
 					(unit 1)
 				)
 			)
@@ -6946,7 +7454,7 @@
 		(on_board yes)
 		(dnp no)
 		(uuid "721f031d-a60e-4e86-9112-a0521d74a11a")
-		(property "Reference" "C13"
+		(property "Reference" "C302"
 			(at 219.71 36.83 0)
 			(effects
 				(font
@@ -7000,76 +7508,7 @@
 		(instances
 			(project "PUEiE_pcb"
 				(path "/064b0dc2-c3a5-4c74-8cbf-4fc3d8c84854/78eb9aea-0547-4f4a-abb0-0c3a4f278188"
-					(reference "C13")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
-		(lib_id "Device:R")
-		(at 81.28 43.18 0)
-		(unit 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(dnp no)
-		(uuid "75926b89-1bf2-4f51-b327-5aad6202999e")
-		(property "Reference" "R12"
-			(at 82.55 41.91 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-			)
-		)
-		(property "Value" "100k"
-			(at 82.55 44.45 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-			)
-		)
-		(property "Footprint" "Resistor_SMD:R_0805_2012Metric"
-			(at 79.502 43.18 90)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Datasheet" "~"
-			(at 81.28 43.18 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Description" "Resistor"
-			(at 81.28 43.18 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(pin "1"
-			(uuid "98bf80fc-348a-4a61-a6f5-4b5cccb03259")
-		)
-		(pin "2"
-			(uuid "7ca93bcf-4455-4067-8cc6-99de05334c43")
-		)
-		(instances
-			(project "PUEiE_pcb"
-				(path "/064b0dc2-c3a5-4c74-8cbf-4fc3d8c84854/78eb9aea-0547-4f4a-abb0-0c3a4f278188"
-					(reference "R12")
+					(reference "C302")
 					(unit 1)
 				)
 			)
@@ -7084,7 +7523,7 @@
 		(on_board yes)
 		(dnp no)
 		(uuid "82451168-e6ac-416e-924c-8f3855548541")
-		(property "Reference" "#PWR041"
+		(property "Reference" "#PWR066"
 			(at 137.16 120.65 0)
 			(effects
 				(font
@@ -7134,7 +7573,7 @@
 		(instances
 			(project "PUEiE_pcb"
 				(path "/064b0dc2-c3a5-4c74-8cbf-4fc3d8c84854/78eb9aea-0547-4f4a-abb0-0c3a4f278188"
-					(reference "#PWR041")
+					(reference "#PWR066")
 					(unit 1)
 				)
 			)
@@ -7149,7 +7588,7 @@
 		(on_board yes)
 		(dnp no)
 		(uuid "945db24a-3ab8-48d6-8737-0a34206bbb6a")
-		(property "Reference" "C21"
+		(property "Reference" "C311"
 			(at 129.54 119.38 0)
 			(effects
 				(font
@@ -7203,7 +7642,72 @@
 		(instances
 			(project "PUEiE_pcb"
 				(path "/064b0dc2-c3a5-4c74-8cbf-4fc3d8c84854/78eb9aea-0547-4f4a-abb0-0c3a4f278188"
-					(reference "C21")
+					(reference "C311")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "power:+3V3")
+		(at 77.47 59.69 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(uuid "94805eff-bca8-40c2-89cf-ffdeef9937f7")
+		(property "Reference" "#PWR0301"
+			(at 77.47 63.5 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Value" "+3V3"
+			(at 77.47 55.626 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" ""
+			(at 77.47 59.69 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" ""
+			(at 77.47 59.69 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Power symbol creates a global label with name \"+3V3\""
+			(at 77.47 59.69 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "29f2446b-209b-42a3-babb-c3b6622d4c13")
+		)
+		(instances
+			(project "PUEiE_pcb"
+				(path "/064b0dc2-c3a5-4c74-8cbf-4fc3d8c84854/78eb9aea-0547-4f4a-abb0-0c3a4f278188"
+					(reference "#PWR0301")
 					(unit 1)
 				)
 			)
@@ -7218,7 +7722,7 @@
 		(on_board yes)
 		(dnp no)
 		(uuid "950bd3e9-b5b9-4986-a755-fc6b3af849c2")
-		(property "Reference" "C20"
+		(property "Reference" "C312"
 			(at 139.7 119.38 0)
 			(effects
 				(font
@@ -7272,7 +7776,149 @@
 		(instances
 			(project "PUEiE_pcb"
 				(path "/064b0dc2-c3a5-4c74-8cbf-4fc3d8c84854/78eb9aea-0547-4f4a-abb0-0c3a4f278188"
-					(reference "C20")
+					(reference "C312")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Connector_Generic:Conn_01x04")
+		(at 201.93 105.41 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "956df246-8125-4c67-952b-77b83fb49f06")
+		(property "Reference" "J302"
+			(at 204.47 105.4099 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Value" "Conn_01x04"
+			(at 204.47 107.9499 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Footprint" ""
+			(at 201.93 105.41 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "~"
+			(at 201.93 105.41 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Generic connector, single row, 01x04, script generated (kicad-library-utils/schlib/autogen/connector/)"
+			(at 201.93 105.41 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "4"
+			(uuid "a4b2aa48-d2ec-4de2-82e6-56e3600a4bed")
+		)
+		(pin "1"
+			(uuid "d1c4555a-e139-47d6-9ef2-3fc03728e034")
+		)
+		(pin "3"
+			(uuid "723524f2-62d9-4e4a-8d27-439a559938a1")
+		)
+		(pin "2"
+			(uuid "634b4d80-21c8-4da0-8e3d-eba6e2b0743f")
+		)
+		(instances
+			(project ""
+				(path "/064b0dc2-c3a5-4c74-8cbf-4fc3d8c84854/78eb9aea-0547-4f4a-abb0-0c3a4f278188"
+					(reference "J302")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "power:+3V3")
+		(at 194.31 100.33 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "968a7fa6-e503-4320-b628-ee476d64fd3f")
+		(property "Reference" "#PWR0302"
+			(at 194.31 104.14 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Value" "+3V3"
+			(at 194.31 95.25 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" ""
+			(at 194.31 100.33 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" ""
+			(at 194.31 100.33 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Power symbol creates a global label with name \"+3V3\""
+			(at 194.31 100.33 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "9a437663-3009-489e-b1f2-405c98bca07b")
+		)
+		(instances
+			(project "PUEiE_pcb"
+				(path "/064b0dc2-c3a5-4c74-8cbf-4fc3d8c84854/78eb9aea-0547-4f4a-abb0-0c3a4f278188"
+					(reference "#PWR0302")
 					(unit 1)
 				)
 			)
@@ -7287,7 +7933,7 @@
 		(on_board yes)
 		(dnp no)
 		(uuid "9bbc5fb5-9983-4cc6-8e91-242d80e39713")
-		(property "Reference" "#PWR053"
+		(property "Reference" "#PWR071"
 			(at 116.84 130.81 0)
 			(effects
 				(font
@@ -7338,7 +7984,7 @@
 		(instances
 			(project "PUEiE_pcb"
 				(path "/064b0dc2-c3a5-4c74-8cbf-4fc3d8c84854/78eb9aea-0547-4f4a-abb0-0c3a4f278188"
-					(reference "#PWR053")
+					(reference "#PWR071")
 					(unit 1)
 				)
 			)
@@ -7353,7 +7999,7 @@
 		(on_board yes)
 		(dnp no)
 		(uuid "a068e042-7eb7-4f40-9ef6-02758758e15f")
-		(property "Reference" "#PWR058"
+		(property "Reference" "#PWR060"
 			(at 123.19 76.2 0)
 			(effects
 				(font
@@ -7404,76 +8050,7 @@
 		(instances
 			(project "PUEiE_pcb"
 				(path "/064b0dc2-c3a5-4c74-8cbf-4fc3d8c84854/78eb9aea-0547-4f4a-abb0-0c3a4f278188"
-					(reference "#PWR058")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
-		(lib_id "Device:R")
-		(at 71.12 43.18 0)
-		(unit 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(dnp no)
-		(uuid "a23378ab-04df-4185-84e9-71468c8c91cb")
-		(property "Reference" "R13"
-			(at 65.786 41.91 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-			)
-		)
-		(property "Value" "100k"
-			(at 64.77 44.45 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-			)
-		)
-		(property "Footprint" "Resistor_SMD:R_0805_2012Metric"
-			(at 69.342 43.18 90)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Datasheet" "~"
-			(at 71.12 43.18 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Description" "Resistor"
-			(at 71.12 43.18 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(pin "1"
-			(uuid "b654fefc-4eac-4aa0-86d0-b552fc14b778")
-		)
-		(pin "2"
-			(uuid "ef932a28-9414-49e8-a08b-ca0b7289b6d8")
-		)
-		(instances
-			(project "PUEiE_pcb"
-				(path "/064b0dc2-c3a5-4c74-8cbf-4fc3d8c84854/78eb9aea-0547-4f4a-abb0-0c3a4f278188"
-					(reference "R13")
+					(reference "#PWR060")
 					(unit 1)
 				)
 			)
@@ -7488,7 +8065,7 @@
 		(on_board yes)
 		(dnp no)
 		(uuid "a67fb707-7492-4592-a040-d03165faad34")
-		(property "Reference" "C16"
+		(property "Reference" "C313"
 			(at 57.15 120.65 0)
 			(effects
 				(font
@@ -7542,7 +8119,7 @@
 		(instances
 			(project "PUEiE_pcb"
 				(path "/064b0dc2-c3a5-4c74-8cbf-4fc3d8c84854/78eb9aea-0547-4f4a-abb0-0c3a4f278188"
-					(reference "C16")
+					(reference "C313")
 					(unit 1)
 				)
 			)
@@ -7557,7 +8134,7 @@
 		(on_board yes)
 		(dnp no)
 		(uuid "a8afd56b-a2e9-49e9-a48a-bfcc609ec314")
-		(property "Reference" "#PWR059"
+		(property "Reference" "#PWR058"
 			(at 118.11 52.07 0)
 			(effects
 				(font
@@ -7608,7 +8185,7 @@
 		(instances
 			(project "PUEiE_pcb"
 				(path "/064b0dc2-c3a5-4c74-8cbf-4fc3d8c84854/78eb9aea-0547-4f4a-abb0-0c3a4f278188"
-					(reference "#PWR059")
+					(reference "#PWR058")
 					(unit 1)
 				)
 			)
@@ -7623,7 +8200,7 @@
 		(on_board yes)
 		(dnp no)
 		(uuid "aa0a2a46-2f34-4d9a-a7c7-28d70abbdc56")
-		(property "Reference" "#PWR054"
+		(property "Reference" "#PWR072"
 			(at 127 130.81 0)
 			(effects
 				(font
@@ -7674,7 +8251,7 @@
 		(instances
 			(project "PUEiE_pcb"
 				(path "/064b0dc2-c3a5-4c74-8cbf-4fc3d8c84854/78eb9aea-0547-4f4a-abb0-0c3a4f278188"
-					(reference "#PWR054")
+					(reference "#PWR072")
 					(unit 1)
 				)
 			)
@@ -7682,15 +8259,15 @@
 	)
 	(symbol
 		(lib_id "power:GND")
-		(at 22.86 77.47 0)
+		(at 22.86 73.66 0)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
 		(on_board yes)
 		(dnp no)
 		(uuid "acbcdefc-b0e4-4927-a03b-2c7187b57e79")
-		(property "Reference" "#PWR014"
-			(at 22.86 83.82 0)
+		(property "Reference" "#PWR063"
+			(at 22.86 80.01 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -7699,7 +8276,7 @@
 			)
 		)
 		(property "Value" "GND"
-			(at 22.86 81.534 0)
+			(at 22.86 77.724 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -7708,7 +8285,7 @@
 			)
 		)
 		(property "Footprint" ""
-			(at 22.86 77.47 0)
+			(at 22.86 73.66 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -7717,7 +8294,7 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 22.86 77.47 0)
+			(at 22.86 73.66 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -7726,7 +8303,7 @@
 			)
 		)
 		(property "Description" "Power symbol creates a global label with name \"GND\" , ground"
-			(at 22.86 77.47 0)
+			(at 22.86 73.66 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -7740,7 +8317,7 @@
 		(instances
 			(project "PUEiE_pcb"
 				(path "/064b0dc2-c3a5-4c74-8cbf-4fc3d8c84854/78eb9aea-0547-4f4a-abb0-0c3a4f278188"
-					(reference "#PWR014")
+					(reference "#PWR063")
 					(unit 1)
 				)
 			)
@@ -7756,7 +8333,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "ad948456-b7fe-40a9-bbbb-fd32145f57a2")
-		(property "Reference" "U4"
+		(property "Reference" "U303"
 			(at 70.7233 182.88 0)
 			(effects
 				(font
@@ -7888,7 +8465,7 @@
 		(instances
 			(project "PUEiE_pcb"
 				(path "/064b0dc2-c3a5-4c74-8cbf-4fc3d8c84854/78eb9aea-0547-4f4a-abb0-0c3a4f278188"
-					(reference "U4")
+					(reference "U303")
 					(unit 1)
 				)
 			)
@@ -7904,7 +8481,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "c08c15ce-9e6e-4ae1-b8b0-680c4c625fce")
-		(property "Reference" "JP6"
+		(property "Reference" "JP302"
 			(at 27.94 130.8099 90)
 			(effects
 				(font
@@ -7959,7 +8536,7 @@
 		(instances
 			(project "PUEiE_pcb"
 				(path "/064b0dc2-c3a5-4c74-8cbf-4fc3d8c84854/78eb9aea-0547-4f4a-abb0-0c3a4f278188"
-					(reference "JP6")
+					(reference "JP302")
 					(unit 1)
 				)
 			)
@@ -7974,7 +8551,7 @@
 		(on_board yes)
 		(dnp no)
 		(uuid "c3bba019-65bb-452a-97cb-2b3e7bc5501a")
-		(property "Reference" "#PWR034"
+		(property "Reference" "#PWR061"
 			(at 228.6 77.47 0)
 			(effects
 				(font
@@ -8025,7 +8602,7 @@
 		(instances
 			(project "PUEiE_pcb"
 				(path "/064b0dc2-c3a5-4c74-8cbf-4fc3d8c84854/78eb9aea-0547-4f4a-abb0-0c3a4f278188"
-					(reference "#PWR034")
+					(reference "#PWR061")
 					(unit 1)
 				)
 			)
@@ -8041,7 +8618,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "c4647bde-84da-49dc-8471-260a09531ba6")
-		(property "Reference" "C25"
+		(property "Reference" "C307"
 			(at 88.9 118.4909 0)
 			(effects
 				(font
@@ -8104,7 +8681,7 @@
 		(instances
 			(project "PUEiE_pcb"
 				(path "/064b0dc2-c3a5-4c74-8cbf-4fc3d8c84854/78eb9aea-0547-4f4a-abb0-0c3a4f278188"
-					(reference "C25")
+					(reference "C307")
 					(unit 1)
 				)
 			)
@@ -8119,7 +8696,7 @@
 		(on_board yes)
 		(dnp no)
 		(uuid "c85dfb31-ba6e-413d-9538-a0380cb62cb5")
-		(property "Reference" "#PWR045"
+		(property "Reference" "#PWR081"
 			(at 95.25 189.23 0)
 			(effects
 				(font
@@ -8170,7 +8747,7 @@
 		(instances
 			(project "PUEiE_pcb"
 				(path "/064b0dc2-c3a5-4c74-8cbf-4fc3d8c84854/78eb9aea-0547-4f4a-abb0-0c3a4f278188"
-					(reference "#PWR045")
+					(reference "#PWR081")
 					(unit 1)
 				)
 			)
@@ -8178,7 +8755,7 @@
 	)
 	(symbol
 		(lib_id "power:+3V3")
-		(at 20.32 130.81 0)
+		(at 20.32 129.54 0)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -8186,8 +8763,8 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "c8979ca6-295e-4693-b4fb-9a93269b1b38")
-		(property "Reference" "#PWR048"
-			(at 20.32 134.62 0)
+		(property "Reference" "#PWR076"
+			(at 20.32 133.35 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -8196,7 +8773,7 @@
 			)
 		)
 		(property "Value" "+3V3"
-			(at 20.32 125.73 0)
+			(at 20.32 124.46 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -8204,7 +8781,7 @@
 			)
 		)
 		(property "Footprint" ""
-			(at 20.32 130.81 0)
+			(at 20.32 129.54 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -8213,7 +8790,7 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 20.32 130.81 0)
+			(at 20.32 129.54 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -8222,7 +8799,7 @@
 			)
 		)
 		(property "Description" "Power symbol creates a global label with name \"+3V3\""
-			(at 20.32 130.81 0)
+			(at 20.32 129.54 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -8236,7 +8813,7 @@
 		(instances
 			(project "PUEiE_pcb"
 				(path "/064b0dc2-c3a5-4c74-8cbf-4fc3d8c84854/78eb9aea-0547-4f4a-abb0-0c3a4f278188"
-					(reference "#PWR048")
+					(reference "#PWR076")
 					(unit 1)
 				)
 			)
@@ -8251,7 +8828,7 @@
 		(on_board yes)
 		(dnp no)
 		(uuid "c9ffcf89-0cab-499c-8b38-82a3a74f328b")
-		(property "Reference" "C18"
+		(property "Reference" "C316"
 			(at 88.9 152.4 0)
 			(effects
 				(font
@@ -8305,7 +8882,7 @@
 		(instances
 			(project "PUEiE_pcb"
 				(path "/064b0dc2-c3a5-4c74-8cbf-4fc3d8c84854/78eb9aea-0547-4f4a-abb0-0c3a4f278188"
-					(reference "C18")
+					(reference "C316")
 					(unit 1)
 				)
 			)
@@ -8321,7 +8898,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "ca870f08-a992-4356-9e34-73fa57f8df71")
-		(property "Reference" "JP3"
+		(property "Reference" "JP304"
 			(at 97.79 177.7999 90)
 			(effects
 				(font
@@ -8376,7 +8953,7 @@
 		(instances
 			(project "PUEiE_pcb"
 				(path "/064b0dc2-c3a5-4c74-8cbf-4fc3d8c84854/78eb9aea-0547-4f4a-abb0-0c3a4f278188"
-					(reference "JP3")
+					(reference "JP304")
 					(unit 1)
 				)
 			)
@@ -8391,7 +8968,7 @@
 		(on_board yes)
 		(dnp no)
 		(uuid "cb2d9c83-a383-48d5-a17a-8eaeb1af48b5")
-		(property "Reference" "#PWR042"
+		(property "Reference" "#PWR069"
 			(at 96.52 130.81 0)
 			(effects
 				(font
@@ -8442,7 +9019,7 @@
 		(instances
 			(project "PUEiE_pcb"
 				(path "/064b0dc2-c3a5-4c74-8cbf-4fc3d8c84854/78eb9aea-0547-4f4a-abb0-0c3a4f278188"
-					(reference "#PWR042")
+					(reference "#PWR069")
 					(unit 1)
 				)
 			)
@@ -8457,7 +9034,7 @@
 		(on_board yes)
 		(dnp no)
 		(uuid "cb9a5b77-f197-4c47-8050-edbebb8e3943")
-		(property "Reference" "#PWR051"
+		(property "Reference" "#PWR067"
 			(at 73.66 130.81 0)
 			(effects
 				(font
@@ -8508,7 +9085,76 @@
 		(instances
 			(project "PUEiE_pcb"
 				(path "/064b0dc2-c3a5-4c74-8cbf-4fc3d8c84854/78eb9aea-0547-4f4a-abb0-0c3a4f278188"
-					(reference "#PWR051")
+					(reference "#PWR067")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Device:R")
+		(at 71.12 43.18 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(uuid "cc6e859d-407a-4655-84fa-88ba8f64e64a")
+		(property "Reference" "R302"
+			(at 64.516 41.91 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Value" "10k"
+			(at 65.786 44.196 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Footprint" "Resistor_SMD:R_0201_0603Metric"
+			(at 69.342 43.18 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "https://jlcpcb.com/partdetail/YAGEO-RC0201FR0710KL/C106225"
+			(at 71.12 43.18 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "10 kΩ +- 1.0% Power = 50 mW"
+			(at 71.12 43.18 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "2"
+			(uuid "ee582b96-2997-4f81-8991-1e8f35e8e81d")
+		)
+		(pin "1"
+			(uuid "da026291-e4f8-4214-8ad8-7d8596e1efc7")
+		)
+		(instances
+			(project "PUEiE_pcb"
+				(path "/064b0dc2-c3a5-4c74-8cbf-4fc3d8c84854/78eb9aea-0547-4f4a-abb0-0c3a4f278188"
+					(reference "R302")
 					(unit 1)
 				)
 			)
@@ -8523,7 +9169,7 @@
 		(on_board yes)
 		(dnp no)
 		(uuid "d1faf343-f5f0-4c6d-8a6d-69e3f2a201b4")
-		(property "Reference" "#PWR043"
+		(property "Reference" "#PWR078"
 			(at 86.36 163.83 0)
 			(effects
 				(font
@@ -8574,7 +9220,7 @@
 		(instances
 			(project "PUEiE_pcb"
 				(path "/064b0dc2-c3a5-4c74-8cbf-4fc3d8c84854/78eb9aea-0547-4f4a-abb0-0c3a4f278188"
-					(reference "#PWR043")
+					(reference "#PWR078")
 					(unit 1)
 				)
 			)
@@ -8589,7 +9235,7 @@
 		(on_board yes)
 		(dnp no)
 		(uuid "d972343b-631d-4506-8c7f-52c7c82bd121")
-		(property "Reference" "#PWR016"
+		(property "Reference" "#PWR051"
 			(at 132.08 35.56 0)
 			(effects
 				(font
@@ -8640,7 +9286,7 @@
 		(instances
 			(project "PUEiE_pcb"
 				(path "/064b0dc2-c3a5-4c74-8cbf-4fc3d8c84854/78eb9aea-0547-4f4a-abb0-0c3a4f278188"
-					(reference "#PWR016")
+					(reference "#PWR051")
 					(unit 1)
 				)
 			)
@@ -8656,7 +9302,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "dae5158c-bfbc-4e3b-9ea8-3a8a5b57e4b3")
-		(property "Reference" "R10"
+		(property "Reference" "R304"
 			(at 25.4 52.0699 0)
 			(effects
 				(font
@@ -8710,7 +9356,7 @@
 		(instances
 			(project "PUEiE_pcb"
 				(path "/064b0dc2-c3a5-4c74-8cbf-4fc3d8c84854/78eb9aea-0547-4f4a-abb0-0c3a4f278188"
-					(reference "R10")
+					(reference "R304")
 					(unit 1)
 				)
 			)
@@ -8725,7 +9371,7 @@
 		(on_board yes)
 		(dnp no)
 		(uuid "dc41e6ef-aa27-4e77-8037-48ef47b76222")
-		(property "Reference" "C15"
+		(property "Reference" "C315"
 			(at 45.085 141.605 90)
 			(effects
 				(font
@@ -8779,7 +9425,7 @@
 		(instances
 			(project "PUEiE_pcb"
 				(path "/064b0dc2-c3a5-4c74-8cbf-4fc3d8c84854/78eb9aea-0547-4f4a-abb0-0c3a4f278188"
-					(reference "C15")
+					(reference "C315")
 					(unit 1)
 				)
 			)
@@ -8787,7 +9433,7 @@
 	)
 	(symbol
 		(lib_id "Device:Battery_Cell")
-		(at 22.86 73.66 0)
+		(at 22.86 69.85 0)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -8795,8 +9441,8 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "de0c7914-ad4c-4ccf-9c3c-f0613118f435")
-		(property "Reference" "BT1"
-			(at 26.67 70.5484 0)
+		(property "Reference" "BT301"
+			(at 26.67 66.7384 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -8805,7 +9451,7 @@
 			)
 		)
 		(property "Value" "Battery_Cell"
-			(at 26.67 73.0884 0)
+			(at 26.67 69.2784 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -8814,7 +9460,7 @@
 			)
 		)
 		(property "Footprint" ""
-			(at 22.86 72.136 90)
+			(at 22.86 68.326 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -8823,7 +9469,7 @@
 			)
 		)
 		(property "Datasheet" "~"
-			(at 22.86 72.136 90)
+			(at 22.86 68.326 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -8832,7 +9478,7 @@
 			)
 		)
 		(property "Description" "Single-cell battery"
-			(at 22.86 73.66 0)
+			(at 22.86 69.85 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -8849,7 +9495,7 @@
 		(instances
 			(project "PUEiE_pcb"
 				(path "/064b0dc2-c3a5-4c74-8cbf-4fc3d8c84854/78eb9aea-0547-4f4a-abb0-0c3a4f278188"
-					(reference "BT1")
+					(reference "BT301")
 					(unit 1)
 				)
 			)
@@ -8865,7 +9511,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "dfec83bc-5c44-42a7-9068-3eb7e0d33743")
-		(property "Reference" "#PWR037"
+		(property "Reference" "#PWR053"
 			(at 207.01 36.83 0)
 			(effects
 				(font
@@ -8915,7 +9561,7 @@
 		(instances
 			(project "PUEiE_pcb"
 				(path "/064b0dc2-c3a5-4c74-8cbf-4fc3d8c84854/78eb9aea-0547-4f4a-abb0-0c3a4f278188"
-					(reference "#PWR037")
+					(reference "#PWR053")
 					(unit 1)
 				)
 			)
@@ -8930,7 +9576,7 @@
 		(on_board yes)
 		(dnp no)
 		(uuid "e148d5e2-664a-4dcf-845c-09ed27ae837b")
-		(property "Reference" "#PWR055"
+		(property "Reference" "#PWR073"
 			(at 137.16 130.81 0)
 			(effects
 				(font
@@ -8981,7 +9627,7 @@
 		(instances
 			(project "PUEiE_pcb"
 				(path "/064b0dc2-c3a5-4c74-8cbf-4fc3d8c84854/78eb9aea-0547-4f4a-abb0-0c3a4f278188"
-					(reference "#PWR055")
+					(reference "#PWR073")
 					(unit 1)
 				)
 			)
@@ -8997,7 +9643,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "e3b718dd-54c8-415a-b9d8-43feb255b337")
-		(property "Reference" "U6"
+		(property "Reference" "U302"
 			(at 230.7433 71.12 0)
 			(effects
 				(font
@@ -9090,7 +9736,7 @@
 		(instances
 			(project "PUEiE_pcb"
 				(path "/064b0dc2-c3a5-4c74-8cbf-4fc3d8c84854/78eb9aea-0547-4f4a-abb0-0c3a4f278188"
-					(reference "U6")
+					(reference "U302")
 					(unit 1)
 				)
 			)
@@ -9105,7 +9751,7 @@
 		(on_board yes)
 		(dnp no)
 		(uuid "e6216c24-51f0-43e4-a2a7-95db66ca950e")
-		(property "Reference" "R9"
+		(property "Reference" "R306"
 			(at 100.584 181.61 90)
 			(effects
 				(font
@@ -9157,7 +9803,7 @@
 		(instances
 			(project "PUEiE_pcb"
 				(path "/064b0dc2-c3a5-4c74-8cbf-4fc3d8c84854/78eb9aea-0547-4f4a-abb0-0c3a4f278188"
-					(reference "R9")
+					(reference "R306")
 					(unit 1)
 				)
 			)
@@ -9173,7 +9819,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "e9dcedde-2903-428c-8507-3f684d01a18b")
-		(property "Reference" "C24"
+		(property "Reference" "C306"
 			(at 77.47 118.4909 0)
 			(effects
 				(font
@@ -9236,7 +9882,7 @@
 		(instances
 			(project "PUEiE_pcb"
 				(path "/064b0dc2-c3a5-4c74-8cbf-4fc3d8c84854/78eb9aea-0547-4f4a-abb0-0c3a4f278188"
-					(reference "C24")
+					(reference "C306")
 					(unit 1)
 				)
 			)
@@ -9251,7 +9897,7 @@
 		(on_board yes)
 		(dnp no)
 		(uuid "e9f6da39-5bcc-4213-82f8-8f13f6e7d22c")
-		(property "Reference" "#PWR044"
+		(property "Reference" "#PWR080"
 			(at 90.17 189.23 0)
 			(effects
 				(font
@@ -9302,7 +9948,7 @@
 		(instances
 			(project "PUEiE_pcb"
 				(path "/064b0dc2-c3a5-4c74-8cbf-4fc3d8c84854/78eb9aea-0547-4f4a-abb0-0c3a4f278188"
-					(reference "#PWR044")
+					(reference "#PWR080")
 					(unit 1)
 				)
 			)
@@ -9310,7 +9956,7 @@
 	)
 	(symbol
 		(lib_id "Device:C")
-		(at 43.18 72.39 0)
+		(at 43.18 68.58 0)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -9318,8 +9964,8 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "eca55366-d215-4f0e-8e43-3da40d9dd04b")
-		(property "Reference" "C10"
-			(at 46.99 71.1199 0)
+		(property "Reference" "C305"
+			(at 46.99 67.3099 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -9328,7 +9974,7 @@
 			)
 		)
 		(property "Value" "1u"
-			(at 46.99 73.6599 0)
+			(at 46.99 69.8499 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -9337,7 +9983,7 @@
 			)
 		)
 		(property "Footprint" "Capacitor_SMD:C_0805_2012Metric"
-			(at 44.1452 76.2 0)
+			(at 44.1452 72.39 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -9346,7 +9992,7 @@
 			)
 		)
 		(property "Datasheet" "~"
-			(at 43.18 72.39 0)
+			(at 43.18 68.58 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -9355,7 +10001,7 @@
 			)
 		)
 		(property "Description" "Unpolarized capacitor"
-			(at 43.18 72.39 0)
+			(at 43.18 68.58 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -9372,7 +10018,7 @@
 		(instances
 			(project "PUEiE_pcb"
 				(path "/064b0dc2-c3a5-4c74-8cbf-4fc3d8c84854/78eb9aea-0547-4f4a-abb0-0c3a4f278188"
-					(reference "C10")
+					(reference "C305")
 					(unit 1)
 				)
 			)
@@ -9387,7 +10033,7 @@
 		(on_board yes)
 		(dnp no)
 		(uuid "ee60700e-249c-4c29-a613-0e685d2dae4c")
-		(property "Reference" "C22"
+		(property "Reference" "C310"
 			(at 119.38 119.38 0)
 			(effects
 				(font
@@ -9441,7 +10087,7 @@
 		(instances
 			(project "PUEiE_pcb"
 				(path "/064b0dc2-c3a5-4c74-8cbf-4fc3d8c84854/78eb9aea-0547-4f4a-abb0-0c3a4f278188"
-					(reference "C22")
+					(reference "C310")
 					(unit 1)
 				)
 			)
@@ -9456,7 +10102,7 @@
 		(on_board yes)
 		(dnp no)
 		(uuid "f13371c7-a883-4b0c-a6f8-cbfb804adfff")
-		(property "Reference" "#PWR035"
+		(property "Reference" "#PWR056"
 			(at 207.01 48.26 0)
 			(effects
 				(font
@@ -9507,7 +10153,7 @@
 		(instances
 			(project "PUEiE_pcb"
 				(path "/064b0dc2-c3a5-4c74-8cbf-4fc3d8c84854/78eb9aea-0547-4f4a-abb0-0c3a4f278188"
-					(reference "#PWR035")
+					(reference "#PWR056")
 					(unit 1)
 				)
 			)
@@ -9522,7 +10168,7 @@
 		(on_board yes)
 		(dnp no)
 		(uuid "f1ecf430-4fed-4a5e-b36e-37c0d46838f9")
-		(property "Reference" "#PWR052"
+		(property "Reference" "#PWR070"
 			(at 106.68 130.81 0)
 			(effects
 				(font
@@ -9573,7 +10219,7 @@
 		(instances
 			(project "PUEiE_pcb"
 				(path "/064b0dc2-c3a5-4c74-8cbf-4fc3d8c84854/78eb9aea-0547-4f4a-abb0-0c3a4f278188"
-					(reference "#PWR052")
+					(reference "#PWR070")
 					(unit 1)
 				)
 			)
@@ -9588,7 +10234,7 @@
 		(on_board yes)
 		(dnp no)
 		(uuid "f580d591-a60a-49c1-bda4-77c0c02926e7")
-		(property "Reference" "#PWR012"
+		(property "Reference" "#PWR054"
 			(at 96.52 40.64 0)
 			(effects
 				(font
@@ -9638,7 +10284,76 @@
 		(instances
 			(project "PUEiE_pcb"
 				(path "/064b0dc2-c3a5-4c74-8cbf-4fc3d8c84854/78eb9aea-0547-4f4a-abb0-0c3a4f278188"
-					(reference "#PWR012")
+					(reference "#PWR054")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Device:R")
+		(at 81.28 43.18 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(uuid "fb41753f-6a6f-447a-86a5-bcee875e213d")
+		(property "Reference" "R303"
+			(at 83.058 41.91 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Value" "10k"
+			(at 83.058 44.45 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Footprint" "Resistor_SMD:R_0201_0603Metric"
+			(at 79.502 43.18 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "https://jlcpcb.com/partdetail/YAGEO-RC0201FR0710KL/C106225"
+			(at 81.28 43.18 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "10 kΩ +- 1.0% Power = 50 mW"
+			(at 81.28 43.18 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "2"
+			(uuid "d67ceed4-3734-42f4-b7ac-f5aa97c4ddc8")
+		)
+		(pin "1"
+			(uuid "3a539f9c-e19e-4e1e-9844-935bcb8d6054")
+		)
+		(instances
+			(project "PUEiE_pcb"
+				(path "/064b0dc2-c3a5-4c74-8cbf-4fc3d8c84854/78eb9aea-0547-4f4a-abb0-0c3a4f278188"
+					(reference "R303")
 					(unit 1)
 				)
 			)
