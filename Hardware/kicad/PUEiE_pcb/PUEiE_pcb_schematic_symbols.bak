@@ -23,7 +23,7 @@
 				(hide yes)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "PUEiE_pcb_schematic_footprints:DLF162500LT-5028A1"
 			(at 0 0 0)
 			(effects
 				(font

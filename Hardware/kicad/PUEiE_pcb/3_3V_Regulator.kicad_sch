@@ -11,6 +11,113 @@
 		(company "Dominik Ledzianowski / Klaudia Lewandowska")
 	)
 	(lib_symbols
+		(symbol "Connector:TestPoint"
+			(pin_numbers
+				(hide yes)
+			)
+			(pin_names
+				(offset 0.762)
+				(hide yes)
+			)
+			(exclude_from_sim no)
+			(in_bom yes)
+			(on_board yes)
+			(property "Reference" "TP"
+				(at 0 6.858 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "Value" "TestPoint"
+				(at 0 5.08 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "Footprint" ""
+				(at 5.08 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "Datasheet" "~"
+				(at 5.08 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "Description" "test point"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "ki_keywords" "test point tp"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "ki_fp_filters" "Pin* Test*"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(symbol "TestPoint_0_1"
+				(circle
+					(center 0 3.302)
+					(radius 0.762)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+			)
+			(symbol "TestPoint_1_1"
+				(pin passive line
+					(at 0 0 90)
+					(length 2.54)
+					(name "1"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "1"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+			)
+			(embedded_fonts no)
+		)
 		(symbol "Device:C"
 			(pin_numbers
 				(hide yes)
@@ -1436,23 +1543,23 @@
 			)
 			(embedded_fonts no)
 		)
-		(symbol "Switch:SW_DPDT_x2"
+		(symbol "Switch:SW_Nidec_CAS-120A1"
 			(pin_names
-				(offset 0)
+				(offset 1)
 				(hide yes)
 			)
 			(exclude_from_sim no)
 			(in_bom yes)
 			(on_board yes)
 			(property "Reference" "SW"
-				(at 0 5.08 0)
+				(at 0 4.318 0)
 				(effects
 					(font
 						(size 1.27 1.27)
 					)
 				)
 			)
-			(property "Value" "SW_DPDT_x2"
+			(property "Value" "SW_Nidec_CAS-120A1"
 				(at 0 -5.08 0)
 				(effects
 					(font
@@ -1460,7 +1567,25 @@
 					)
 				)
 			)
-			(property "Footprint" ""
+			(property "Footprint" "Button_Switch_SMD:Nidec_Copal_CAS-120A"
+				(at 0 -10.16 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "Datasheet" "https://www.nidec-components.com/e/catalog/switch/cas.pdf"
+				(at 0 -7.62 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "Description" "Switch, single pole double throw"
 				(at 0 0 0)
 				(effects
 					(font
@@ -1469,7 +1594,7 @@
 					(hide yes)
 				)
 			)
-			(property "Datasheet" "~"
+			(property "ki_keywords" "switch single-pole double-throw spdt ON-ON"
 				(at 0 0 0)
 				(effects
 					(font
@@ -1478,7 +1603,7 @@
 					(hide yes)
 				)
 			)
-			(property "Description" "Switch, dual pole double throw, separate symbols"
+			(property "ki_fp_filters" "*Nidec?Copal?CAS?120A*"
 				(at 0 0 0)
 				(effects
 					(font
@@ -1487,63 +1612,21 @@
 					(hide yes)
 				)
 			)
-			(property "ki_keywords" "switch dual-pole double-throw DPDT spdt ON-ON"
-				(at 0 0 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(hide yes)
-				)
-			)
-			(property "ki_fp_filters" "SW*DPDT*"
-				(at 0 0 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(hide yes)
-				)
-			)
-			(symbol "SW_DPDT_x2_0_0"
+			(symbol "SW_Nidec_CAS-120A1_0_1"
 				(circle
 					(center -2.032 0)
-					(radius 0.508)
+					(radius 0.4572)
 					(stroke
 						(width 0)
 						(type default)
 					)
 					(fill
 						(type none)
-					)
-				)
-				(circle
-					(center 2.032 -2.54)
-					(radius 0.508)
-					(stroke
-						(width 0)
-						(type default)
-					)
-					(fill
-						(type none)
-					)
-				)
-			)
-			(symbol "SW_DPDT_x2_0_1"
-				(rectangle
-					(start -3.175 3.81)
-					(end 3.175 -3.81)
-					(stroke
-						(width 0.254)
-						(type default)
-					)
-					(fill
-						(type background)
 					)
 				)
 				(polyline
 					(pts
-						(xy -1.524 0.254) (xy 1.5748 2.286)
+						(xy -1.651 0.254) (xy 1.651 2.286)
 					)
 					(stroke
 						(width 0)
@@ -1555,7 +1638,18 @@
 				)
 				(circle
 					(center 2.032 2.54)
-					(radius 0.508)
+					(radius 0.4572)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(circle
+					(center 2.032 -2.54)
+					(radius 0.4572)
 					(stroke
 						(width 0)
 						(type default)
@@ -1565,7 +1659,18 @@
 					)
 				)
 			)
-			(symbol "SW_DPDT_x2_1_1"
+			(symbol "SW_Nidec_CAS-120A1_1_1"
+				(rectangle
+					(start -3.175 3.81)
+					(end 3.175 -3.81)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type background)
+					)
+				)
 				(pin passive line
 					(at -5.08 0 0)
 					(length 2.54)
@@ -1594,24 +1699,6 @@
 							)
 						)
 					)
-					(number "1"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-				)
-				(pin passive line
-					(at 5.08 -2.54 180)
-					(length 2.54)
-					(name "C"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
 					(number "3"
 						(effects
 							(font
@@ -1620,44 +1707,6 @@
 						)
 					)
 				)
-			)
-			(symbol "SW_DPDT_x2_2_1"
-				(pin passive line
-					(at -5.08 0 0)
-					(length 2.54)
-					(name "B"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-					(number "5"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-				)
-				(pin passive line
-					(at 5.08 2.54 180)
-					(length 2.54)
-					(name "A"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-					(number "4"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-				)
 				(pin passive line
 					(at 5.08 -2.54 180)
 					(length 2.54)
@@ -1668,7 +1717,7 @@
 							)
 						)
 					)
-					(number "6"
+					(number "1"
 						(effects
 							(font
 								(size 1.27 1.27)
@@ -2175,7 +2224,7 @@
 	)
 	(text "+3.3V LED"
 		(exclude_from_sim no)
-		(at 212.598 132.842 0)
+		(at 213.868 131.572 0)
 		(effects
 			(font
 				(size 3 3)
@@ -2183,11 +2232,29 @@
 		)
 		(uuid "e2c05ab9-71a9-4234-84f6-dc550537ac21")
 	)
+	(text "10.5V - 15.0V"
+		(exclude_from_sim no)
+		(at 72.644 32.766 0)
+		(effects
+			(font
+				(size 2.54 2.54)
+				(thickness 0.3175)
+			)
+			(justify left)
+		)
+		(uuid "f095d966-193a-4bad-883c-9451e47abad2")
+	)
 	(junction
-		(at 199.39 102.87)
+		(at 200.66 102.87)
 		(diameter 0)
 		(color 0 0 0 0)
 		(uuid "09796d9a-c784-4aa0-be57-085cab43eb55")
+	)
+	(junction
+		(at 233.68 66.04)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "146c6d49-38cb-4651-9bb2-4ee1893aeff2")
 	)
 	(junction
 		(at 138.43 43.18)
@@ -2208,6 +2275,12 @@
 		(uuid "28ad6eeb-29ff-47f7-aec5-378396a3c4da")
 	)
 	(junction
+		(at 241.3 43.18)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "291acd15-3ddf-48cb-b498-0ef9f3374fe8")
+	)
+	(junction
 		(at 106.68 43.18)
 		(diameter 0)
 		(color 0 0 0 0)
@@ -2226,16 +2299,16 @@
 		(uuid "58d28634-febb-41ee-8589-9fa1c6da87c3")
 	)
 	(junction
-		(at 219.71 50.8)
-		(diameter 0)
-		(color 0 0 0 0)
-		(uuid "5d6f863c-7d0b-404c-aeab-f46c0440435c")
-	)
-	(junction
 		(at 77.47 106.68)
 		(diameter 0)
 		(color 0 0 0 0)
 		(uuid "5e7e3090-0005-4bdd-b237-97f0201c6e98")
+	)
+	(junction
+		(at 233.68 43.18)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "6d8672df-084e-456c-9789-866c8c59e896")
 	)
 	(junction
 		(at 219.71 43.18)
@@ -2244,7 +2317,7 @@
 		(uuid "75fa92f2-3610-4df2-8f84-f6d949b7c56e")
 	)
 	(junction
-		(at 71.12 57.15)
+		(at 67.31 57.15)
 		(diameter 0)
 		(color 0 0 0 0)
 		(uuid "78e2edce-7859-4ca3-8b43-dfe7e3749912")
@@ -2262,22 +2335,10 @@
 		(uuid "865586ef-f32f-477e-abf4-a396ab45cd0a")
 	)
 	(junction
-		(at 199.39 50.8)
-		(diameter 0)
-		(color 0 0 0 0)
-		(uuid "8b4a63ce-e18a-486e-bca2-93d2644b8ccf")
-	)
-	(junction
-		(at 224.79 102.87)
+		(at 223.52 102.87)
 		(diameter 0)
 		(color 0 0 0 0)
 		(uuid "97f7c3ea-5e28-4bc3-9412-c9f688d7ec4f")
-	)
-	(junction
-		(at 209.55 50.8)
-		(diameter 0)
-		(color 0 0 0 0)
-		(uuid "a32afac3-7f27-4ecc-a96e-8948d30a20e0")
 	)
 	(junction
 		(at 116.84 43.18)
@@ -2297,14 +2358,8 @@
 		(color 0 0 0 0)
 		(uuid "e5b775a1-59a0-40c1-a9da-0811231202d2")
 	)
-	(junction
-		(at 234.95 43.18)
-		(diameter 0)
-		(color 0 0 0 0)
-		(uuid "f08c55ba-bfbc-407c-b6ef-91b9ab66eaf8")
-	)
 	(no_connect
-		(at 78.74 48.26)
+		(at 73.66 48.26)
 		(uuid "76eeb805-b72b-436d-adb4-1413e89f2c05")
 	)
 	(wire
@@ -2319,17 +2374,7 @@
 	)
 	(wire
 		(pts
-			(xy 199.39 50.8) (xy 199.39 52.07)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "054238cd-812e-4c3d-9787-bbad22db3569")
-	)
-	(wire
-		(pts
-			(xy 219.71 43.18) (xy 234.95 43.18)
+			(xy 219.71 43.18) (xy 233.68 43.18)
 		)
 		(stroke
 			(width 0)
@@ -2339,17 +2384,7 @@
 	)
 	(wire
 		(pts
-			(xy 234.95 43.18) (xy 241.3 43.18)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "0bdfd231-58a6-4a1e-ade6-aa93762ca713")
-	)
-	(wire
-		(pts
-			(xy 88.9 43.18) (xy 91.44 43.18)
+			(xy 86.36 43.18) (xy 91.44 43.18)
 		)
 		(stroke
 			(width 0)
@@ -2376,16 +2411,6 @@
 			(type default)
 		)
 		(uuid "0fd0a59b-1487-498a-86dc-1762be9a4391")
-	)
-	(wire
-		(pts
-			(xy 81.28 43.18) (xy 78.74 43.18)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "102800a9-c852-4164-a70d-5b1e1c1bbcc0")
 	)
 	(wire
 		(pts
@@ -2419,13 +2444,13 @@
 	)
 	(wire
 		(pts
-			(xy 219.71 50.8) (xy 219.71 52.07)
+			(xy 219.71 102.87) (xy 223.52 102.87)
 		)
 		(stroke
 			(width 0)
 			(type default)
 		)
-		(uuid "196a4b81-5e81-48c9-a88f-a9e9d9d967a7")
+		(uuid "1a7e1101-db7c-4a28-898a-e8a5ac5521e3")
 	)
 	(wire
 		(pts
@@ -2459,7 +2484,17 @@
 	)
 	(wire
 		(pts
-			(xy 210.82 140.97) (xy 210.82 142.24)
+			(xy 73.66 43.18) (xy 78.74 43.18)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "23150a76-9438-4f7e-8612-4972e55a36b7")
+	)
+	(wire
+		(pts
+			(xy 212.09 139.7) (xy 212.09 140.97)
 		)
 		(stroke
 			(width 0)
@@ -2500,7 +2535,7 @@
 	)
 	(wire
 		(pts
-			(xy 231.14 66.04) (xy 241.3 66.04)
+			(xy 231.14 66.04) (xy 233.68 66.04)
 		)
 		(stroke
 			(width 0)
@@ -2591,6 +2626,16 @@
 	)
 	(wire
 		(pts
+			(xy 233.68 66.04) (xy 241.3 66.04)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "6ad656d6-3011-4acb-8f11-4c1e473bde21")
+	)
+	(wire
+		(pts
 			(xy 77.47 115.57) (xy 77.47 116.84)
 		)
 		(stroke
@@ -2598,6 +2643,16 @@
 			(type default)
 		)
 		(uuid "6af2ff45-502f-44d8-be8b-1b4fae95df2c")
+	)
+	(wire
+		(pts
+			(xy 233.68 43.18) (xy 241.3 43.18)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "706b4f5a-cf93-4795-af11-e54a65c741e2")
 	)
 	(wire
 		(pts
@@ -2641,7 +2696,7 @@
 	)
 	(wire
 		(pts
-			(xy 66.04 45.72) (xy 68.58 45.72)
+			(xy 60.96 45.72) (xy 63.5 45.72)
 		)
 		(stroke
 			(width 0)
@@ -2671,7 +2726,7 @@
 	)
 	(wire
 		(pts
-			(xy 66.04 57.15) (xy 71.12 57.15)
+			(xy 62.23 57.15) (xy 67.31 57.15)
 		)
 		(stroke
 			(width 0)
@@ -2701,17 +2756,7 @@
 	)
 	(wire
 		(pts
-			(xy 219.71 102.87) (xy 224.79 102.87)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "c3332ae9-03c1-45cd-8960-810ad2bf000f")
-	)
-	(wire
-		(pts
-			(xy 199.39 102.87) (xy 204.47 102.87)
+			(xy 200.66 102.87) (xy 204.47 102.87)
 		)
 		(stroke
 			(width 0)
@@ -2772,7 +2817,7 @@
 	)
 	(wire
 		(pts
-			(xy 71.12 57.15) (xy 71.12 59.69)
+			(xy 67.31 57.15) (xy 67.31 59.69)
 		)
 		(stroke
 			(width 0)
@@ -2792,7 +2837,7 @@
 	)
 	(wire
 		(pts
-			(xy 210.82 158.75) (xy 210.82 160.02)
+			(xy 212.09 158.75) (xy 212.09 160.02)
 		)
 		(stroke
 			(width 0)
@@ -2822,7 +2867,7 @@
 	)
 	(wire
 		(pts
-			(xy 210.82 149.86) (xy 210.82 151.13)
+			(xy 212.09 148.59) (xy 212.09 151.13)
 		)
 		(stroke
 			(width 0)
@@ -2852,16 +2897,6 @@
 	)
 	(wire
 		(pts
-			(xy 209.55 52.07) (xy 209.55 50.8)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "f7832003-eecf-49b8-83fe-b3b5358e2fc3")
-	)
-	(wire
-		(pts
 			(xy 179.07 43.18) (xy 184.15 43.18)
 		)
 		(stroke
@@ -2870,9 +2905,49 @@
 		)
 		(uuid "fb3e1647-24c8-466f-891a-94b03984f633")
 	)
+	(label "Vbat_adc_in"
+		(at 59.69 106.68 0)
+		(effects
+			(font
+				(size 0.5 0.5)
+			)
+			(justify left bottom)
+		)
+		(uuid "10875aa8-0cfc-4844-a459-2c7315e3f757")
+	)
+	(label "SBD_A"
+		(at 74.93 43.18 0)
+		(effects
+			(font
+				(size 0.5 0.5)
+			)
+			(justify left bottom)
+		)
+		(uuid "369c9ffb-ecc7-4d5f-b7fa-ef5c772bb7fe")
+	)
+	(label "SBD_K"
+		(at 87.63 43.18 0)
+		(effects
+			(font
+				(size 0.5 0.5)
+			)
+			(justify left bottom)
+		)
+		(uuid "964be8b5-f0ca-4d61-91c4-ae955bb839d5")
+	)
+	(label "+3.3V_K"
+		(at 212.09 148.59 270)
+		(effects
+			(font
+				(size 0.5 0.5)
+			)
+			(justify right bottom)
+		)
+		(uuid "b823ab74-63b7-43d4-8157-cf0a8796fff9")
+	)
 	(hierarchical_label "Vbat+"
 		(shape output)
-		(at 66.04 45.72 180)
+		(at 60.96 45.72 180)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -2883,7 +2958,7 @@
 	)
 	(hierarchical_label "Vbat-"
 		(shape output)
-		(at 66.04 57.15 180)
+		(at 62.23 57.15 180)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -2939,7 +3014,7 @@
 				(hide yes)
 			)
 		)
-		(property "Datasheet" "https://jlcpcb.com/partdetail/YAGEO-CC0805KRX7R9BB104/C49678"
+		(property "Datasheet" "~"
 			(at 127 46.99 0)
 			(effects
 				(font
@@ -2949,6 +3024,33 @@
 			)
 		)
 		(property "Description" "100nF 50V X7R ±10% 0805 Multilayer Ceramic Capacitors"
+			(at 127 46.99 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Distributor" "https://jlcpcb.com/partdetail/28983-CL21B104KCFNNNE/C28233"
+			(at 127 46.99 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "MFR Part" "CL21B104KCFNNNE"
+			(at 127 46.99 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Manufacturer" "Samsung Electro-Mechanics"
 			(at 127 46.99 0)
 			(effects
 				(font
@@ -2974,7 +3076,7 @@
 	)
 	(symbol
 		(lib_id "power:GND")
-		(at 210.82 160.02 0)
+		(at 212.09 160.02 0)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -2982,7 +3084,7 @@
 		(dnp no)
 		(uuid "09734560-8643-4c38-b7a2-e84311080d2a")
 		(property "Reference" "#PWR0223"
-			(at 210.82 166.37 0)
+			(at 212.09 166.37 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -2991,7 +3093,7 @@
 			)
 		)
 		(property "Value" "GND"
-			(at 210.82 164.084 0)
+			(at 212.09 164.084 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -3000,7 +3102,7 @@
 			)
 		)
 		(property "Footprint" ""
-			(at 210.82 160.02 0)
+			(at 212.09 160.02 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -3009,7 +3111,7 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 210.82 160.02 0)
+			(at 212.09 160.02 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -3018,7 +3120,7 @@
 			)
 		)
 		(property "Description" "Power symbol creates a global label with name \"GND\" , ground"
-			(at 210.82 160.02 0)
+			(at 212.09 160.02 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -3040,7 +3142,8 @@
 	)
 	(symbol
 		(lib_id "Device:C")
-		(at 199.39 106.68 0)
+		(at 200.66 106.68 0)
+		(mirror y)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -3048,7 +3151,7 @@
 		(dnp no)
 		(uuid "12dc4b39-c294-45da-afa9-0a316eadb330")
 		(property "Reference" "C208"
-			(at 202.184 105.41 0)
+			(at 197.866 105.41 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -3057,7 +3160,7 @@
 			)
 		)
 		(property "Value" "22u"
-			(at 202.184 107.95 0)
+			(at 197.866 107.95 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -3066,7 +3169,7 @@
 			)
 		)
 		(property "Footprint" "Capacitor_SMD:C_0603_1608Metric"
-			(at 200.3552 110.49 0)
+			(at 199.6948 110.49 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -3074,8 +3177,8 @@
 				(hide yes)
 			)
 		)
-		(property "Datasheet" "https://jlcpcb.com/partdetail/MurataElectronics-GRM188R60J226MEA0D/C77042"
-			(at 199.39 106.68 0)
+		(property "Datasheet" "~"
+			(at 200.66 106.68 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -3084,7 +3187,34 @@
 			)
 		)
 		(property "Description" "22uF 6.3V X5R ±20% 0603 Multilayer Ceramic Capacitors"
-			(at 199.39 106.68 0)
+			(at 200.66 106.68 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Distributor" "https://jlcpcb.com/partdetail/MurataElectronics-GRM188R60J226MEA0D/C77042"
+			(at 200.66 106.68 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "MFR Part" "GRM188R60J226MEA0D"
+			(at 200.66 106.68 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Manufacturer" "Murata Electronics "
+			(at 200.66 106.68 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -3144,7 +3274,7 @@
 				(hide yes)
 			)
 		)
-		(property "Datasheet" "https://jlcpcb.com/partdetail/26851-0805W8F1005T5E/C26108"
+		(property "Datasheet" "~"
 			(at 55.88 113.03 0)
 			(effects
 				(font
@@ -3154,6 +3284,33 @@
 			)
 		)
 		(property "Description" ""
+			(at 55.88 113.03 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Distributor" "https://jlcpcb.com/partdetail/26851-0805W8F1005T5E/C26108"
+			(at 55.88 113.03 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "MFR Part" "0805W8F1005T5E"
+			(at 55.88 113.03 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Manufacturer" "UNI-ROYAL(Uniroyal Elec)"
 			(at 55.88 113.03 0)
 			(effects
 				(font
@@ -3179,7 +3336,7 @@
 	)
 	(symbol
 		(lib_id "power:GND")
-		(at 224.79 110.49 0)
+		(at 223.52 110.49 0)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -3187,7 +3344,7 @@
 		(dnp no)
 		(uuid "17c00c53-97e2-4845-969d-cc3e92c0bcb1")
 		(property "Reference" "#PWR0218"
-			(at 224.79 116.84 0)
+			(at 223.52 116.84 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -3196,7 +3353,7 @@
 			)
 		)
 		(property "Value" "GND"
-			(at 224.79 114.554 0)
+			(at 223.52 114.554 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -3205,7 +3362,7 @@
 			)
 		)
 		(property "Footprint" ""
-			(at 224.79 110.49 0)
+			(at 223.52 110.49 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -3214,7 +3371,7 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 224.79 110.49 0)
+			(at 223.52 110.49 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -3223,7 +3380,7 @@
 			)
 		)
 		(property "Description" "Power symbol creates a global label with name \"GND\" , ground"
-			(at 224.79 110.49 0)
+			(at 223.52 110.49 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -3238,85 +3395,6 @@
 			(project "PUEiE_pcb"
 				(path "/064b0dc2-c3a5-4c74-8cbf-4fc3d8c84854/14f85070-237d-42f7-a449-5fde0a107bb8"
 					(reference "#PWR0218")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
-		(lib_id "Switch:SW_DPDT_x2")
-		(at 73.66 45.72 0)
-		(unit 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(dnp no)
-		(uuid "19a946a2-5712-4a32-8982-db57e815d3b0")
-		(property "Reference" "SW201"
-			(at 73.66 36.83 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Value" "SW_DPDT_x2"
-			(at 73.66 39.37 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Footprint" "Button_Switch_THT:SW_E-Switch_EG1224_SPDT_Angled"
-			(at 73.66 45.72 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Datasheet" "~"
-			(at 73.66 45.72 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Description" "Switch, dual pole double throw, separate symbols"
-			(at 73.66 45.72 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(pin "4"
-			(uuid "0de89b19-fb02-4f3e-90f2-60c08deef4a2")
-		)
-		(pin "3"
-			(uuid "8d636be7-5a39-438a-b95c-459004b91019")
-		)
-		(pin "2"
-			(uuid "4109b284-249a-4536-9026-31c81a52003e")
-		)
-		(pin "6"
-			(uuid "b26dc7e1-bcb6-4345-bfec-4fd6bfa11fb3")
-		)
-		(pin "1"
-			(uuid "233592e3-8dc6-46fd-bdbe-5e834e27e9a3")
-		)
-		(pin "5"
-			(uuid "34b16822-68f1-4e18-b202-0132283370a3")
-		)
-		(instances
-			(project "PUEiE_pcb"
-				(path "/064b0dc2-c3a5-4c74-8cbf-4fc3d8c84854/14f85070-237d-42f7-a449-5fde0a107bb8"
-					(reference "SW201")
 					(unit 1)
 				)
 			)
@@ -3383,76 +3461,6 @@
 			(project "PUEiE_pcb"
 				(path "/064b0dc2-c3a5-4c74-8cbf-4fc3d8c84854/14f85070-237d-42f7-a449-5fde0a107bb8"
 					(reference "#PWR0219")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
-		(lib_id "Device:R")
-		(at 184.15 58.42 0)
-		(unit 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(dnp no)
-		(fields_autoplaced yes)
-		(uuid "23f8507a-d112-4699-a514-084fb7b2b6f3")
-		(property "Reference" "R202"
-			(at 186.69 57.1499 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-			)
-		)
-		(property "Value" "10k"
-			(at 186.69 59.6899 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-			)
-		)
-		(property "Footprint" "Resistor_SMD:R_0201_0603Metric"
-			(at 182.372 58.42 90)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Datasheet" "https://jlcpcb.com/partdetail/YAGEO-RC0201FR0710KL/C106225"
-			(at 184.15 58.42 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Description" "10 kΩ +- 1.0% Power = 50 mW"
-			(at 184.15 58.42 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(pin "2"
-			(uuid "cd267205-13bd-485d-a143-814520a9b1ec")
-		)
-		(pin "1"
-			(uuid "42c20789-648a-41d4-9383-114454c10a04")
-		)
-		(instances
-			(project "PUEiE_pcb"
-				(path "/064b0dc2-c3a5-4c74-8cbf-4fc3d8c84854/14f85070-237d-42f7-a449-5fde0a107bb8"
-					(reference "R202")
 					(unit 1)
 				)
 			)
@@ -3552,7 +3560,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" "Resistor_SMD:R_0402_1005Metric"
+		(property "Footprint" "Resistor_SMD:R_0805_2012Metric"
 			(at 182.372 48.26 90)
 			(effects
 				(font
@@ -3561,7 +3569,7 @@
 				(hide yes)
 			)
 		)
-		(property "Datasheet" "https://jlcpcb.com/partdetail/VishayIntertech-CRCW040245K3FKEDC/C4067649"
+		(property "Datasheet" "~"
 			(at 184.15 48.26 0)
 			(effects
 				(font
@@ -3571,6 +3579,33 @@
 			)
 		)
 		(property "Description" "45.3 kΩ +- 1.0%, Power = 63 mW"
+			(at 184.15 48.26 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Distributor" "https://jlcpcb.com/partdetail/18389-0805W8F4532T5E/C17701"
+			(at 184.15 48.26 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "MFR Part" "0805W8F4532T5E"
+			(at 184.15 48.26 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Manufacturer" "UNI-ROYAL(Uniroyal Elec) "
 			(at 184.15 48.26 0)
 			(effects
 				(font
@@ -3648,7 +3683,25 @@
 				(hide yes)
 			)
 		)
-		(property "Link 1" "https://jlcpcb.com/partdetail/TexasInstruments-TPS563240DDCR/C1850333"
+		(property "Distributor" "https://jlcpcb.com/partdetail/TexasInstruments-TPS563240DDCR/C1850333"
+			(at 152.4 45.72 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "MFR Part" " TPS563240DDCR"
+			(at 152.4 45.72 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Manufacturer" "Texas Instruments"
 			(at 152.4 45.72 0)
 			(effects
 				(font
@@ -3752,16 +3805,15 @@
 	)
 	(symbol
 		(lib_id "power:+3V3")
-		(at 224.79 102.87 0)
+		(at 223.52 102.87 0)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
 		(on_board yes)
 		(dnp no)
-		(fields_autoplaced yes)
 		(uuid "3f4ca589-d7ba-4b79-af26-f7f5e268fb78")
 		(property "Reference" "#PWR0215"
-			(at 224.79 106.68 0)
+			(at 223.52 106.68 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -3770,7 +3822,7 @@
 			)
 		)
 		(property "Value" "+3V3USB"
-			(at 224.79 97.79 0)
+			(at 224.282 99.314 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -3778,7 +3830,7 @@
 			)
 		)
 		(property "Footprint" ""
-			(at 224.79 102.87 0)
+			(at 223.52 102.87 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -3787,7 +3839,7 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 224.79 102.87 0)
+			(at 223.52 102.87 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -3796,7 +3848,7 @@
 			)
 		)
 		(property "Description" "Power symbol creates a global label with name \"+3V3\""
-			(at 224.79 102.87 0)
+			(at 223.52 102.87 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -3917,7 +3969,7 @@
 				(hide yes)
 			)
 		)
-		(property "Datasheet" "https://jlcpcb.com/partdetail/367931-GRM21BR61E106MA73L/C391262"
+		(property "Datasheet" "~"
 			(at 106.68 46.99 0)
 			(effects
 				(font
@@ -3927,6 +3979,33 @@
 			)
 		)
 		(property "Description" "10uF 25V X5R ±20% 0805 Multilayer Ceramic Capacitors"
+			(at 106.68 46.99 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Distributor" "https://jlcpcb.com/partdetail/367931-GRM21BR61E106MA73L/C391262"
+			(at 106.68 46.99 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "MFR Part" "GRM21BR61E106MA73L"
+			(at 106.68 46.99 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Manufacturer" "Murata Electronics"
 			(at 106.68 46.99 0)
 			(effects
 				(font
@@ -3952,7 +4031,7 @@
 	)
 	(symbol
 		(lib_id "power:GND")
-		(at 71.12 59.69 0)
+		(at 67.31 59.69 0)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -3960,7 +4039,7 @@
 		(dnp no)
 		(uuid "56a84c24-4d61-42ab-9aa0-167ba8e3986f")
 		(property "Reference" "#PWR0210"
-			(at 71.12 66.04 0)
+			(at 67.31 66.04 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -3969,7 +4048,7 @@
 			)
 		)
 		(property "Value" "GND"
-			(at 71.12 63.754 0)
+			(at 67.31 63.754 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -3978,7 +4057,7 @@
 			)
 		)
 		(property "Footprint" ""
-			(at 71.12 59.69 0)
+			(at 67.31 59.69 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -3987,7 +4066,7 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 71.12 59.69 0)
+			(at 67.31 59.69 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -3996,7 +4075,7 @@
 			)
 		)
 		(property "Description" "Power symbol creates a global label with name \"GND\" , ground"
-			(at 71.12 59.69 0)
+			(at 67.31 59.69 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -4018,7 +4097,7 @@
 	)
 	(symbol
 		(lib_id "power:PWR_FLAG")
-		(at 71.12 57.15 0)
+		(at 67.31 57.15 0)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -4027,7 +4106,7 @@
 		(fields_autoplaced yes)
 		(uuid "59ed8fb1-4f48-4108-b44b-70e86843714c")
 		(property "Reference" "#FLG0202"
-			(at 71.12 55.245 0)
+			(at 67.31 55.245 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -4036,7 +4115,7 @@
 			)
 		)
 		(property "Value" "PWR_FLAG"
-			(at 71.12 52.07 0)
+			(at 67.31 52.07 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -4045,7 +4124,7 @@
 			)
 		)
 		(property "Footprint" ""
-			(at 71.12 57.15 0)
+			(at 67.31 57.15 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -4054,7 +4133,7 @@
 			)
 		)
 		(property "Datasheet" "~"
-			(at 71.12 57.15 0)
+			(at 67.31 57.15 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -4063,7 +4142,7 @@
 			)
 		)
 		(property "Description" "Special symbol for telling ERC where power comes from"
-			(at 71.12 57.15 0)
+			(at 67.31 57.15 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -4119,7 +4198,7 @@
 				(hide yes)
 			)
 		)
-		(property "Datasheet" "https://jlcpcb.com/partdetail/MurataElectronics-GRM188R60J226MEA0D/C77042"
+		(property "Datasheet" "~"
 			(at 199.39 46.99 0)
 			(effects
 				(font
@@ -4129,6 +4208,33 @@
 			)
 		)
 		(property "Description" "22uF 6.3V X5R ±20% 0603 Multilayer Ceramic Capacitors"
+			(at 199.39 46.99 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Distributor" "https://jlcpcb.com/partdetail/MurataElectronics-GRM188R60J226MEA0D/C77042"
+			(at 199.39 46.99 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "MFR Part" "GRM188R60J226MEA0D"
+			(at 199.39 46.99 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Manufacturer" "Murata Electronics "
 			(at 199.39 46.99 0)
 			(effects
 				(font
@@ -4221,7 +4327,7 @@
 	)
 	(symbol
 		(lib_id "Device:R")
-		(at 210.82 154.94 0)
+		(at 212.09 154.94 0)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -4230,7 +4336,7 @@
 		(fields_autoplaced yes)
 		(uuid "66d48b62-e2bb-41a3-b5af-708f48e29691")
 		(property "Reference" "R206"
-			(at 213.36 153.6699 0)
+			(at 214.63 153.6699 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -4239,7 +4345,7 @@
 			)
 		)
 		(property "Value" "220R"
-			(at 213.36 156.2099 0)
+			(at 214.63 156.2099 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -4248,7 +4354,7 @@
 			)
 		)
 		(property "Footprint" "Resistor_SMD:R_0805_2012Metric"
-			(at 209.042 154.94 90)
+			(at 210.312 154.94 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -4256,8 +4362,8 @@
 				(hide yes)
 			)
 		)
-		(property "Datasheet" "https://jlcpcb.com/partdetail/18245-0805W8F2200T5E/C17557"
-			(at 210.82 154.94 0)
+		(property "Datasheet" "~"
+			(at 212.09 154.94 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -4266,7 +4372,34 @@
 			)
 		)
 		(property "Description" "Resistor"
-			(at 210.82 154.94 0)
+			(at 212.09 154.94 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Distributor" "https://jlcpcb.com/partdetail/18245-0805W8F2200T5E/C17557"
+			(at 212.09 154.94 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "MFR Part" "0805W8F2200T5E"
+			(at 212.09 154.94 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Manufacturer" "UNI-ROYAL(Uniroyal Elec) "
+			(at 212.09 154.94 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -4291,7 +4424,7 @@
 	)
 	(symbol
 		(lib_id "power:+3V3")
-		(at 210.82 140.97 0)
+		(at 212.09 139.7 0)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -4299,7 +4432,7 @@
 		(dnp no)
 		(uuid "6aa2684a-1ff3-49b6-a533-066199d51d6c")
 		(property "Reference" "#PWR0222"
-			(at 210.82 144.78 0)
+			(at 212.09 143.51 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -4308,7 +4441,7 @@
 			)
 		)
 		(property "Value" "+3V3"
-			(at 210.82 137.16 0)
+			(at 212.09 135.89 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -4316,7 +4449,7 @@
 			)
 		)
 		(property "Footprint" ""
-			(at 210.82 140.97 0)
+			(at 212.09 139.7 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -4325,7 +4458,7 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 210.82 140.97 0)
+			(at 212.09 139.7 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -4334,7 +4467,7 @@
 			)
 		)
 		(property "Description" "Power symbol creates a global label with name \"+3V3\""
-			(at 210.82 140.97 0)
+			(at 212.09 139.7 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -4355,33 +4488,34 @@
 		)
 	)
 	(symbol
-		(lib_id "Device:D_Schottky")
-		(at 85.09 43.18 180)
+		(lib_id "Device:R")
+		(at 184.15 58.42 0)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
 		(on_board yes)
 		(dnp no)
-		(fields_autoplaced yes)
-		(uuid "724f22fa-ce47-4cc7-bcee-429c56a58ddc")
-		(property "Reference" "D201"
-			(at 85.4075 36.83 0)
+		(uuid "70b6daca-3a0f-461b-ae4d-bc6419086ea9")
+		(property "Reference" "R202"
+			(at 177.546 57.15 0)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
+				(justify left)
 			)
 		)
-		(property "Value" "D_Schottky"
-			(at 85.4075 39.37 0)
+		(property "Value" "10k"
+			(at 178.816 59.436 0)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
+				(justify left)
 			)
 		)
-		(property "Footprint" ""
-			(at 85.09 43.18 0)
+		(property "Footprint" "Resistor_SMD:R_0805_2012Metric"
+			(at 182.372 58.42 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -4390,7 +4524,102 @@
 			)
 		)
 		(property "Datasheet" "~"
-			(at 85.09 43.18 0)
+			(at 184.15 58.42 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "10kΩ 125mW 150V ±1%"
+			(at 184.15 58.42 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Distributor" "https://jlcpcb.com/partdetail/18102-0805W8F1002T5E/C17414"
+			(at 184.15 58.42 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "MFR Part" "0805W8F1002T5E "
+			(at 184.15 58.42 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Manufacturer" "UNI-ROYAL(Uniroyal Elec) "
+			(at 184.15 58.42 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "2"
+			(uuid "add18c25-7399-411e-9d27-76fef826f06d")
+		)
+		(pin "1"
+			(uuid "82ab04e7-4c02-4c23-ad9e-bda6ca476156")
+		)
+		(instances
+			(project "PUEiE_pcb"
+				(path "/064b0dc2-c3a5-4c74-8cbf-4fc3d8c84854/14f85070-237d-42f7-a449-5fde0a107bb8"
+					(reference "R202")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Device:D_Schottky")
+		(at 82.55 43.18 180)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "724f22fa-ce47-4cc7-bcee-429c56a58ddc")
+		(property "Reference" "D201"
+			(at 82.8675 36.83 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "D_Schottky"
+			(at 82.8675 39.37 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" "Diode_SMD:D_SMA"
+			(at 82.55 43.18 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "~"
+			(at 82.55 43.18 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -4399,7 +4628,34 @@
 			)
 		)
 		(property "Description" "Schottky diode"
-			(at 85.09 43.18 0)
+			(at 82.55 43.18 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Distributor" "https://jlcpcb.com/partdetail/MDD_Microdiode_Semiconductor-SS34/C8678"
+			(at 82.55 43.18 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "MFR Part" "SS34"
+			(at 82.55 43.18 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Manufacturer" "MDD(Microdiode Semiconductor)"
+			(at 82.55 43.18 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -4458,7 +4714,7 @@
 				(hide yes)
 			)
 		)
-		(property "Datasheet" "https://jlcpcb.com/partdetail/MurataElectronics-GRM188R60J226MEA0D/C77042"
+		(property "Datasheet" "~"
 			(at 209.55 46.99 0)
 			(effects
 				(font
@@ -4468,6 +4724,33 @@
 			)
 		)
 		(property "Description" "22uF 6.3V X5R ±20% 0603 Multilayer Ceramic Capacitors"
+			(at 209.55 46.99 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Distributor" "https://jlcpcb.com/partdetail/MurataElectronics-GRM188R60J226MEA0D/C77042"
+			(at 209.55 46.99 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "MFR Part" "GRM188R60J226MEA0D"
+			(at 209.55 46.99 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Manufacturer" "Murata Electronics "
 			(at 209.55 46.99 0)
 			(effects
 				(font
@@ -4492,6 +4775,100 @@
 		)
 	)
 	(symbol
+		(lib_id "Connector:TestPoint")
+		(at 233.68 43.18 0)
+		(mirror y)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom no)
+		(on_board yes)
+		(dnp no)
+		(uuid "85ab4962-0fef-4778-9d79-9bcded5112aa")
+		(property "Reference" "TP202"
+			(at 233.68 38.1 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "TestPoint"
+			(at 236.22 41.1479 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+				(hide yes)
+			)
+		)
+		(property "Footprint" "TestPoint:TestPoint_Pad_D2.0mm"
+			(at 228.6 43.18 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "~"
+			(at 228.6 43.18 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "test point"
+			(at 233.68 43.18 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Distributor" "~"
+			(at 233.68 43.18 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "MFR Part" ""
+			(at 233.68 43.18 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Manufacturer" ""
+			(at 233.68 43.18 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "b2bc619d-c696-4ba6-bafc-39709b6a3e0b")
+		)
+		(instances
+			(project "PUEiE_pcb"
+				(path "/064b0dc2-c3a5-4c74-8cbf-4fc3d8c84854/14f85070-237d-42f7-a449-5fde0a107bb8"
+					(reference "TP202")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
 		(lib_id "Device:C")
 		(at 167.64 33.02 0)
 		(unit 1)
@@ -4510,7 +4887,7 @@
 				(justify left)
 			)
 		)
-		(property "Value" "100nF"
+		(property "Value" "100n"
 			(at 171.45 34.2899 0)
 			(effects
 				(font
@@ -4528,7 +4905,7 @@
 				(hide yes)
 			)
 		)
-		(property "Datasheet" "https://jlcpcb.com/api/file/downloadByFileSystemAccessId/8590429213112508416"
+		(property "Datasheet" "~"
 			(at 167.64 33.02 0)
 			(effects
 				(font
@@ -4538,6 +4915,33 @@
 			)
 		)
 		(property "Description" "100nF 16V X7R ±10% 0603 Multilayer Ceramic Capacitor"
+			(at 167.64 33.02 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Distributor" "https://jlcpcb.com/partdetail/TaiyoYuden-EMK107B7104KAT/C3868378"
+			(at 167.64 33.02 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "MFR Part" " EMK107B7104KA-T"
+			(at 167.64 33.02 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Manufacturer" " Taiyo Yuden"
 			(at 167.64 33.02 0)
 			(effects
 				(font
@@ -4729,7 +5133,7 @@
 				(hide yes)
 			)
 		)
-		(property "Datasheet" "https://jlcpcb.com/partdetail/MurataElectronics-GRM188R60J226MEA0D/C77042"
+		(property "Datasheet" "~"
 			(at 219.71 46.99 0)
 			(effects
 				(font
@@ -4739,6 +5143,33 @@
 			)
 		)
 		(property "Description" "22uF 6.3V X5R ±20% 0603 Multilayer Ceramic Capacitors"
+			(at 219.71 46.99 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Distributor" "https://jlcpcb.com/partdetail/MurataElectronics-GRM188R60J226MEA0D/C77042"
+			(at 219.71 46.99 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "MFR Part" "GRM188R60J226MEA0D"
+			(at 219.71 46.99 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Manufacturer" "Murata Electronics "
 			(at 219.71 46.99 0)
 			(effects
 				(font
@@ -4757,6 +5188,100 @@
 			(project "PUEiE_pcb"
 				(path "/064b0dc2-c3a5-4c74-8cbf-4fc3d8c84854/14f85070-237d-42f7-a449-5fde0a107bb8"
 					(reference "C207")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Connector:TestPoint")
+		(at 233.68 66.04 0)
+		(mirror y)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom no)
+		(on_board yes)
+		(dnp no)
+		(uuid "9442280e-ac5a-49f7-86d9-7b9f6e65770c")
+		(property "Reference" "TP201"
+			(at 233.68 60.96 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "TestPoint"
+			(at 236.22 64.0079 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+				(hide yes)
+			)
+		)
+		(property "Footprint" "TestPoint:TestPoint_Pad_D2.0mm"
+			(at 228.6 66.04 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "~"
+			(at 228.6 66.04 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "test point"
+			(at 233.68 66.04 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Distributor" "~"
+			(at 233.68 66.04 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "MFR Part" ""
+			(at 233.68 66.04 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Manufacturer" ""
+			(at 233.68 66.04 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "0d508ee1-0c02-4f4f-be66-49b8727d75be")
+		)
+		(instances
+			(project ""
+				(path "/064b0dc2-c3a5-4c74-8cbf-4fc3d8c84854/14f85070-237d-42f7-a449-5fde0a107bb8"
+					(reference "TP201")
 					(unit 1)
 				)
 			)
@@ -4798,7 +5323,7 @@
 				(hide yes)
 			)
 		)
-		(property "Datasheet" "https://jlcpcb.com/partdetail/367931-GRM21BR61E106MA73L/C391262"
+		(property "Datasheet" "~"
 			(at 116.84 46.99 0)
 			(effects
 				(font
@@ -4808,6 +5333,33 @@
 			)
 		)
 		(property "Description" "10uF 25V X5R ±20% 0805 Multilayer Ceramic Capacitors"
+			(at 116.84 46.99 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Distributor" "https://jlcpcb.com/partdetail/367931-GRM21BR61E106MA73L/C391262"
+			(at 116.84 46.99 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "MFR Part" "GRM21BR61E106MA73L"
+			(at 116.84 46.99 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Manufacturer" "Murata Electronics"
 			(at 116.84 46.99 0)
 			(effects
 				(font
@@ -4884,7 +5436,25 @@
 				(hide yes)
 			)
 		)
-		(property "Link 1" "https://jlcpcb.com/partdetail/Advanced_MonolithicSystems-AMS1117_33/C6186"
+		(property "Distributor" "https://jlcpcb.com/partdetail/Advanced_MonolithicSystems-AMS1117_33/C6186"
+			(at 212.09 102.87 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "MFR Part" "AMS1117-3.3 "
+			(at 212.09 102.87 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Manufacturer" "Advanced Monolithic Systems"
 			(at 212.09 102.87 0)
 			(effects
 				(font
@@ -5014,7 +5584,7 @@
 				(hide yes)
 			)
 		)
-		(property "Datasheet" "https://jlcpcb.com/partdetail/TEConnectivity-RH73H2A40MKTN/C2090377"
+		(property "Datasheet" "~"
 			(at 55.88 100.33 0)
 			(effects
 				(font
@@ -5024,6 +5594,33 @@
 			)
 		)
 		(property "Description" ""
+			(at 55.88 100.33 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Distributor" "https://jlcpcb.com/partdetail/TEConnectivity-RH73H2A40MKTN/C2090377"
+			(at 55.88 100.33 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "MFR Part" "RH73H2A40MKTN"
+			(at 55.88 100.33 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Manufacturer" "TE Connectivity "
 			(at 55.88 100.33 0)
 			(effects
 				(font
@@ -5084,7 +5681,7 @@
 				(hide yes)
 			)
 		)
-		(property "Datasheet" ""
+		(property "Datasheet" "~"
 			(at 87.63 111.76 0)
 			(effects
 				(font
@@ -5102,7 +5699,25 @@
 				(hide yes)
 			)
 		)
-		(property "Link 1" "https://jlcpcb.com/partdetail/DiodesIncorporated-MMSZ5226BS_7F/C145097"
+		(property "Distributor" "https://jlcpcb.com/partdetail/DiodesIncorporated-MMSZ5226BS_7F/C145097"
+			(at 87.63 111.76 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "MFR Part" "MMSZ5226BS-7-F"
+			(at 87.63 111.76 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Manufacturer" "Diodes Incorporated"
 			(at 87.63 111.76 90)
 			(effects
 				(font
@@ -5128,7 +5743,7 @@
 	)
 	(symbol
 		(lib_id "power:GND")
-		(at 199.39 110.49 0)
+		(at 200.66 110.49 0)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -5136,7 +5751,7 @@
 		(dnp no)
 		(uuid "a041ab4a-b57a-4027-9bf7-444976ba5d60")
 		(property "Reference" "#PWR0216"
-			(at 199.39 116.84 0)
+			(at 200.66 116.84 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -5145,7 +5760,7 @@
 			)
 		)
 		(property "Value" "GND"
-			(at 199.39 114.554 0)
+			(at 200.66 114.554 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -5154,7 +5769,7 @@
 			)
 		)
 		(property "Footprint" ""
-			(at 199.39 110.49 0)
+			(at 200.66 110.49 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -5163,7 +5778,7 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 199.39 110.49 0)
+			(at 200.66 110.49 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -5172,7 +5787,7 @@
 			)
 		)
 		(property "Description" "Power symbol creates a global label with name \"GND\" , ground"
-			(at 199.39 110.49 0)
+			(at 200.66 110.49 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -5359,7 +5974,7 @@
 				(hide yes)
 			)
 		)
-		(property "Datasheet" "https://jlcpcb.com/partdetail/28584-0805W8F5101T5E/C27834"
+		(property "Datasheet" "~"
 			(at 71.12 106.68 0)
 			(effects
 				(font
@@ -5370,6 +5985,33 @@
 		)
 		(property "Description" ""
 			(at 71.12 106.68 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Distributor" "https://jlcpcb.com/partdetail/28584-0805W8F5101T5E/C27834"
+			(at 71.12 106.68 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "MFR Part" "0805W8F5101T5E "
+			(at 71.12 106.68 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Manufacturer" "UNI-ROYAL(Uniroyal Elec) "
+			(at 71.12 106.68 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -5394,7 +6036,7 @@
 	)
 	(symbol
 		(lib_id "Device:LED")
-		(at 210.82 146.05 90)
+		(at 212.09 144.78 90)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -5403,7 +6045,7 @@
 		(fields_autoplaced yes)
 		(uuid "b5da2017-5f67-41c7-b3a5-45c5bae3e76e")
 		(property "Reference" "D203"
-			(at 214.63 146.3674 90)
+			(at 215.9 145.0974 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -5412,7 +6054,7 @@
 			)
 		)
 		(property "Value" "RED"
-			(at 214.63 148.9074 90)
+			(at 215.9 147.6374 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -5421,7 +6063,7 @@
 			)
 		)
 		(property "Footprint" "LED_SMD:LED_0805_2012Metric"
-			(at 210.82 146.05 0)
+			(at 212.09 144.78 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -5429,8 +6071,8 @@
 				(hide yes)
 			)
 		)
-		(property "Datasheet" "https://jlcpcb.com/partdetail/85425-NCD0805R1/C84256"
-			(at 210.82 146.05 0)
+		(property "Datasheet" "~"
+			(at 212.09 144.78 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -5439,7 +6081,7 @@
 			)
 		)
 		(property "Description" "Light emitting diode"
-			(at 210.82 146.05 0)
+			(at 212.09 144.78 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -5447,8 +6089,26 @@
 				(hide yes)
 			)
 		)
-		(property "Sim.Pins" "1=K 2=A"
-			(at 210.82 146.05 0)
+		(property "Distributor" "https://jlcpcb.com/partdetail/85425-NCD0805R1/C84256"
+			(at 212.09 144.78 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "MFR Part" "NCD0805R1"
+			(at 212.09 144.78 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Manufacturer" "Foshan NationStar Optoelectronics"
+			(at 212.09 144.78 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -5500,7 +6160,7 @@
 				(hide yes)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "Connector_PinHeader_2.54mm:PinHeader_1x03_P2.54mm_Vertical"
 			(at 241.3 55.88 0)
 			(effects
 				(font
@@ -5509,7 +6169,7 @@
 				(hide yes)
 			)
 		)
-		(property "Datasheet" "~"
+		(property "Datasheet" "https://jlcpcb.com/partdetail/BOOMELE_Boom_Precision_Elec-2_54/C5305"
 			(at 241.3 55.88 0)
 			(effects
 				(font
@@ -5520,6 +6180,33 @@
 		)
 		(property "Description" "Jumper, 3-pole, pins 1+2 closed/bridged"
 			(at 241.3 55.88 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Distributor" ""
+			(at 241.3 55.88 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "MFR Part" ""
+			(at 241.3 55.88 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Manufacturer" ""
+			(at 241.3 55.88 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -5646,7 +6333,7 @@
 				(hide yes)
 			)
 		)
-		(property "Datasheet" "https://jlcpcb.com/partdetail/Sumida-104CDMCCDS1R5MC/C516064"
+		(property "Datasheet" "~"
 			(at 175.26 43.18 0)
 			(effects
 				(font
@@ -5657,6 +6344,33 @@
 		)
 		(property "Description" "1.5uH 19A 29A 3.3mΩ Molded Inductor"
 			(at 175.26 43.18 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Distributor" "https://jlcpcb.com/partdetail/Sumida-104CDMCCDS1R5MC/C516064"
+			(at 175.26 43.18 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "MFR Part" "104CDMCCDS-1R5MC"
+			(at 175.26 43.18 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Manufacturer" "Sumida"
+			(at 175.26 43.18 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -5681,16 +6395,15 @@
 	)
 	(symbol
 		(lib_id "power:VBUS")
-		(at 199.39 102.87 0)
+		(at 200.66 102.87 0)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
 		(on_board yes)
 		(dnp no)
-		(fields_autoplaced yes)
 		(uuid "cf723c32-f821-42fc-9697-1a60c693faa1")
 		(property "Reference" "#PWR0214"
-			(at 199.39 106.68 0)
+			(at 200.66 106.68 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -5699,7 +6412,7 @@
 			)
 		)
 		(property "Value" "VUSB"
-			(at 199.39 97.79 0)
+			(at 200.66 99.314 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -5707,7 +6420,7 @@
 			)
 		)
 		(property "Footprint" ""
-			(at 199.39 102.87 0)
+			(at 200.66 102.87 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -5716,7 +6429,7 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 199.39 102.87 0)
+			(at 200.66 102.87 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -5725,7 +6438,7 @@
 			)
 		)
 		(property "Description" "Power symbol creates a global label with name \"VBUS\""
-			(at 199.39 102.87 0)
+			(at 200.66 102.87 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -5763,7 +6476,7 @@
 				)
 			)
 		)
-		(property "Value" "600mA"
+		(property "Value" "2A"
 			(at 95.25 39.37 90)
 			(effects
 				(font
@@ -5771,7 +6484,7 @@
 				)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "Fuse:Fuseholder_Clip-5x20mm_Littelfuse_111_Inline_P20.00x5.00mm_D1.05mm_Horizontal"
 			(at 100.33 41.91 0)
 			(effects
 				(font
@@ -5799,6 +6512,33 @@
 				(hide yes)
 			)
 		)
+		(property "Distributor" "https://jlcpcb.com/partdetail/XuchengElec-5x20/C3130"
+			(at 95.25 43.18 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "MFR Part" "5x20 环保 保险管夹/座"
+			(at 95.25 43.18 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Manufacturer" " Xucheng Elec"
+			(at 95.25 43.18 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
 		(pin "2"
 			(uuid "3996e607-5d37-4ef9-a5e6-46a4778a2e76")
 		)
@@ -5815,8 +6555,102 @@
 		)
 	)
 	(symbol
+		(lib_id "Connector:TestPoint")
+		(at 87.63 106.68 0)
+		(mirror y)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom no)
+		(on_board yes)
+		(dnp no)
+		(uuid "d9c375ad-3aba-4f19-9180-3a8dd682c683")
+		(property "Reference" "TP203"
+			(at 87.63 101.6 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "TestPoint"
+			(at 90.17 104.6479 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+				(hide yes)
+			)
+		)
+		(property "Footprint" "TestPoint:TestPoint_Pad_D2.0mm"
+			(at 82.55 106.68 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "~"
+			(at 82.55 106.68 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "test point"
+			(at 87.63 106.68 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Distributor" "~"
+			(at 87.63 106.68 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "MFR Part" ""
+			(at 87.63 106.68 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Manufacturer" ""
+			(at 87.63 106.68 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "e098e7a1-7880-4c3e-a493-c806e65f7265")
+		)
+		(instances
+			(project "PUEiE_pcb"
+				(path "/064b0dc2-c3a5-4c74-8cbf-4fc3d8c84854/14f85070-237d-42f7-a449-5fde0a107bb8"
+					(reference "TP203")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
 		(lib_id "Device:C")
-		(at 224.79 106.68 0)
+		(at 223.52 106.68 0)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -5824,7 +6658,7 @@
 		(dnp no)
 		(uuid "db305eec-fa39-4c9b-a2be-6400b4a3de4a")
 		(property "Reference" "C209"
-			(at 227.584 105.41 0)
+			(at 226.314 105.41 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -5833,7 +6667,7 @@
 			)
 		)
 		(property "Value" "22u"
-			(at 227.584 107.95 0)
+			(at 226.314 107.95 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -5842,7 +6676,7 @@
 			)
 		)
 		(property "Footprint" "Capacitor_SMD:C_0603_1608Metric"
-			(at 225.7552 110.49 0)
+			(at 224.4852 110.49 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -5850,8 +6684,8 @@
 				(hide yes)
 			)
 		)
-		(property "Datasheet" "https://jlcpcb.com/partdetail/MurataElectronics-GRM188R60J226MEA0D/C77042"
-			(at 224.79 106.68 0)
+		(property "Datasheet" "~"
+			(at 223.52 106.68 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -5860,7 +6694,34 @@
 			)
 		)
 		(property "Description" "22uF 6.3V X5R ±20% 0603 Multilayer Ceramic Capacitors"
-			(at 224.79 106.68 0)
+			(at 223.52 106.68 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Distributor" "https://jlcpcb.com/partdetail/MurataElectronics-GRM188R60J226MEA0D/C77042"
+			(at 223.52 106.68 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "MFR Part" "GRM188R60J226MEA0D"
+			(at 223.52 106.68 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Manufacturer" "Murata Electronics "
+			(at 223.52 106.68 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -6016,6 +6877,104 @@
 		)
 	)
 	(symbol
+		(lib_id "Switch:SW_Nidec_CAS-120A1")
+		(at 68.58 45.72 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(uuid "e163fe94-a905-448b-bf49-2c3d07c3e66a")
+		(property "Reference" "SW201"
+			(at 68.58 39.37 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "SW_Nidec_CAS-120A1"
+			(at 68.58 39.37 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Footprint" "Button_Switch_THT:SW_Slide-03_Wuerth-WS-SLTV_10x2.5x6.4_P2.54mm"
+			(at 68.58 55.88 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "~"
+			(at 68.58 53.34 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Switch, single pole double throw"
+			(at 68.58 45.72 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Distributor" "https://www.tme.eu/pl/details/ts01cbe/przelaczniki-suwakowe/c-k/"
+			(at 68.58 45.72 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "MFR Part" "TS01CBE"
+			(at 68.58 45.72 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Manufacturer" "C&K"
+			(at 68.58 45.72 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "88c0634e-b452-4831-8f0f-0df3a9f98188")
+		)
+		(pin "3"
+			(uuid "1f225fab-7b46-4658-a073-f20ac24b071f")
+		)
+		(pin "2"
+			(uuid "950aaf7f-5b86-49e3-b858-b6f45e7d6f30")
+		)
+		(instances
+			(project ""
+				(path "/064b0dc2-c3a5-4c74-8cbf-4fc3d8c84854/14f85070-237d-42f7-a449-5fde0a107bb8"
+					(reference "SW201")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
 		(lib_id "power:GND")
 		(at 209.55 50.8 0)
 		(unit 1)
@@ -6117,7 +7076,7 @@
 				(hide yes)
 			)
 		)
-		(property "Datasheet" "https://jlcpcb.com/partdetail/28983-CL21B104KCFNNNE/C28233"
+		(property "Datasheet" "~"
 			(at 77.47 111.76 0)
 			(effects
 				(font
@@ -6127,6 +7086,33 @@
 			)
 		)
 		(property "Description" ""
+			(at 77.47 111.76 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Distributor" "https://jlcpcb.com/partdetail/28983-CL21B104KCFNNNE/C28233"
+			(at 77.47 111.76 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "MFR Part" "CL21B104KCFNNNE"
+			(at 77.47 111.76 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Manufacturer" "Samsung Electro-Mechanics"
 			(at 77.47 111.76 0)
 			(effects
 				(font
@@ -6285,7 +7271,7 @@
 	)
 	(symbol
 		(lib_id "power:PWR_FLAG")
-		(at 234.95 43.18 0)
+		(at 241.3 43.18 0)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -6294,7 +7280,7 @@
 		(fields_autoplaced yes)
 		(uuid "f2602608-1f3d-44ee-bdc3-511a1d6701ba")
 		(property "Reference" "#FLG0201"
-			(at 234.95 41.275 0)
+			(at 241.3 41.275 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -6303,7 +7289,7 @@
 			)
 		)
 		(property "Value" "PWR_FLAG"
-			(at 234.95 38.1 0)
+			(at 241.3 38.1 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -6312,7 +7298,7 @@
 			)
 		)
 		(property "Footprint" ""
-			(at 234.95 43.18 0)
+			(at 241.3 43.18 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -6321,7 +7307,7 @@
 			)
 		)
 		(property "Datasheet" "~"
-			(at 234.95 43.18 0)
+			(at 241.3 43.18 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -6330,7 +7316,7 @@
 			)
 		)
 		(property "Description" "Special symbol for telling ERC where power comes from"
-			(at 234.95 43.18 0)
+			(at 241.3 43.18 0)
 			(effects
 				(font
 					(size 1.27 1.27)

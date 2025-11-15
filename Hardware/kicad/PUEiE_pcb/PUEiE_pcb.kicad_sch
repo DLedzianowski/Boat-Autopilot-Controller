@@ -4817,17 +4817,6 @@
 		)
 		(uuid "ac3310ee-22e4-4182-aaec-72e570dfba5d")
 	)
-	(text "gnss ipx/sma\nscrews terminal\n\nmagnetometr\nsterownik do silnika krokowego"
-		(exclude_from_sim no)
-		(at 19.812 109.474 0)
-		(effects
-			(font
-				(size 2.54 2.54)
-			)
-			(justify left)
-		)
-		(uuid "ca210d24-4667-4000-9144-ee6bf35ab47a")
-	)
 	(text "GND"
 		(exclude_from_sim no)
 		(at 241.046 26.67 0)
@@ -4838,19 +4827,6 @@
 			(justify right bottom)
 		)
 		(uuid "d53f06d6-4f35-4c7c-abfb-ecf3acd6b030")
-	)
-	(text "12V 46lbs -> MAX 40 AMP\n50 AMP FUSE\n10.5V - 15.0V"
-		(exclude_from_sim no)
-		(at 13.716 20.066 0)
-		(effects
-			(font
-				(size 2.54 2.54)
-				(thickness 0.3556)
-				(bold yes)
-			)
-			(justify left)
-		)
-		(uuid "d8176315-e520-4d06-ad50-c083c468408e")
 	)
 	(text "SWIM"
 		(exclude_from_sim no)
@@ -4893,7 +4869,7 @@
 		(uuid "0adb2bb6-dbc2-4c34-ab81-6d2eb97b3cc2")
 	)
 	(junction
-		(at 191.77 50.8)
+		(at 191.77 49.53)
 		(diameter 0)
 		(color 0 0 0 0)
 		(uuid "0ea541ef-99c2-4039-8b7b-b812c2e74163")
@@ -4903,12 +4879,6 @@
 		(diameter 0)
 		(color 0 0 0 0)
 		(uuid "0f08f42f-bb87-442c-bf89-92c047a7918a")
-	)
-	(junction
-		(at 259.08 52.07)
-		(diameter 0)
-		(color 0 0 0 0)
-		(uuid "139883a7-da5b-427d-87f3-a6ddef0cf44f")
 	)
 	(junction
 		(at 25.4 190.5)
@@ -4953,7 +4923,7 @@
 		(uuid "2f37dc3c-4a13-4a34-b133-169e1ec0dfbc")
 	)
 	(junction
-		(at 180.34 34.29)
+		(at 180.34 35.56)
 		(diameter 0)
 		(color 0 0 0 0)
 		(uuid "328bb907-381a-4457-96fe-7a71c9a86786")
@@ -4969,12 +4939,6 @@
 		(diameter 0)
 		(color 0 0 0 0)
 		(uuid "41831613-2ba6-42ed-8b80-5e90e05524b7")
-	)
-	(junction
-		(at 248.92 60.96)
-		(diameter 0)
-		(color 0 0 0 0)
-		(uuid "531ebb8a-d6b0-4ce8-852d-c9015fed954d")
 	)
 	(junction
 		(at 162.56 58.42)
@@ -5031,10 +4995,16 @@
 		(uuid "75089f0f-51e8-4f45-aa4c-2b887cdd4e5f")
 	)
 	(junction
-		(at 248.92 52.07)
+		(at 247.65 52.07)
 		(diameter 0)
 		(color 0 0 0 0)
-		(uuid "76357537-2345-4212-a4e9-a29cdf38fc3d")
+		(uuid "77b830f4-d021-48a8-9f64-bc212440bb98")
+	)
+	(junction
+		(at 257.81 52.07)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "815b9252-ea96-4763-aa3b-f20948ed07e9")
 	)
 	(junction
 		(at 134.62 49.53)
@@ -5061,7 +5031,7 @@
 		(uuid "b6708264-0291-4d13-b996-dd5451bc878c")
 	)
 	(junction
-		(at 170.18 34.29)
+		(at 170.18 35.56)
 		(diameter 0)
 		(color 0 0 0 0)
 		(uuid "ba9a9ba4-8a7b-4263-82d3-b9b37aa20584")
@@ -5091,6 +5061,12 @@
 		(uuid "c5d47f97-97cf-482a-8952-d9a723da7f39")
 	)
 	(junction
+		(at 247.65 60.96)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "d2d9a427-eafe-426a-a503-a43d9c034b67")
+	)
+	(junction
 		(at 93.98 58.42)
 		(diameter 0)
 		(color 0 0 0 0)
@@ -5109,26 +5085,14 @@
 		(uuid "e774d2d5-db22-4e59-ba57-2197621bcf6a")
 	)
 	(junction
-		(at 180.34 43.18)
+		(at 180.34 44.45)
 		(diameter 0)
 		(color 0 0 0 0)
 		(uuid "e7ae6a92-07c0-451c-8ef5-eb361f80dfe2")
 	)
 	(no_connect
-		(at 142.24 123.19)
-		(uuid "02d7bed2-4352-4654-b1eb-d19053f7420d")
-	)
-	(no_connect
-		(at 142.24 115.57)
-		(uuid "135de51d-0faf-4fd8-aee0-fa3a8a703ef7")
-	)
-	(no_connect
 		(at 142.24 113.03)
 		(uuid "1d2e82aa-ed11-413e-8750-155c4785a164")
-	)
-	(no_connect
-		(at 142.24 125.73)
-		(uuid "1f41562d-13d7-45dc-a507-0b06ad195510")
 	)
 	(no_connect
 		(at 44.45 179.07)
@@ -5137,14 +5101,6 @@
 	(no_connect
 		(at 142.24 87.63)
 		(uuid "629cd10e-7874-4efa-a757-13469f50bc33")
-	)
-	(no_connect
-		(at 142.24 128.27)
-		(uuid "85733c64-22e7-4f39-a291-b647175be4bd")
-	)
-	(no_connect
-		(at 142.24 120.65)
-		(uuid "949856f9-98f4-4098-9e6b-d059e87b0c8a")
 	)
 	(no_connect
 		(at 44.45 181.61)
@@ -5167,10 +5123,6 @@
 		(uuid "c0cbfa06-eba6-4c7c-a440-b009c978c9e1")
 	)
 	(no_connect
-		(at 142.24 118.11)
-		(uuid "c1a16777-f2a9-40a1-9dc6-d90fdcc64682")
-	)
-	(no_connect
 		(at 142.24 77.47)
 		(uuid "d6c71c8a-abdb-4c3b-b6f7-5d1c875d118d")
 	)
@@ -5189,6 +5141,16 @@
 	(no_connect
 		(at 142.24 110.49)
 		(uuid "feb42cda-2cad-4ce6-a6fd-c7652c89c7fa")
+	)
+	(wire
+		(pts
+			(xy 135.89 118.11) (xy 142.24 118.11)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "0044954d-bbe6-45d7-9355-3067ef73fd49")
 	)
 	(wire
 		(pts
@@ -5222,7 +5184,7 @@
 	)
 	(wire
 		(pts
-			(xy 130.81 95.25) (xy 142.24 95.25)
+			(xy 135.89 95.25) (xy 142.24 95.25)
 		)
 		(stroke
 			(width 0)
@@ -5282,7 +5244,7 @@
 	)
 	(wire
 		(pts
-			(xy 160.02 34.29) (xy 160.02 59.69)
+			(xy 160.02 35.56) (xy 160.02 59.69)
 		)
 		(stroke
 			(width 0)
@@ -5302,7 +5264,7 @@
 	)
 	(wire
 		(pts
-			(xy 140.97 85.09) (xy 142.24 85.09)
+			(xy 135.89 85.09) (xy 142.24 85.09)
 		)
 		(stroke
 			(width 0)
@@ -5332,7 +5294,7 @@
 	)
 	(wire
 		(pts
-			(xy 140.97 102.87) (xy 142.24 102.87)
+			(xy 135.89 102.87) (xy 142.24 102.87)
 		)
 		(stroke
 			(width 0)
@@ -5372,6 +5334,16 @@
 	)
 	(wire
 		(pts
+			(xy 265.43 52.07) (xy 267.97 52.07)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "143dec7b-a89c-499e-9e81-508bd3f05299")
+	)
+	(wire
+		(pts
 			(xy 157.48 35.56) (xy 157.48 59.69)
 		)
 		(stroke
@@ -5392,7 +5364,7 @@
 	)
 	(wire
 		(pts
-			(xy 191.77 50.8) (xy 187.96 50.8)
+			(xy 191.77 49.53) (xy 187.96 49.53)
 		)
 		(stroke
 			(width 0)
@@ -5412,7 +5384,17 @@
 	)
 	(wire
 		(pts
-			(xy 259.08 53.34) (xy 259.08 52.07)
+			(xy 38.1 82.55) (xy 44.45 82.55)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "194eeaa1-8e5f-46e6-b1b4-2bb8cd5a0d29")
+	)
+	(wire
+		(pts
+			(xy 257.81 53.34) (xy 257.81 52.07)
 		)
 		(stroke
 			(width 0)
@@ -5463,7 +5445,17 @@
 	)
 	(wire
 		(pts
-			(xy 248.92 60.96) (xy 248.92 62.23)
+			(xy 135.89 120.65) (xy 142.24 120.65)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "1b31bbac-3689-458c-9f1d-680211e02bf5")
+	)
+	(wire
+		(pts
+			(xy 247.65 60.96) (xy 247.65 62.23)
 		)
 		(stroke
 			(width 0)
@@ -5593,13 +5585,23 @@
 	)
 	(wire
 		(pts
-			(xy 187.96 72.39) (xy 195.58 72.39)
+			(xy 187.96 72.39) (xy 193.04 72.39)
 		)
 		(stroke
 			(width 0)
 			(type default)
 		)
 		(uuid "34f8a014-e1f5-49fe-9c9b-0ca7e6395aa8")
+	)
+	(wire
+		(pts
+			(xy 135.89 105.41) (xy 142.24 105.41)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "37175c64-6cf9-4892-a768-bf382836d46d")
 	)
 	(wire
 		(pts
@@ -5613,23 +5615,13 @@
 	)
 	(wire
 		(pts
-			(xy 140.97 82.55) (xy 142.24 82.55)
+			(xy 135.89 82.55) (xy 142.24 82.55)
 		)
 		(stroke
 			(width 0)
 			(type default)
 		)
 		(uuid "3ba10792-fa9f-4851-a18f-7e5c19477622")
-	)
-	(wire
-		(pts
-			(xy 203.2 72.39) (xy 204.47 72.39)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "3c2667db-720b-471f-bcf1-a918ecd88b15")
 	)
 	(wire
 		(pts
@@ -5653,13 +5645,23 @@
 	)
 	(wire
 		(pts
-			(xy 170.18 43.18) (xy 180.34 43.18)
+			(xy 170.18 44.45) (xy 180.34 44.45)
 		)
 		(stroke
 			(width 0)
 			(type default)
 		)
 		(uuid "44ae806b-0f5f-4436-96c2-3eed244ab173")
+	)
+	(wire
+		(pts
+			(xy 247.65 52.07) (xy 257.81 52.07)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "44c90ac3-eafa-4b0d-ae75-861905210ef5")
 	)
 	(wire
 		(pts
@@ -5683,6 +5685,16 @@
 	)
 	(wire
 		(pts
+			(xy 247.65 60.96) (xy 257.81 60.96)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "48454b2b-4c1c-471d-8032-a2d40de58a4e")
+	)
+	(wire
+		(pts
 			(xy 154.94 58.42) (xy 154.94 59.69)
 		)
 		(stroke
@@ -5700,6 +5712,16 @@
 			(type default)
 		)
 		(uuid "4b93074d-8c3d-4cd5-971c-fd7198918a42")
+	)
+	(wire
+		(pts
+			(xy 135.89 67.31) (xy 142.24 67.31)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "4c00fbc0-2a6a-44c5-b7f7-01095fd3ab29")
 	)
 	(wire
 		(pts
@@ -5723,16 +5745,6 @@
 	)
 	(wire
 		(pts
-			(xy 248.92 52.07) (xy 259.08 52.07)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "518ed8c3-ebd3-4b50-bba5-68adfed82458")
-	)
-	(wire
-		(pts
 			(xy 207.01 127) (xy 208.28 127)
 		)
 		(stroke
@@ -5753,7 +5765,7 @@
 	)
 	(wire
 		(pts
-			(xy 140.97 100.33) (xy 142.24 100.33)
+			(xy 135.89 100.33) (xy 142.24 100.33)
 		)
 		(stroke
 			(width 0)
@@ -5793,16 +5805,6 @@
 	)
 	(wire
 		(pts
-			(xy 248.92 60.96) (xy 259.08 60.96)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "5c187e8f-dee1-4034-ad28-4857e4b8710c")
-	)
-	(wire
-		(pts
 			(xy 134.62 44.45) (xy 144.78 44.45)
 		)
 		(stroke
@@ -5823,6 +5825,16 @@
 	)
 	(wire
 		(pts
+			(xy 135.89 115.57) (xy 142.24 115.57)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "6082365c-d01e-4d47-82d0-73637ce550b3")
+	)
+	(wire
+		(pts
 			(xy 35.56 38.1) (xy 44.45 38.1)
 		)
 		(stroke
@@ -5833,7 +5845,7 @@
 	)
 	(wire
 		(pts
-			(xy 191.77 50.8) (xy 200.66 50.8)
+			(xy 191.77 49.53) (xy 200.66 49.53)
 		)
 		(stroke
 			(width 0)
@@ -5863,7 +5875,17 @@
 	)
 	(wire
 		(pts
-			(xy 248.92 53.34) (xy 248.92 52.07)
+			(xy 135.89 125.73) (xy 142.24 125.73)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "66953660-4abe-45e2-89ea-c233b1d75cf7")
+	)
+	(wire
+		(pts
+			(xy 247.65 53.34) (xy 247.65 52.07)
 		)
 		(stroke
 			(width 0)
@@ -5880,6 +5902,16 @@
 			(type default)
 		)
 		(uuid "680aae0c-7361-40b1-bbda-8ad138722ba2")
+	)
+	(wire
+		(pts
+			(xy 200.66 72.39) (xy 204.47 72.39)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "6bb85c0f-e649-4760-9554-ddb7361d912a")
 	)
 	(wire
 		(pts
@@ -5910,6 +5942,16 @@
 			(type default)
 		)
 		(uuid "70dc5995-cd9e-4885-a970-72f02bc9d55c")
+	)
+	(wire
+		(pts
+			(xy 38.1 92.71) (xy 44.45 92.71)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "716b2f19-c5ed-4af4-bf94-e82626d3a00f")
 	)
 	(wire
 		(pts
@@ -5973,7 +6015,7 @@
 	)
 	(wire
 		(pts
-			(xy 180.34 35.56) (xy 180.34 34.29)
+			(xy 180.34 36.83) (xy 180.34 35.56)
 		)
 		(stroke
 			(width 0)
@@ -6003,7 +6045,7 @@
 	)
 	(wire
 		(pts
-			(xy 180.34 43.18) (xy 180.34 44.45)
+			(xy 180.34 44.45) (xy 180.34 45.72)
 		)
 		(stroke
 			(width 0)
@@ -6033,6 +6075,16 @@
 	)
 	(wire
 		(pts
+			(xy 38.1 59.69) (xy 44.45 59.69)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "88268a84-f490-4563-b4d8-3e81dacc5a1a")
+	)
+	(wire
+		(pts
 			(xy 93.98 50.8) (xy 93.98 49.53)
 		)
 		(stroke
@@ -6043,7 +6095,7 @@
 	)
 	(wire
 		(pts
-			(xy 187.96 50.8) (xy 187.96 67.31)
+			(xy 187.96 49.53) (xy 187.96 67.31)
 		)
 		(stroke
 			(width 0)
@@ -6063,7 +6115,7 @@
 	)
 	(wire
 		(pts
-			(xy 130.81 97.79) (xy 142.24 97.79)
+			(xy 135.89 97.79) (xy 142.24 97.79)
 		)
 		(stroke
 			(width 0)
@@ -6090,6 +6142,16 @@
 			(type default)
 		)
 		(uuid "91b677be-f1f8-45b1-8c92-86443c654728")
+	)
+	(wire
+		(pts
+			(xy 38.1 62.23) (xy 44.45 62.23)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "91d1696d-f4a2-43f3-9760-119a93e29807")
 	)
 	(wire
 		(pts
@@ -6123,7 +6185,7 @@
 	)
 	(wire
 		(pts
-			(xy 130.81 92.71) (xy 142.24 92.71)
+			(xy 135.89 92.71) (xy 142.24 92.71)
 		)
 		(stroke
 			(width 0)
@@ -6133,7 +6195,7 @@
 	)
 	(wire
 		(pts
-			(xy 245.11 52.07) (xy 248.92 52.07)
+			(xy 245.11 52.07) (xy 247.65 52.07)
 		)
 		(stroke
 			(width 0)
@@ -6150,6 +6212,16 @@
 			(type default)
 		)
 		(uuid "9b59bc7d-5f20-4d1a-b414-f6f49c412013")
+	)
+	(wire
+		(pts
+			(xy 38.1 100.33) (xy 44.45 100.33)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "9e8a0a69-4b3d-423d-9125-aa82f93814c3")
 	)
 	(wire
 		(pts
@@ -6173,13 +6245,23 @@
 	)
 	(wire
 		(pts
-			(xy 140.97 69.85) (xy 142.24 69.85)
+			(xy 135.89 69.85) (xy 142.24 69.85)
 		)
 		(stroke
 			(width 0)
 			(type default)
 		)
 		(uuid "9fad8d8e-13b9-44f9-a916-41aad3703a4d")
+	)
+	(wire
+		(pts
+			(xy 38.1 87.63) (xy 44.45 87.63)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "a070ab10-8259-407b-8257-bbd21e89e7c0")
 	)
 	(wire
 		(pts
@@ -6273,7 +6355,7 @@
 	)
 	(wire
 		(pts
-			(xy 170.18 34.29) (xy 170.18 35.56)
+			(xy 170.18 35.56) (xy 170.18 36.83)
 		)
 		(stroke
 			(width 0)
@@ -6343,6 +6425,16 @@
 	)
 	(wire
 		(pts
+			(xy 38.1 74.93) (xy 44.45 74.93)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "ba087767-49f5-41f6-8ed8-b5f120ae8f33")
+	)
+	(wire
+		(pts
 			(xy 44.45 168.91) (xy 45.72 168.91)
 		)
 		(stroke
@@ -6360,6 +6452,16 @@
 			(type default)
 		)
 		(uuid "bd2869cc-17f5-4249-a797-47f1798be3e5")
+	)
+	(wire
+		(pts
+			(xy 38.1 102.87) (xy 44.45 102.87)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "bdab9a93-444d-4f38-90f1-317e1d3a6a34")
 	)
 	(wire
 		(pts
@@ -6423,7 +6525,7 @@
 	)
 	(wire
 		(pts
-			(xy 276.86 52.07) (xy 279.4 52.07)
+			(xy 278.13 52.07) (xy 279.4 52.07)
 		)
 		(stroke
 			(width 0)
@@ -6433,13 +6535,33 @@
 	)
 	(wire
 		(pts
-			(xy 140.97 130.81) (xy 142.24 130.81)
+			(xy 38.1 69.85) (xy 44.45 69.85)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "cfc1e1e6-d12f-4871-9fb5-41a6ff8251b7")
+	)
+	(wire
+		(pts
+			(xy 135.89 130.81) (xy 142.24 130.81)
 		)
 		(stroke
 			(width 0)
 			(type default)
 		)
 		(uuid "cfefc5fc-a5c3-4e24-8582-dc98a019a35f")
+	)
+	(wire
+		(pts
+			(xy 78.74 167.64) (xy 83.82 167.64)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "d06494d4-86de-47ec-8239-a81219689ccb")
 	)
 	(wire
 		(pts
@@ -6453,7 +6575,7 @@
 	)
 	(wire
 		(pts
-			(xy 160.02 34.29) (xy 170.18 34.29)
+			(xy 160.02 35.56) (xy 170.18 35.56)
 		)
 		(stroke
 			(width 0)
@@ -6513,13 +6635,33 @@
 	)
 	(wire
 		(pts
-			(xy 170.18 34.29) (xy 180.34 34.29)
+			(xy 170.18 35.56) (xy 180.34 35.56)
 		)
 		(stroke
 			(width 0)
 			(type default)
 		)
 		(uuid "db4eebc3-3697-475f-bcf4-e805f9100926")
+	)
+	(wire
+		(pts
+			(xy 135.89 128.27) (xy 142.24 128.27)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "dd24700a-ab7a-4224-b899-43be0980c36e")
+	)
+	(wire
+		(pts
+			(xy 38.1 85.09) (xy 44.45 85.09)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "e09af8bd-e98f-493c-8c18-f7c9ab223348")
 	)
 	(polyline
 		(pts
@@ -6531,6 +6673,16 @@
 			(color 0 0 0 1)
 		)
 		(uuid "e163e48c-769d-4234-b895-0ae87aa31293")
+	)
+	(wire
+		(pts
+			(xy 78.74 170.18) (xy 83.82 170.18)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "e33216ee-87df-41a3-8099-3daa1c7e6250")
 	)
 	(wire
 		(pts
@@ -6554,7 +6706,17 @@
 	)
 	(wire
 		(pts
-			(xy 140.97 133.35) (xy 142.24 133.35)
+			(xy 38.1 64.77) (xy 44.45 64.77)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "e76137a0-79a3-4139-92da-d35923abc2cc")
+	)
+	(wire
+		(pts
+			(xy 135.89 133.35) (xy 142.24 133.35)
 		)
 		(stroke
 			(width 0)
@@ -6584,13 +6746,23 @@
 	)
 	(wire
 		(pts
-			(xy 130.81 90.17) (xy 142.24 90.17)
+			(xy 135.89 90.17) (xy 142.24 90.17)
 		)
 		(stroke
 			(width 0)
 			(type default)
 		)
 		(uuid "eadeb093-b5d8-4fd9-93f0-42fa59447078")
+	)
+	(wire
+		(pts
+			(xy 38.1 80.01) (xy 44.45 80.01)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "ed085d19-e14c-4523-8b04-dfca15d4f005")
 	)
 	(wire
 		(pts
@@ -6631,6 +6803,36 @@
 			(type default)
 		)
 		(uuid "f1bf3866-5ff3-4eaf-be47-0359afd8ddd3")
+	)
+	(wire
+		(pts
+			(xy 135.89 123.19) (xy 142.24 123.19)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "f4945bd4-9fdf-4045-b1bd-aebe7e503af7")
+	)
+	(wire
+		(pts
+			(xy 38.1 95.25) (xy 44.45 95.25)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "f65b0bc9-b033-4885-92ee-cc97ea1b069c")
+	)
+	(wire
+		(pts
+			(xy 38.1 72.39) (xy 44.45 72.39)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "f661c33c-c23f-4017-a50d-a65cf47c3ff8")
 	)
 	(wire
 		(pts
@@ -6713,15 +6915,45 @@
 		)
 		(uuid "041416fd-3c49-421a-b3c7-1edadac29cd6")
 	)
-	(label "USART_TX"
-		(at 132.08 90.17 0)
+	(label "USB_D+"
+		(at 78.74 167.64 0)
 		(effects
 			(font
-				(size 1.27 1.27)
+				(size 0.5 0.5)
 			)
 			(justify left bottom)
 		)
+		(uuid "066b3893-8397-42d3-a3e7-f015756ce9b2")
+	)
+	(label "USART_TX_"
+		(at 142.24 90.17 180)
+		(effects
+			(font
+				(size 0.5 0.5)
+			)
+			(justify right bottom)
+		)
 		(uuid "0ad7f4b5-e603-4da4-8e91-763bb05e4403")
+	)
+	(label "USB_D+"
+		(at 142.24 97.79 180)
+		(effects
+			(font
+				(size 0.5 0.5)
+			)
+			(justify right bottom)
+		)
+		(uuid "0d1e44c0-a039-4af8-b009-a759ce7764e5")
+	)
+	(label "BOOT0_SW"
+		(at 265.43 52.07 0)
+		(effects
+			(font
+				(size 0.5 0.5)
+			)
+			(justify left bottom)
+		)
+		(uuid "13a5e7d9-ef38-4a63-abef-aa1c3b5c48a7")
 	)
 	(label "ST_linkv2_3V3"
 		(at 247.65 36.83 0)
@@ -6732,6 +6964,26 @@
 			(justify left bottom)
 		)
 		(uuid "169e04e4-ca6d-4eee-a98a-939cf247ee2e")
+	)
+	(label "USB_D-"
+		(at 142.24 95.25 180)
+		(effects
+			(font
+				(size 0.5 0.5)
+			)
+			(justify right bottom)
+		)
+		(uuid "1e0720a9-4498-4914-9b86-72aabfd442d3")
+	)
+	(label "SMD_STEP"
+		(at 39.37 69.85 0)
+		(effects
+			(font
+				(size 0.5 0.5)
+			)
+			(justify left bottom)
+		)
+		(uuid "2040c7cc-0406-40a7-ae09-b1e90e5d1ce2")
 	)
 	(label "ST_linkv2_3V3"
 		(at 264.16 27.94 0)
@@ -6763,13 +7015,43 @@
 		)
 		(uuid "2d6c3ac8-624a-4866-ae74-a6a9bc278cca")
 	)
-	(label "USART_RX"
-		(at 132.08 92.71 0)
+	(label "VLXSMPS"
+		(at 187.96 72.39 0)
 		(effects
 			(font
-				(size 1.27 1.27)
+				(size 0.5 0.5)
 			)
 			(justify left bottom)
+		)
+		(uuid "430d0f9c-f42e-49d1-819b-11eb81431de8")
+	)
+	(label "VLXSMPS_L"
+		(at 200.66 72.39 0)
+		(effects
+			(font
+				(size 0.5 0.5)
+			)
+			(justify left bottom)
+		)
+		(uuid "4561b125-1437-4d43-949b-8f69204e63a0")
+	)
+	(label "SWDIO"
+		(at 142.24 100.33 180)
+		(effects
+			(font
+				(size 0.5 0.5)
+			)
+			(justify right bottom)
+		)
+		(uuid "4733b085-7936-40f8-94ce-8b2192586c77")
+	)
+	(label "USART_RX_"
+		(at 142.24 92.71 180)
+		(effects
+			(font
+				(size 0.5 0.5)
+			)
+			(justify right bottom)
 		)
 		(uuid "4e98d1ef-205e-49d8-8275-4dc2f265ab98")
 	)
@@ -6783,6 +7065,36 @@
 			(justify left bottom)
 		)
 		(uuid "51c396cd-1860-47fa-8acf-2d7fde5efe98")
+	)
+	(label "MAG_~{CS}"
+		(at 39.37 80.01 0)
+		(effects
+			(font
+				(size 0.5 0.5)
+			)
+			(justify left bottom)
+		)
+		(uuid "53eefe57-3c11-4607-bab8-4bf06bbf7dc8")
+	)
+	(label "MOTOR_PWM"
+		(at 39.37 102.87 0)
+		(effects
+			(font
+				(size 0.5 0.5)
+			)
+			(justify left bottom)
+		)
+		(uuid "6223ddbe-54da-4e00-b870-360ea793627c")
+	)
+	(label "USB_D-"
+		(at 78.74 170.18 0)
+		(effects
+			(font
+				(size 0.5 0.5)
+			)
+			(justify left bottom)
+		)
+		(uuid "633e35aa-5bba-49af-8b3b-0f9b0278fa89")
 	)
 	(label "RF_Matching_Network"
 		(at 227.33 90.17 0)
@@ -6804,15 +7116,55 @@
 		)
 		(uuid "6c8886dd-0ec1-48fc-937c-1d931f0d9f2b")
 	)
-	(label "USB_D+"
-		(at 132.08 97.79 0)
+	(label "MOTOR_PWM"
+		(at 142.24 105.41 180)
 		(effects
 			(font
-				(size 1.27 1.27)
+				(size 0.5 0.5)
+			)
+			(justify right bottom)
+		)
+		(uuid "6d6c811b-6f1c-4ca3-afbf-f3d3ef6b7569")
+	)
+	(label "SPI_MOSI"
+		(at 39.37 85.09 0)
+		(effects
+			(font
+				(size 0.5 0.5)
 			)
 			(justify left bottom)
 		)
-		(uuid "748d9801-0378-4874-b394-e5661cb777b1")
+		(uuid "70779dfd-ee04-4bdd-82a8-97b65f1c4ad1")
+	)
+	(label "MOTOR_DIR"
+		(at 39.37 100.33 0)
+		(effects
+			(font
+				(size 0.5 0.5)
+			)
+			(justify left bottom)
+		)
+		(uuid "713543ef-ea37-4e05-ad5a-6bbdfd80904c")
+	)
+	(label "I2C_SCL"
+		(at 142.24 130.81 180)
+		(effects
+			(font
+				(size 0.5 0.5)
+			)
+			(justify right bottom)
+		)
+		(uuid "7244dc7a-3131-4340-84a4-0c8e49754983")
+	)
+	(label "VFBSMPS"
+		(at 187.96 76.2 0)
+		(effects
+			(font
+				(size 0.5 0.5)
+			)
+			(justify left bottom)
+		)
+		(uuid "74d6ef04-004d-46c5-8744-b7eb5e7114e0")
 	)
 	(label "LSE_IN"
 		(at 187.96 118.11 0)
@@ -6824,6 +7176,36 @@
 		)
 		(uuid "74f38bc6-6fef-4011-af25-a261893c3115")
 	)
+	(label "MOTOR_DIR"
+		(at 142.24 118.11 180)
+		(effects
+			(font
+				(size 0.5 0.5)
+			)
+			(justify right bottom)
+		)
+		(uuid "759140ed-ed71-4133-b4ed-5a37801b8121")
+	)
+	(label "USART_RX"
+		(at 43.18 59.69 180)
+		(effects
+			(font
+				(size 0.5 0.5)
+			)
+			(justify right bottom)
+		)
+		(uuid "76ed4039-b093-4976-aab4-9fc562876348")
+	)
+	(label "SPI_SCK"
+		(at 142.24 69.85 180)
+		(effects
+			(font
+				(size 0.5 0.5)
+			)
+			(justify right bottom)
+		)
+		(uuid "77c5b7ed-d4ce-42e2-a7f4-253613075409")
+	)
 	(label "BOOT0"
 		(at 187.96 95.25 0)
 		(effects
@@ -6833,6 +7215,16 @@
 			(justify left bottom)
 		)
 		(uuid "7d6ba522-5ae2-4868-b3c4-43cf5e24f006")
+	)
+	(label "~{GPS_RESET}"
+		(at 39.37 64.77 0)
+		(effects
+			(font
+				(size 0.5 0.5)
+			)
+			(justify left bottom)
+		)
+		(uuid "81e6c5d5-6a11-4a29-ad34-6bbf849c7260")
 	)
 	(label "USBCC2"
 		(at 44.45 158.75 0)
@@ -6844,6 +7236,26 @@
 			(justify left bottom)
 		)
 		(uuid "86224475-731d-4b88-b553-404621b86614")
+	)
+	(label "SMD_DIR"
+		(at 142.24 125.73 180)
+		(effects
+			(font
+				(size 0.5 0.5)
+			)
+			(justify right bottom)
+		)
+		(uuid "89d91af2-42a9-4a8e-86e7-9f217330e097")
+	)
+	(label "SMD_ENN"
+		(at 39.37 74.93 0)
+		(effects
+			(font
+				(size 0.5 0.5)
+			)
+			(justify left bottom)
+		)
+		(uuid "8c1c1176-7231-4f1a-b4a6-26b625df5ee5")
 	)
 	(label "LSE_OUT"
 		(at 187.96 120.65 0)
@@ -6865,6 +7277,96 @@
 		)
 		(uuid "8fa80bc0-ca14-45d5-821f-29770219e15e")
 	)
+	(label "SPI_MISO"
+		(at 39.37 87.63 0)
+		(effects
+			(font
+				(size 0.5 0.5)
+			)
+			(justify left bottom)
+		)
+		(uuid "926a91fd-25b2-4e41-a3e3-42a39322cff2")
+	)
+	(label "I2C_SCL"
+		(at 39.37 92.71 0)
+		(effects
+			(font
+				(size 0.5 0.5)
+			)
+			(justify left bottom)
+		)
+		(uuid "9acdfeeb-9e5e-4679-bc78-ccfa2fed0f64")
+	)
+	(label "SPI_MISO"
+		(at 142.24 82.55 180)
+		(effects
+			(font
+				(size 0.5 0.5)
+			)
+			(justify right bottom)
+		)
+		(uuid "9b94af82-793a-472a-a42f-35158a18ff1b")
+	)
+	(label "USART_TX"
+		(at 39.37 62.23 0)
+		(effects
+			(font
+				(size 0.5 0.5)
+			)
+			(justify left bottom)
+		)
+		(uuid "9dbd1b27-d3ff-477b-ab76-2981ff84cdf5")
+	)
+	(label "SWCLK"
+		(at 142.24 102.87 180)
+		(effects
+			(font
+				(size 0.5 0.5)
+			)
+			(justify right bottom)
+		)
+		(uuid "a33bea6a-95cb-4df1-a5bd-4521ff1e79be")
+	)
+	(label "SPI_MOSI"
+		(at 142.24 85.09 180)
+		(effects
+			(font
+				(size 0.5 0.5)
+			)
+			(justify right bottom)
+		)
+		(uuid "a4f60a6d-36f3-4b23-a223-5305d9716f3e")
+	)
+	(label "ADC_VBAT"
+		(at 66.04 40.64 0)
+		(effects
+			(font
+				(size 0.5 0.5)
+			)
+			(justify left bottom)
+		)
+		(uuid "b0585c14-de04-48e1-bb6c-3cce2ba536aa")
+	)
+	(label "SMD_DIR"
+		(at 39.37 72.39 0)
+		(effects
+			(font
+				(size 0.5 0.5)
+			)
+			(justify left bottom)
+		)
+		(uuid "b264c347-5b0d-44fd-9c5a-1831f67d6728")
+	)
+	(label "SMD_ENN"
+		(at 142.24 128.27 180)
+		(effects
+			(font
+				(size 0.5 0.5)
+			)
+			(justify right bottom)
+		)
+		(uuid "b5ddcfb9-015c-42e9-be99-cdd155207540")
+	)
 	(label "RF"
 		(at 189.23 90.17 0)
 		(effects
@@ -6875,15 +7377,25 @@
 		)
 		(uuid "bc0909db-6970-4870-acea-a02e1436d759")
 	)
-	(label "USB_D-"
-		(at 132.08 95.25 0)
+	(label "I2C_SDA"
+		(at 142.24 133.35 180)
 		(effects
 			(font
-				(size 1.27 1.27)
+				(size 0.5 0.5)
 			)
-			(justify left bottom)
+			(justify right bottom)
 		)
-		(uuid "ee02f754-aedc-46ce-8160-5b866e94d331")
+		(uuid "e04bb549-9016-4f03-8666-793fbea546d5")
+	)
+	(label "ADC_VBAT"
+		(at 142.24 67.31 180)
+		(effects
+			(font
+				(size 0.5 0.5)
+			)
+			(justify right bottom)
+		)
+		(uuid "e1882b37-bb81-4136-a9a7-41f815111577")
 	)
 	(label "USBD+"
 		(at 48.26 171.45 0)
@@ -6896,9 +7408,147 @@
 		)
 		(uuid "ef3df5fb-da95-4eda-b6a2-0d76459d1bf7")
 	)
-	(global_label "USB_D-"
+	(label "SPI_SCK"
+		(at 39.37 82.55 0)
+		(effects
+			(font
+				(size 0.5 0.5)
+			)
+			(justify left bottom)
+		)
+		(uuid "f0caa67a-aa4a-4011-aa7a-6a159075bda1")
+	)
+	(label "~{GPS_RESET}"
+		(at 142.24 115.57 180)
+		(effects
+			(font
+				(size 0.5 0.5)
+			)
+			(justify right bottom)
+		)
+		(uuid "f4cad7ad-8e1d-412c-b3e4-13327cde743b")
+	)
+	(label "I2C_SDA"
+		(at 39.37 95.25 0)
+		(effects
+			(font
+				(size 0.5 0.5)
+			)
+			(justify left bottom)
+		)
+		(uuid "f6836dc4-ab6c-460d-857c-f59a70d493a9")
+	)
+	(label "SMD_STEP"
+		(at 142.24 123.19 180)
+		(effects
+			(font
+				(size 0.5 0.5)
+			)
+			(justify right bottom)
+		)
+		(uuid "f85155f2-8545-4917-8454-645771989c90")
+	)
+	(label "MAG_~{CS}"
+		(at 142.24 120.65 180)
+		(effects
+			(font
+				(size 0.5 0.5)
+			)
+			(justify right bottom)
+		)
+		(uuid "ff50829b-373a-4b21-bfb8-aa42306cbd99")
+	)
+	(global_label "I2C_SDA"
+		(shape bidirectional)
+		(at 38.1 95.25 180)
+		(fields_autoplaced yes)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify right)
+		)
+		(uuid "02bb0056-354a-4654-a5e6-1e5bafc53df8")
+		(property "Intersheetrefs" "${INTERSHEET_REFS}"
+			(at 26.3835 95.25 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+				(hide yes)
+			)
+		)
+	)
+	(global_label "SMD_DIR"
 		(shape input)
-		(at 78.74 170.18 0)
+		(at 38.1 72.39 180)
+		(fields_autoplaced yes)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify right)
+		)
+		(uuid "0859d1fb-bd15-4b68-90c8-ecc2e0cedacf")
+		(property "Intersheetrefs" "${INTERSHEET_REFS}"
+			(at 27.0715 72.39 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+				(hide yes)
+			)
+		)
+	)
+	(global_label "MAG_~{CS}"
+		(shape output)
+		(at 135.89 120.65 180)
+		(fields_autoplaced yes)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify right)
+		)
+		(uuid "089cad07-d806-4668-a80a-46fd78bcf05d")
+		(property "Intersheetrefs" "${INTERSHEET_REFS}"
+			(at 125.6477 120.65 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+				(hide yes)
+			)
+		)
+	)
+	(global_label "MOTOR_DIR"
+		(shape output)
+		(at 135.89 118.11 180)
+		(fields_autoplaced yes)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify right)
+		)
+		(uuid "08c4b7cc-267f-4441-92aa-a33a0a807f4e")
+		(property "Intersheetrefs" "${INTERSHEET_REFS}"
+			(at 122.4424 118.11 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+				(hide yes)
+			)
+		)
+	)
+	(global_label "USB_D-"
+		(shape bidirectional)
+		(at 83.82 170.18 0)
 		(fields_autoplaced yes)
 		(effects
 			(font
@@ -6908,7 +7558,7 @@
 		)
 		(uuid "16de4dcd-cbbd-49ba-8beb-aaa66a0beae2")
 		(property "Intersheetrefs" "${INTERSHEET_REFS}"
-			(at 89.3452 170.18 0)
+			(at 94.4252 170.18 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -6918,9 +7568,97 @@
 			)
 		)
 	)
-	(global_label "PWM_MOTOR"
+	(global_label "SPI_MISO"
+		(shape output)
+		(at 38.1 87.63 180)
+		(fields_autoplaced yes)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify right)
+		)
+		(uuid "1fac15d2-327a-4e03-a25a-3d7b350a5749")
+		(property "Intersheetrefs" "${INTERSHEET_REFS}"
+			(at 26.4667 87.63 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+				(hide yes)
+			)
+		)
+	)
+	(global_label "SPI_SCK"
 		(shape input)
-		(at 142.24 105.41 180)
+		(at 38.1 82.55 180)
+		(fields_autoplaced yes)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify right)
+		)
+		(uuid "206ab188-3f38-4244-afb0-1ef2e3398ed1")
+		(property "Intersheetrefs" "${INTERSHEET_REFS}"
+			(at 27.3134 82.55 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+				(hide yes)
+			)
+		)
+	)
+	(global_label "~{GPS_RESET}"
+		(shape output)
+		(at 135.89 115.57 180)
+		(fields_autoplaced yes)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify right)
+		)
+		(uuid "210c3d8d-c601-49e8-a766-91048e2df79b")
+		(property "Intersheetrefs" "${INTERSHEET_REFS}"
+			(at 122.4426 115.57 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+				(hide yes)
+			)
+		)
+	)
+	(global_label "SMD_STEP"
+		(shape input)
+		(at 38.1 69.85 180)
+		(fields_autoplaced yes)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify right)
+		)
+		(uuid "229aa90b-4ca2-4937-8013-7403868d3273")
+		(property "Intersheetrefs" "${INTERSHEET_REFS}"
+			(at 25.6202 69.85 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+				(hide yes)
+			)
+		)
+	)
+	(global_label "MOTOR_PWM"
+		(shape output)
+		(at 135.89 105.41 180)
 		(fields_autoplaced yes)
 		(effects
 			(font
@@ -6930,7 +7668,7 @@
 		)
 		(uuid "26017480-d397-4928-9695-15f8b1eab95d")
 		(property "Intersheetrefs" "${INTERSHEET_REFS}"
-			(at 127.7644 105.41 0)
+			(at 121.4144 105.41 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -6942,7 +7680,7 @@
 	)
 	(global_label "I2C_SCL"
 		(shape input)
-		(at 140.97 130.81 180)
+		(at 135.89 130.81 180)
 		(fields_autoplaced yes)
 		(effects
 			(font
@@ -6952,7 +7690,7 @@
 		)
 		(uuid "26508aee-c4a4-4a7c-beac-6f531cb9a576")
 		(property "Intersheetrefs" "${INTERSHEET_REFS}"
-			(at 130.4253 130.81 0)
+			(at 125.3453 130.81 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -6986,7 +7724,7 @@
 	)
 	(global_label "USART_TX"
 		(shape input)
-		(at 130.81 92.71 180)
+		(at 135.89 92.71 180)
 		(fields_autoplaced yes)
 		(effects
 			(font
@@ -6996,7 +7734,51 @@
 		)
 		(uuid "308b687e-0433-48e0-a775-a55ccd112ae9")
 		(property "Intersheetrefs" "${INTERSHEET_REFS}"
-			(at 118.8139 92.71 0)
+			(at 123.8939 92.71 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+				(hide yes)
+			)
+		)
+	)
+	(global_label "~{GPS_RESET}"
+		(shape input)
+		(at 38.1 64.77 180)
+		(fields_autoplaced yes)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify right)
+		)
+		(uuid "311d3140-c799-4d4a-ad2f-4064fe9465e0")
+		(property "Intersheetrefs" "${INTERSHEET_REFS}"
+			(at 24.6526 64.77 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+				(hide yes)
+			)
+		)
+	)
+	(global_label "MAG_~{CS}"
+		(shape input)
+		(at 38.1 80.01 180)
+		(fields_autoplaced yes)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify right)
+		)
+		(uuid "3b3fb0b6-427b-4d52-8fd1-03c6e8840be5")
+		(property "Intersheetrefs" "${INTERSHEET_REFS}"
+			(at 27.8577 80.01 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -7007,8 +7789,8 @@
 		)
 	)
 	(global_label "USART_RX"
-		(shape input)
-		(at 130.81 90.17 180)
+		(shape output)
+		(at 135.89 90.17 180)
 		(fields_autoplaced yes)
 		(effects
 			(font
@@ -7018,7 +7800,7 @@
 		)
 		(uuid "3d32b707-0273-4d8e-8b71-34296903f17b")
 		(property "Intersheetrefs" "${INTERSHEET_REFS}"
-			(at 118.5115 90.17 0)
+			(at 123.5915 90.17 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -7029,8 +7811,8 @@
 		)
 	)
 	(global_label "I2C_SDA"
-		(shape input)
-		(at 140.97 133.35 180)
+		(shape bidirectional)
+		(at 135.89 133.35 180)
 		(fields_autoplaced yes)
 		(effects
 			(font
@@ -7040,7 +7822,7 @@
 		)
 		(uuid "46577399-5c91-472e-a824-b87e3f864e3d")
 		(property "Intersheetrefs" "${INTERSHEET_REFS}"
-			(at 130.3648 133.35 0)
+			(at 124.1735 133.35 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -7051,8 +7833,8 @@
 		)
 	)
 	(global_label "SPI_SCK"
-		(shape input)
-		(at 140.97 69.85 180)
+		(shape output)
+		(at 135.89 69.85 180)
 		(fields_autoplaced yes)
 		(effects
 			(font
@@ -7062,7 +7844,29 @@
 		)
 		(uuid "48f35ca9-1713-4072-90f6-36549e88272a")
 		(property "Intersheetrefs" "${INTERSHEET_REFS}"
-			(at 130.1834 69.85 0)
+			(at 125.1034 69.85 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+				(hide yes)
+			)
+		)
+	)
+	(global_label "I2C_SCL"
+		(shape input)
+		(at 38.1 92.71 180)
+		(fields_autoplaced yes)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify right)
+		)
+		(uuid "4d638746-897f-4974-8bc6-49a67daf2612")
+		(property "Intersheetrefs" "${INTERSHEET_REFS}"
+			(at 27.5553 92.71 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -7074,7 +7878,7 @@
 	)
 	(global_label "SWCLK"
 		(shape output)
-		(at 140.97 102.87 180)
+		(at 135.89 102.87 180)
 		(fields_autoplaced yes)
 		(effects
 			(font
@@ -7084,7 +7888,29 @@
 		)
 		(uuid "4f6b9d35-0cbe-4e74-90fd-5ac75cdb5555")
 		(property "Intersheetrefs" "${INTERSHEET_REFS}"
-			(at 131.7558 102.87 0)
+			(at 126.6758 102.87 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+				(hide yes)
+			)
+		)
+	)
+	(global_label "MOTOR_DIR"
+		(shape input)
+		(at 38.1 100.33 180)
+		(fields_autoplaced yes)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify right)
+		)
+		(uuid "50e75ef3-fb02-428d-af0d-f8d417c2799f")
+		(property "Intersheetrefs" "${INTERSHEET_REFS}"
+			(at 24.6524 100.33 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -7138,6 +7964,50 @@
 			)
 		)
 	)
+	(global_label "SMD_STEP"
+		(shape output)
+		(at 135.89 123.19 180)
+		(fields_autoplaced yes)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify right)
+		)
+		(uuid "63cace8f-cfda-4418-80a6-7106b6239f70")
+		(property "Intersheetrefs" "${INTERSHEET_REFS}"
+			(at 123.4102 123.19 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+				(hide yes)
+			)
+		)
+	)
+	(global_label "SMD_ENN"
+		(shape output)
+		(at 135.89 128.27 180)
+		(fields_autoplaced yes)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify right)
+		)
+		(uuid "6a4c1c2e-a9ea-40af-919d-e878705361c5")
+		(property "Intersheetrefs" "${INTERSHEET_REFS}"
+			(at 124.1963 128.27 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+				(hide yes)
+			)
+		)
+	)
 	(global_label "BOOT0"
 		(shape input)
 		(at 245.11 52.07 180)
@@ -7162,7 +8032,7 @@
 	)
 	(global_label "SWDIO"
 		(shape bidirectional)
-		(at 140.97 100.33 180)
+		(at 135.89 100.33 180)
 		(fields_autoplaced yes)
 		(effects
 			(font
@@ -7172,7 +8042,7 @@
 		)
 		(uuid "74103415-6669-4775-ac25-1afce21e80c5")
 		(property "Intersheetrefs" "${INTERSHEET_REFS}"
-			(at 131.0073 100.33 0)
+			(at 125.9273 100.33 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -7206,7 +8076,7 @@
 	)
 	(global_label "NRST"
 		(shape input)
-		(at 200.66 50.8 0)
+		(at 200.66 49.53 0)
 		(fields_autoplaced yes)
 		(effects
 			(font
@@ -7216,12 +8086,56 @@
 		)
 		(uuid "7be12cdd-4c22-4097-9cc0-06eb8af030a3")
 		(property "Intersheetrefs" "${INTERSHEET_REFS}"
-			(at 208.4228 50.8 0)
+			(at 208.4228 49.53 0)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
 				(justify left)
+				(hide yes)
+			)
+		)
+	)
+	(global_label "SMD_DIR"
+		(shape output)
+		(at 135.89 125.73 180)
+		(fields_autoplaced yes)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify right)
+		)
+		(uuid "8717f6db-d764-43cf-882a-86b4422509a8")
+		(property "Intersheetrefs" "${INTERSHEET_REFS}"
+			(at 124.8615 125.73 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+				(hide yes)
+			)
+		)
+	)
+	(global_label "SPI_MOSI"
+		(shape input)
+		(at 38.1 85.09 180)
+		(fields_autoplaced yes)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify right)
+		)
+		(uuid "93fb5bde-2a54-4848-a7d7-210700734fda")
+		(property "Intersheetrefs" "${INTERSHEET_REFS}"
+			(at 26.4667 85.09 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
 				(hide yes)
 			)
 		)
@@ -7250,7 +8164,7 @@
 	)
 	(global_label "SPI_MISO"
 		(shape input)
-		(at 140.97 82.55 180)
+		(at 135.89 82.55 180)
 		(fields_autoplaced yes)
 		(effects
 			(font
@@ -7260,7 +8174,7 @@
 		)
 		(uuid "c1c588b3-a628-466e-8ceb-109d3b1f1c13")
 		(property "Intersheetrefs" "${INTERSHEET_REFS}"
-			(at 129.3367 82.55 0)
+			(at 124.2567 82.55 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -7271,8 +8185,8 @@
 		)
 	)
 	(global_label "USB_D-"
-		(shape input)
-		(at 130.81 95.25 180)
+		(shape bidirectional)
+		(at 135.89 95.25 180)
 		(fields_autoplaced yes)
 		(effects
 			(font
@@ -7282,7 +8196,51 @@
 		)
 		(uuid "c77ee318-0b5d-4b45-b2e6-698b78407bc9")
 		(property "Intersheetrefs" "${INTERSHEET_REFS}"
-			(at 120.2048 95.25 0)
+			(at 125.2848 95.25 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+				(hide yes)
+			)
+		)
+	)
+	(global_label "SMD_ENN"
+		(shape input)
+		(at 38.1 74.93 180)
+		(fields_autoplaced yes)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify right)
+		)
+		(uuid "cad8bb2d-0977-4de5-8b02-1e5b8d417478")
+		(property "Intersheetrefs" "${INTERSHEET_REFS}"
+			(at 26.4063 74.93 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+				(hide yes)
+			)
+		)
+	)
+	(global_label "USART_RX"
+		(shape input)
+		(at 38.1 59.69 180)
+		(fields_autoplaced yes)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify right)
+		)
+		(uuid "d17dbe72-29c1-401b-b4de-ad13fb5b0e67")
+		(property "Intersheetrefs" "${INTERSHEET_REFS}"
+			(at 25.8015 59.69 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -7293,8 +8251,8 @@
 		)
 	)
 	(global_label "USB_D+"
-		(shape input)
-		(at 130.81 97.79 180)
+		(shape bidirectional)
+		(at 135.89 97.79 180)
 		(fields_autoplaced yes)
 		(effects
 			(font
@@ -7304,7 +8262,7 @@
 		)
 		(uuid "d6bace0e-0f2f-4c14-ba09-1c6adfcd1eec")
 		(property "Intersheetrefs" "${INTERSHEET_REFS}"
-			(at 120.2048 97.79 0)
+			(at 125.2848 97.79 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -7315,8 +8273,8 @@
 		)
 	)
 	(global_label "USB_D+"
-		(shape input)
-		(at 78.74 167.64 0)
+		(shape bidirectional)
+		(at 83.82 167.64 0)
 		(fields_autoplaced yes)
 		(effects
 			(font
@@ -7326,7 +8284,7 @@
 		)
 		(uuid "df51e247-c5e5-42a2-a507-a39a02092b52")
 		(property "Intersheetrefs" "${INTERSHEET_REFS}"
-			(at 89.3452 167.64 0)
+			(at 94.4252 167.64 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -7336,9 +8294,31 @@
 			)
 		)
 	)
+	(global_label "USART_TX"
+		(shape output)
+		(at 38.1 62.23 180)
+		(fields_autoplaced yes)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify right)
+		)
+		(uuid "f06377be-ab57-40f7-ad2c-c5d6daefaf0d")
+		(property "Intersheetrefs" "${INTERSHEET_REFS}"
+			(at 26.1039 62.23 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+				(hide yes)
+			)
+		)
+	)
 	(global_label "ADC_VBAT"
 		(shape input)
-		(at 142.24 67.31 180)
+		(at 135.89 67.31 180)
 		(fields_autoplaced yes)
 		(effects
 			(font
@@ -7348,7 +8328,7 @@
 		)
 		(uuid "faa9a7fd-7028-4083-8e59-36401eb5a933")
 		(property "Intersheetrefs" "${INTERSHEET_REFS}"
-			(at 130.2438 67.31 0)
+			(at 123.8938 67.31 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -7359,8 +8339,8 @@
 		)
 	)
 	(global_label "SPI_MOSI"
-		(shape input)
-		(at 140.97 85.09 180)
+		(shape output)
+		(at 135.89 85.09 180)
 		(fields_autoplaced yes)
 		(effects
 			(font
@@ -7370,7 +8350,29 @@
 		)
 		(uuid "fbebe5a8-6b81-4e6c-afd3-64c693e1bb0b")
 		(property "Intersheetrefs" "${INTERSHEET_REFS}"
-			(at 129.3367 85.09 0)
+			(at 124.2567 85.09 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+				(hide yes)
+			)
+		)
+	)
+	(global_label "MOTOR_PWM"
+		(shape input)
+		(at 38.1 102.87 180)
+		(fields_autoplaced yes)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify right)
+		)
+		(uuid "fbf7779d-7828-43a6-8df1-1a5ebc1365a9")
+		(property "Intersheetrefs" "${INTERSHEET_REFS}"
+			(at 23.6244 102.87 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -7416,7 +8418,7 @@
 				(hide yes)
 			)
 		)
-		(property "Datasheet" "https://jlcpcb.com/partdetail/YAGEO-CC0805KRX7R9BB104/C49678"
+		(property "Datasheet" "~"
 			(at 144.78 54.61 0)
 			(effects
 				(font
@@ -7426,6 +8428,33 @@
 			)
 		)
 		(property "Description" "100nF 50V X7R ±10% 0805 Multilayer Ceramic Capacitors"
+			(at 144.78 54.61 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Distributor" "https://jlcpcb.com/partdetail/28983-CL21B104KCFNNNE/C28233"
+			(at 144.78 54.61 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "MFR Part" "CL21B104KCFNNNE"
+			(at 144.78 54.61 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Manufacturer" "Samsung Electro-Mechanics"
 			(at 144.78 54.61 0)
 			(effects
 				(font
@@ -7485,7 +8514,7 @@
 				(hide yes)
 			)
 		)
-		(property "Datasheet" "https://jlcpcb.com/partdetail/YAGEO-CC0805KRX7R9BB104/C49678"
+		(property "Datasheet" "~"
 			(at 104.14 54.61 0)
 			(effects
 				(font
@@ -7495,6 +8524,33 @@
 			)
 		)
 		(property "Description" "100nF 50V X7R ±10% 0805 Multilayer Ceramic Capacitors"
+			(at 104.14 54.61 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Distributor" "https://jlcpcb.com/partdetail/28983-CL21B104KCFNNNE/C28233"
+			(at 104.14 54.61 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "MFR Part" "CL21B104KCFNNNE"
+			(at 104.14 54.61 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Manufacturer" "Samsung Electro-Mechanics"
 			(at 104.14 54.61 0)
 			(effects
 				(font
@@ -7586,7 +8642,7 @@
 	)
 	(symbol
 		(lib_id "Device:R")
-		(at 262.89 52.07 90)
+		(at 261.62 52.07 90)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -7594,7 +8650,7 @@
 		(dnp no)
 		(uuid "100e2624-5245-4972-b428-ea3bf1b2c126")
 		(property "Reference" "R102"
-			(at 262.89 46.99 90)
+			(at 261.62 46.99 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -7602,7 +8658,7 @@
 			)
 		)
 		(property "Value" "220R"
-			(at 262.89 49.53 90)
+			(at 261.62 49.53 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -7610,7 +8666,7 @@
 			)
 		)
 		(property "Footprint" "Resistor_SMD:R_0805_2012Metric"
-			(at 262.89 53.848 90)
+			(at 261.62 53.848 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -7618,8 +8674,8 @@
 				(hide yes)
 			)
 		)
-		(property "Datasheet" "https://jlcpcb.com/partdetail/18245-0805W8F2200T5E/C17557"
-			(at 262.89 52.07 0)
+		(property "Datasheet" "~"
+			(at 261.62 52.07 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -7628,7 +8684,34 @@
 			)
 		)
 		(property "Description" "Resistor"
-			(at 262.89 52.07 0)
+			(at 261.62 52.07 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Distributor" "https://jlcpcb.com/partdetail/18245-0805W8F2200T5E/C17557"
+			(at 261.62 52.07 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "MFR Part" "0805W8F2200T5E"
+			(at 261.62 52.07 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Manufacturer" "UNI-ROYAL(Uniroyal Elec) "
+			(at 261.62 52.07 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -7719,7 +8802,7 @@
 	)
 	(symbol
 		(lib_id "Device:L")
-		(at 199.39 72.39 90)
+		(at 196.85 72.39 90)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -7728,7 +8811,7 @@
 		(fields_autoplaced yes)
 		(uuid "12b26c0f-8cfc-4708-a0b2-25d08a156e68")
 		(property "Reference" "L101"
-			(at 199.39 67.31 90)
+			(at 196.85 67.31 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -7736,7 +8819,7 @@
 			)
 		)
 		(property "Value" "10u"
-			(at 199.39 69.85 90)
+			(at 196.85 69.85 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -7744,7 +8827,7 @@
 			)
 		)
 		(property "Footprint" "Inductor_SMD:L_0603_1608Metric"
-			(at 199.39 72.39 0)
+			(at 196.85 72.39 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -7752,8 +8835,8 @@
 				(hide yes)
 			)
 		)
-		(property "Datasheet" "https://jlcpcb.com/partdetail/Sunlord-SDFL1608S100KTF/C1035"
-			(at 199.39 72.39 0)
+		(property "Datasheet" "~"
+			(at 196.85 72.39 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -7762,7 +8845,34 @@
 			)
 		)
 		(property "Description" "1.85Ω 10uH 17MHz 30@2MHz 3mA ±10% 0603 Inductors"
-			(at 199.39 72.39 0)
+			(at 196.85 72.39 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Distributor" "https://jlcpcb.com/partdetail/Sunlord-SDFL1608S100KTF/C1035"
+			(at 196.85 72.39 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "MFR Part" "SDFL1608S100KTF"
+			(at 196.85 72.39 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Manufacturer" "Sunlord"
+			(at 196.85 72.39 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -7852,7 +8962,7 @@
 	)
 	(symbol
 		(lib_id "Device:C")
-		(at 191.77 54.61 0)
+		(at 191.77 53.34 0)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -7860,7 +8970,7 @@
 		(dnp no)
 		(uuid "1c1b3a53-01fd-4773-b3c8-cb32b0a67249")
 		(property "Reference" "C113"
-			(at 194.31 53.34 0)
+			(at 194.31 52.07 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -7869,7 +8979,7 @@
 			)
 		)
 		(property "Value" "100n"
-			(at 194.31 55.88 0)
+			(at 194.31 54.61 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -7878,7 +8988,7 @@
 			)
 		)
 		(property "Footprint" "Capacitor_SMD:C_0805_2012Metric"
-			(at 192.7352 58.42 0)
+			(at 192.7352 57.15 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -7886,8 +8996,8 @@
 				(hide yes)
 			)
 		)
-		(property "Datasheet" "https://jlcpcb.com/partdetail/YAGEO-CC0805KRX7R9BB104/C49678"
-			(at 191.77 54.61 0)
+		(property "Datasheet" "~"
+			(at 191.77 53.34 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -7896,7 +9006,34 @@
 			)
 		)
 		(property "Description" "100nF 50V X7R ±10% 0805 Multilayer Ceramic Capacitors"
-			(at 191.77 54.61 0)
+			(at 191.77 53.34 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Distributor" "https://jlcpcb.com/partdetail/28983-CL21B104KCFNNNE/C28233"
+			(at 191.77 53.34 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "MFR Part" "CL21B104KCFNNNE"
+			(at 191.77 53.34 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Manufacturer" "Samsung Electro-Mechanics"
+			(at 191.77 53.34 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -7955,7 +9092,7 @@
 				(hide yes)
 			)
 		)
-		(property "Datasheet" "https://jlcpcb.com/partdetail/MurataElectronics-GRM1555C1HR30WA01D/C92338"
+		(property "Datasheet" "~"
 			(at 226.06 95.25 0)
 			(effects
 				(font
@@ -7965,6 +9102,33 @@
 			)
 		)
 		(property "Description" "0.3pF 50V C0G 0402 Multilayer Ceramic Capacitors MLCC"
+			(at 226.06 95.25 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Distributor" "https://jlcpcb.com/partdetail/MurataElectronics-GRM1555C1HR30WA01D/C92338"
+			(at 226.06 95.25 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "MFR Part" "GRM1555C1HR30WA01D "
+			(at 226.06 95.25 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Manufacturer" "Murata Electronics"
 			(at 226.06 95.25 0)
 			(effects
 				(font
@@ -8124,7 +9288,7 @@
 	)
 	(symbol
 		(lib_id "power:+3V3")
-		(at 180.34 34.29 0)
+		(at 180.34 35.56 0)
 		(mirror y)
 		(unit 1)
 		(exclude_from_sim no)
@@ -8134,7 +9298,7 @@
 		(fields_autoplaced yes)
 		(uuid "2254e786-9f6e-4e5d-b2df-43acd126824f")
 		(property "Reference" "#PWR0104"
-			(at 180.34 38.1 0)
+			(at 180.34 39.37 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -8143,7 +9307,7 @@
 			)
 		)
 		(property "Value" "+3V3"
-			(at 180.34 29.21 0)
+			(at 180.34 30.48 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -8151,7 +9315,7 @@
 			)
 		)
 		(property "Footprint" ""
-			(at 180.34 34.29 0)
+			(at 180.34 35.56 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -8160,7 +9324,7 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 180.34 34.29 0)
+			(at 180.34 35.56 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -8169,7 +9333,7 @@
 			)
 		)
 		(property "Description" "Power symbol creates a global label with name \"+3V3\""
-			(at 180.34 34.29 0)
+			(at 180.34 35.56 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -8257,7 +9421,7 @@
 	)
 	(symbol
 		(lib_id "power:GND")
-		(at 248.92 62.23 0)
+		(at 247.65 62.23 0)
 		(mirror y)
 		(unit 1)
 		(exclude_from_sim no)
@@ -8266,7 +9430,7 @@
 		(dnp no)
 		(uuid "29b2f9a1-b306-46d2-a9e9-ab365df350e1")
 		(property "Reference" "#PWR0111"
-			(at 248.92 68.58 0)
+			(at 247.65 68.58 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -8275,7 +9439,7 @@
 			)
 		)
 		(property "Value" "GND"
-			(at 248.92 66.294 0)
+			(at 247.65 66.294 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -8284,7 +9448,7 @@
 			)
 		)
 		(property "Footprint" ""
-			(at 248.92 62.23 0)
+			(at 247.65 62.23 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -8293,7 +9457,7 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 248.92 62.23 0)
+			(at 247.65 62.23 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -8302,7 +9466,7 @@
 			)
 		)
 		(property "Description" "Power symbol creates a global label with name \"GND\" , ground"
-			(at 248.92 62.23 0)
+			(at 247.65 62.23 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -8358,7 +9522,7 @@
 				(hide yes)
 			)
 		)
-		(property "Datasheet" "https://jlcpcb.com/partdetail/YAGEO-CC0805KRX7R9BB104/C49678"
+		(property "Datasheet" "~"
 			(at 124.46 54.61 0)
 			(effects
 				(font
@@ -8368,6 +9532,33 @@
 			)
 		)
 		(property "Description" "100nF 50V X7R ±10% 0805 Multilayer Ceramic Capacitors"
+			(at 124.46 54.61 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Distributor" "https://jlcpcb.com/partdetail/28983-CL21B104KCFNNNE/C28233"
+			(at 124.46 54.61 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "MFR Part" "CL21B104KCFNNNE"
+			(at 124.46 54.61 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Manufacturer" "Samsung Electro-Mechanics"
 			(at 124.46 54.61 0)
 			(effects
 				(font
@@ -8493,7 +9684,7 @@
 				(hide yes)
 			)
 		)
-		(property "Datasheet" "https://jlcpcb.com/partdetail/28584-0805W8F5101T5E/C27834"
+		(property "Datasheet" "~"
 			(at 57.15 161.29 0)
 			(effects
 				(font
@@ -8504,6 +9695,33 @@
 		)
 		(property "Description" "Resistor"
 			(at 57.15 161.29 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Distributor" "https://jlcpcb.com/partdetail/28584-0805W8F5101T5E/C27834"
+			(at 57.15 161.29 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "MFR Part" "0805W8F5101T5E "
+			(at 57.15 161.29 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Manufacturer" "UNI-ROYAL(Uniroyal Elec) "
+			(at 57.15 161.29 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -8627,7 +9845,7 @@
 				(hide yes)
 			)
 		)
-		(property "Datasheet" "https://jlcpcb.com/partdetail/MurataElectronics-LQG15WZ10NJ02D/C3911026"
+		(property "Datasheet" "~"
 			(at 208.28 72.39 0)
 			(effects
 				(font
@@ -8638,6 +9856,33 @@
 		)
 		(property "Description" "10nH 190mΩ 3.3GHz 500mA AEC-Q200 ±5% 0402"
 			(at 208.28 72.39 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Distributor" "https://jlcpcb.com/partdetail/MurataElectronics-LQG15WZ10NJ02D/C3911026"
+			(at 208.28 72.39 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "MFR Part" "LQG15WZ10NJ02D "
+			(at 208.28 72.39 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Manufacturer" "Murata Electronics"
+			(at 208.28 72.39 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -8696,7 +9941,7 @@
 				(hide yes)
 			)
 		)
-		(property "Datasheet" "https://jlcpcb.com/partdetail/2131-CL21A475KAQNNNE/C1779"
+		(property "Datasheet" "~"
 			(at 219.71 71.12 0)
 			(effects
 				(font
@@ -8706,6 +9951,33 @@
 			)
 		)
 		(property "Description" "25V 4.7uF X5R ±10% 0805 Multilayer Ceramic Capacitors"
+			(at 219.71 71.12 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Distributor" "https://jlcpcb.com/partdetail/2131-CL21A475KAQNNNE/C1779"
+			(at 219.71 71.12 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "MFR Part" "CL21A475KAQNNNE "
+			(at 219.71 71.12 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Manufacturer" "Samsung Electro-Mechanics"
 			(at 219.71 71.12 0)
 			(effects
 				(font
@@ -8754,7 +10026,7 @@
 				)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "Crystal:Crystal_SMD_2012-2Pin_2.0x1.2mm"
 			(at 203.2 127 0)
 			(effects
 				(font
@@ -8772,7 +10044,34 @@
 				(hide yes)
 			)
 		)
-		(property "Description" "Two pin crystal"
+		(property "Description" "NX2012SA 32.768KHZ STD-MUB-1"
+			(at 203.2 127 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Distributor" "https://jlcpcb.com/partdetail/NDK-NX2012SA_32_768KHZ_STD_MUB1/C528982"
+			(at 203.2 127 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "MFR Part" "NX2012SA 32.768KHZ STD-MUB-1 "
+			(at 203.2 127 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Manufacturer" " NDK"
 			(at 203.2 127 0)
 			(effects
 				(font
@@ -8832,7 +10131,7 @@
 				(hide yes)
 			)
 		)
-		(property "Datasheet" "https://jlcpcb.com/partdetail/18165-0805W8F0000T5E/C17477"
+		(property "Datasheet" "~"
 			(at 257.81 36.83 0)
 			(effects
 				(font
@@ -8850,7 +10149,7 @@
 				(hide yes)
 			)
 		)
-		(property "MFR.Part #" "0805W8F0000T5E"
+		(property "Distributor" "https://jlcpcb.com/partdetail/18165-0805W8F0000T5E/C17477"
 			(at 257.81 36.83 90)
 			(effects
 				(font
@@ -8859,7 +10158,16 @@
 				(hide yes)
 			)
 		)
-		(property "JLCPCB Part # " "C17477"
+		(property "MFR Part" "0805W8F0000T5E"
+			(at 257.81 36.83 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Manufacturer" "UNI-ROYAL(Uniroyal Elec)"
 			(at 257.81 36.83 90)
 			(effects
 				(font
@@ -8919,7 +10227,7 @@
 				(hide yes)
 			)
 		)
-		(property "Datasheet" "https://jlcpcb.com/partdetail/YAGEO-CC0805KRX7R9BB104/C49678"
+		(property "Datasheet" "~"
 			(at 93.98 54.61 0)
 			(effects
 				(font
@@ -8929,6 +10237,33 @@
 			)
 		)
 		(property "Description" "100nF 50V X7R ±10% 0805 Multilayer Ceramic Capacitors"
+			(at 93.98 54.61 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Distributor" "https://jlcpcb.com/partdetail/28983-CL21B104KCFNNNE/C28233"
+			(at 93.98 54.61 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "MFR Part" "CL21B104KCFNNNE"
+			(at 93.98 54.61 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Manufacturer" "Samsung Electro-Mechanics"
 			(at 93.98 54.61 0)
 			(effects
 				(font
@@ -8987,7 +10322,7 @@
 				(hide yes)
 			)
 		)
-		(property "Datasheet" "https://www.usb.org/sites/default/files/documents/usb_type-c.zip"
+		(property "Datasheet" "~"
 			(at 33.02 166.37 0)
 			(effects
 				(font
@@ -9005,7 +10340,25 @@
 				(hide yes)
 			)
 		)
-		(property "Link 1" "https://jlcpcb.com/partdetail/3554049-USB4105_GF_A060/C3025063"
+		(property "Distributor" "https://jlcpcb.com/partdetail/3554049-USB4105_GF_A060/C3025063"
+			(at 29.21 166.37 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "MFR Part" "USB4105-GF-A-060 "
+			(at 29.21 166.37 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Manufacturer" "Global Connector Technology "
 			(at 29.21 166.37 0)
 			(effects
 				(font
@@ -9175,7 +10528,7 @@
 				(hide yes)
 			)
 		)
-		(property "Datasheet" "https://jlcpcb.com/partdetail/MurataElectronics-LQG15HS2N7S02D/C77108"
+		(property "Datasheet" "~"
 			(at 220.98 90.17 0)
 			(effects
 				(font
@@ -9186,6 +10539,33 @@
 		)
 		(property "Description" "120mΩ 2.7nH 6GHz 800mA 8@100MHz 0402"
 			(at 220.98 90.17 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Distributor" "https://jlcpcb.com/partdetail/MurataElectronics-LQG15HS2N7S02D/C77108"
+			(at 220.98 90.17 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "MFR Part" "LQG15HS2N7S02D"
+			(at 220.98 90.17 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Manufacturer" "Murata Electronics"
+			(at 220.98 90.17 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -9244,7 +10624,7 @@
 				(hide yes)
 			)
 		)
-		(property "Datasheet" "https://jlcpcb.com/partdetail/YAGEO-CC0805KRX7R9BB104/C49678"
+		(property "Datasheet" "~"
 			(at 114.3 54.61 0)
 			(effects
 				(font
@@ -9254,6 +10634,33 @@
 			)
 		)
 		(property "Description" "100nF 50V X7R ±10% 0805 Multilayer Ceramic Capacitors"
+			(at 114.3 54.61 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Distributor" "https://jlcpcb.com/partdetail/28983-CL21B104KCFNNNE/C28233"
+			(at 114.3 54.61 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "MFR Part" "CL21B104KCFNNNE"
+			(at 114.3 54.61 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Manufacturer" "Samsung Electro-Mechanics"
 			(at 114.3 54.61 0)
 			(effects
 				(font
@@ -9296,7 +10703,7 @@
 				(justify left)
 			)
 		)
-		(property "Value" "Conn_Coaxial"
+		(property "Value" "Conn_IPEX"
 			(at 269.24 91.7331 0)
 			(effects
 				(font
@@ -9305,7 +10712,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "PUEiE_pcb_schematic_footprints:IPEX Male"
 			(at 265.43 90.17 0)
 			(effects
 				(font
@@ -9323,7 +10730,34 @@
 				(hide yes)
 			)
 		)
-		(property "Description" "coaxial connector (BNC, SMA, SMB, SMC, Cinch/RCA, LEMO, ...)"
+		(property "Description" "50Ω 6GHz IPEX Male Pin SMD"
+			(at 265.43 90.17 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Distributor" "https://jlcpcb.com/partdetail/BATWIRELESS-BWIPX_1001E/C496552"
+			(at 265.43 90.17 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "MFR Part" "BWIPX-1-001E "
+			(at 265.43 90.17 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Manufacturer" "BAT WIRELESS "
 			(at 265.43 90.17 0)
 			(effects
 				(font
@@ -9349,7 +10783,7 @@
 	)
 	(symbol
 		(lib_id "Device:C")
-		(at 259.08 57.15 0)
+		(at 257.81 57.15 0)
 		(mirror y)
 		(unit 1)
 		(exclude_from_sim no)
@@ -9358,7 +10792,7 @@
 		(dnp no)
 		(uuid "7122a920-4848-4f67-afac-2a6a95c0d89d")
 		(property "Reference" "C112"
-			(at 256.54 55.88 0)
+			(at 255.27 55.88 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -9367,7 +10801,7 @@
 			)
 		)
 		(property "Value" "100n"
-			(at 256.54 58.42 0)
+			(at 255.27 58.42 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -9376,7 +10810,7 @@
 			)
 		)
 		(property "Footprint" "Capacitor_SMD:C_0805_2012Metric"
-			(at 258.1148 60.96 0)
+			(at 256.8448 60.96 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -9384,8 +10818,8 @@
 				(hide yes)
 			)
 		)
-		(property "Datasheet" "https://jlcpcb.com/partdetail/YAGEO-CC0805KRX7R9BB104/C49678"
-			(at 259.08 57.15 0)
+		(property "Datasheet" "~"
+			(at 257.81 57.15 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -9394,7 +10828,34 @@
 			)
 		)
 		(property "Description" "100nF 50V X7R ±10% 0805 Multilayer Ceramic Capacitors"
-			(at 259.08 57.15 0)
+			(at 257.81 57.15 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Distributor" "https://jlcpcb.com/partdetail/28983-CL21B104KCFNNNE/C28233"
+			(at 257.81 57.15 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "MFR Part" "CL21B104KCFNNNE"
+			(at 257.81 57.15 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Manufacturer" "Samsung Electro-Mechanics"
+			(at 257.81 57.15 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -9519,7 +10980,7 @@
 				(hide yes)
 			)
 		)
-		(property "Datasheet" "https://jlcpcb.com/partdetail/2131-CL21A475KAQNNNE/C1779"
+		(property "Datasheet" "~"
 			(at 85.09 54.61 0)
 			(effects
 				(font
@@ -9529,6 +10990,33 @@
 			)
 		)
 		(property "Description" "25V 4.7uF X5R ±10% 0805 Multilayer Ceramic Capacitors"
+			(at 85.09 54.61 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Distributor" "https://jlcpcb.com/partdetail/2131-CL21A475KAQNNNE/C1779"
+			(at 85.09 54.61 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "MFR Part" "CL21A475KAQNNNE "
+			(at 85.09 54.61 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Manufacturer" "Samsung Electro-Mechanics"
 			(at 85.09 54.61 0)
 			(effects
 				(font
@@ -9588,7 +11076,7 @@
 				(hide yes)
 			)
 		)
-		(property "Datasheet" "https://jlcpcb.com/partdetail/MurataElectronics-GRM1555C1HR80BA01D/C76988"
+		(property "Datasheet" "~"
 			(at 215.9 95.25 0)
 			(effects
 				(font
@@ -9598,6 +11086,33 @@
 			)
 		)
 		(property "Description" "0.8pF 50V C0G 0402 Multilayer Ceramic Capacitors MLCC"
+			(at 215.9 95.25 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Distributor" "https://jlcpcb.com/partdetail/MurataElectronics-GRM1555C1HR80BA01D/C76988"
+			(at 215.9 95.25 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "MFR Part" "GRM1555C1HR80BA01D"
+			(at 215.9 95.25 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Manufacturer" "Murata Electronics"
 			(at 215.9 95.25 0)
 			(effects
 				(font
@@ -9622,8 +11137,104 @@
 		)
 	)
 	(symbol
+		(lib_id "Device:R")
+		(at 247.65 57.15 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(uuid "80023823-db8f-4eff-8dfa-7ba5b0f671ae")
+		(property "Reference" "R103"
+			(at 241.046 55.88 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Value" "10k"
+			(at 242.316 58.166 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Footprint" "Resistor_SMD:R_0805_2012Metric"
+			(at 245.872 57.15 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "~"
+			(at 247.65 57.15 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "10kΩ 125mW 150V ±1%"
+			(at 247.65 57.15 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Distributor" "https://jlcpcb.com/partdetail/18102-0805W8F1002T5E/C17414"
+			(at 247.65 57.15 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "MFR Part" "0805W8F1002T5E "
+			(at 247.65 57.15 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Manufacturer" "UNI-ROYAL(Uniroyal Elec) "
+			(at 247.65 57.15 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "2"
+			(uuid "97381b9a-690a-45b0-9a44-595cb631d2ce")
+		)
+		(pin "1"
+			(uuid "4dd73fdc-e42f-4973-9034-a1255062d1fb")
+		)
+		(instances
+			(project "PUEiE_pcb"
+				(path "/064b0dc2-c3a5-4c74-8cbf-4fc3d8c84854"
+					(reference "R103")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
 		(lib_id "Device:C")
-		(at 170.18 39.37 0)
+		(at 170.18 40.64 0)
 		(mirror y)
 		(unit 1)
 		(exclude_from_sim no)
@@ -9632,7 +11243,7 @@
 		(dnp no)
 		(uuid "8673e492-2741-4092-8155-41f39599dabb")
 		(property "Reference" "C103"
-			(at 167.64 38.1 0)
+			(at 167.64 39.37 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -9641,7 +11252,7 @@
 			)
 		)
 		(property "Value" "100p"
-			(at 167.64 40.64 0)
+			(at 167.64 41.91 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -9650,7 +11261,7 @@
 			)
 		)
 		(property "Footprint" "Capacitor_SMD:C_0805_2012Metric"
-			(at 169.2148 43.18 0)
+			(at 169.2148 44.45 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -9658,8 +11269,8 @@
 				(hide yes)
 			)
 		)
-		(property "Datasheet" "https://jlcpcb.com/partdetail/2142-CL21C101JBANNNC/C1790"
-			(at 170.18 39.37 0)
+		(property "Datasheet" "~"
+			(at 170.18 40.64 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -9668,7 +11279,34 @@
 			)
 		)
 		(property "Description" "100pF 50V C0G ±5% 0805 Multilayer Ceramic Capacitors"
-			(at 170.18 39.37 0)
+			(at 170.18 40.64 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Distributor" "https://jlcpcb.com/partdetail/2142-CL21C101JBANNNC/C1790"
+			(at 170.18 40.64 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "MFR Part" "CL21C101JBANNNC"
+			(at 170.18 40.64 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Manufacturer" "Samsung Electro-Mechanics"
+			(at 170.18 40.64 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -9775,7 +11413,7 @@
 				(justify right)
 			)
 		)
-		(property "Value" "c"
+		(property "Value" "10p"
 			(at 193.04 133.35 0)
 			(effects
 				(font
@@ -9784,7 +11422,7 @@
 				(justify right)
 			)
 		)
-		(property "Footprint" "Capacitor_SMD:C_0805_2012Metric"
+		(property "Footprint" "Capacitor_SMD:C_0603_1608Metric"
 			(at 196.5452 135.89 0)
 			(effects
 				(font
@@ -9793,7 +11431,7 @@
 				(hide yes)
 			)
 		)
-		(property "Datasheet" "https://jlcpcb.com/partdetail/2131-CL21A475KAQNNNE/C1779"
+		(property "Datasheet" "~"
 			(at 195.58 132.08 0)
 			(effects
 				(font
@@ -9802,7 +11440,34 @@
 				(hide yes)
 			)
 		)
-		(property "Description" "25V 4.7uF X5R ±10% 0805 Multilayer Ceramic Capacitors"
+		(property "Description" "10pF 50V C0G ±5%"
+			(at 195.58 132.08 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Distributor" "https://jlcpcb.com/partdetail/1986-CL10C100JB8NNNC/C1634"
+			(at 195.58 132.08 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "MFR Part" " CL10C100JB8NNNC"
+			(at 195.58 132.08 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Manufacturer" "Samsung Electro-Mechanics"
 			(at 195.58 132.08 0)
 			(effects
 				(font
@@ -9821,75 +11486,6 @@
 			(project "PUEiE_pcb"
 				(path "/064b0dc2-c3a5-4c74-8cbf-4fc3d8c84854"
 					(reference "C117")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
-		(lib_id "Device:C")
-		(at 208.28 132.08 0)
-		(unit 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(dnp no)
-		(uuid "936ac4c4-96ef-4700-a1cc-6db381908862")
-		(property "Reference" "C118"
-			(at 210.82 130.81 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-			)
-		)
-		(property "Value" "c"
-			(at 210.82 133.35 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-			)
-		)
-		(property "Footprint" "Capacitor_SMD:C_0805_2012Metric"
-			(at 209.2452 135.89 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Datasheet" "https://jlcpcb.com/partdetail/2131-CL21A475KAQNNNE/C1779"
-			(at 208.28 132.08 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Description" "25V 4.7uF X5R ±10% 0805 Multilayer Ceramic Capacitors"
-			(at 208.28 132.08 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(pin "1"
-			(uuid "2dbb4c57-b0eb-4cbd-bc4f-2db8bc0a9219")
-		)
-		(pin "2"
-			(uuid "b5e40d0e-08b7-409a-b032-f02dbcd804df")
-		)
-		(instances
-			(project "PUEiE_pcb"
-				(path "/064b0dc2-c3a5-4c74-8cbf-4fc3d8c84854"
-					(reference "C118")
 					(unit 1)
 				)
 			)
@@ -9930,7 +11526,7 @@
 				(hide yes)
 			)
 		)
-		(property "Datasheet" "https://jlcpcb.com/partdetail/28584-0805W8F5101T5E/C27834"
+		(property "Datasheet" "~"
 			(at 57.15 154.94 0)
 			(effects
 				(font
@@ -9941,6 +11537,33 @@
 		)
 		(property "Description" "Resistor"
 			(at 57.15 154.94 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Distributor" "https://jlcpcb.com/partdetail/28584-0805W8F5101T5E/C27834"
+			(at 57.15 154.94 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "MFR Part" "0805W8F5101T5E "
+			(at 57.15 154.94 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Manufacturer" "UNI-ROYAL(Uniroyal Elec) "
+			(at 57.15 154.94 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -10097,7 +11720,7 @@
 	)
 	(symbol
 		(lib_id "power:GND")
-		(at 191.77 58.42 0)
+		(at 191.77 57.15 0)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -10105,7 +11728,7 @@
 		(dnp no)
 		(uuid "9b437af4-048b-400f-b0ba-41dd293de8a2")
 		(property "Reference" "#PWR0112"
-			(at 191.77 64.77 0)
+			(at 191.77 63.5 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -10114,7 +11737,7 @@
 			)
 		)
 		(property "Value" "GND"
-			(at 191.77 62.484 0)
+			(at 191.77 61.214 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -10123,7 +11746,7 @@
 			)
 		)
 		(property "Footprint" ""
-			(at 191.77 58.42 0)
+			(at 191.77 57.15 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -10132,7 +11755,7 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 191.77 58.42 0)
+			(at 191.77 57.15 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -10141,7 +11764,7 @@
 			)
 		)
 		(property "Description" "Power symbol creates a global label with name \"GND\" , ground"
-			(at 191.77 58.42 0)
+			(at 191.77 57.15 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -10163,7 +11786,7 @@
 	)
 	(symbol
 		(lib_id "power:GND")
-		(at 180.34 44.45 0)
+		(at 180.34 45.72 0)
 		(mirror y)
 		(unit 1)
 		(exclude_from_sim no)
@@ -10172,7 +11795,7 @@
 		(dnp no)
 		(uuid "9b483ab1-2954-4dfe-a4b7-973a27ade8b2")
 		(property "Reference" "#PWR0107"
-			(at 180.34 50.8 0)
+			(at 180.34 52.07 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -10181,7 +11804,7 @@
 			)
 		)
 		(property "Value" "GND"
-			(at 180.34 48.514 0)
+			(at 180.34 49.784 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -10190,7 +11813,7 @@
 			)
 		)
 		(property "Footprint" ""
-			(at 180.34 44.45 0)
+			(at 180.34 45.72 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -10199,7 +11822,7 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 180.34 44.45 0)
+			(at 180.34 45.72 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -10208,7 +11831,7 @@
 			)
 		)
 		(property "Description" "Power symbol creates a global label with name \"GND\" , ground"
-			(at 180.34 44.45 0)
+			(at 180.34 45.72 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -10285,7 +11908,25 @@
 				(hide yes)
 			)
 		)
-		(property "Likn 1" "https://jlcpcb.com/partdetail/STMicroelectronics-USBLC62SC6/C7519"
+		(property "Distributor" "https://jlcpcb.com/partdetail/STMicroelectronics-USBLC62SC6/C7519"
+			(at 73.66 167.64 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "MFR Part" " USBLC6-2SC6"
+			(at 73.66 167.64 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Manufacturer" "STMicroelectronics"
 			(at 73.66 167.64 0)
 			(effects
 				(font
@@ -10377,7 +12018,25 @@
 				(hide yes)
 			)
 		)
-		(property "Link 1" "https://jlcpcb.com/partdetail/STMicroelectronics-STM32WB55CGU6/C404023"
+		(property "Distributor" "https://jlcpcb.com/partdetail/STMicroelectronics-STM32WB55CGU6/C404023"
+			(at 165.1 100.33 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "MFR Part" "STM32WB55CGU6"
+			(at 165.1 100.33 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Manufacturer" "STMicroelectronics"
 			(at 165.1 100.33 0)
 			(effects
 				(font
@@ -10709,7 +12368,7 @@
 				(hide yes)
 			)
 		)
-		(property "Datasheet" "https://jlcpcb.com/partdetail/YAGEO-CC0805KRX7R9BB104/C49678"
+		(property "Datasheet" "~"
 			(at 144.78 40.64 0)
 			(effects
 				(font
@@ -10719,6 +12378,33 @@
 			)
 		)
 		(property "Description" "100nF 50V X7R ±10% 0805 Multilayer Ceramic Capacitors"
+			(at 144.78 40.64 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Distributor" "https://jlcpcb.com/partdetail/28983-CL21B104KCFNNNE/C28233"
+			(at 144.78 40.64 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "MFR Part" "CL21B104KCFNNNE"
+			(at 144.78 40.64 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Manufacturer" "Samsung Electro-Mechanics"
 			(at 144.78 40.64 0)
 			(effects
 				(font
@@ -10950,10 +12636,9 @@
 		(in_bom yes)
 		(on_board yes)
 		(dnp no)
-		(fields_autoplaced yes)
 		(uuid "bdd4f9ea-c2f7-4479-9c11-bdc9184f654d")
 		(property "Reference" "J101"
-			(at 30.48 31.75 0)
+			(at 30.48 35.052 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -10966,9 +12651,10 @@
 				(font
 					(size 1.27 1.27)
 				)
+				(hide yes)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "TerminalBlock_Phoenix:TerminalBlock_Phoenix_PT-1,5-2-3.5-H_1x02_P3.50mm_Horizontal"
 			(at 30.48 40.64 0)
 			(effects
 				(font
@@ -10987,6 +12673,33 @@
 			)
 		)
 		(property "Description" "Generic screw terminal, single row, 01x02, script generated (kicad-library-utils/schlib/autogen/connector/)"
+			(at 30.48 40.64 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Distributor" "https://www.mouser.pl/ProductDetail/SparkFun/PRT-08084?qs=WyAARYrbSnalY1OfATfUQw%3D%3D"
+			(at 30.48 40.64 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "MFR Part" "PRT-08084"
+			(at 30.48 40.64 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Manufacturer" "SparkFun"
 			(at 30.48 40.64 0)
 			(effects
 				(font
@@ -11071,75 +12784,6 @@
 			(project "PUEiE_pcb"
 				(path "/064b0dc2-c3a5-4c74-8cbf-4fc3d8c84854"
 					(reference "#PWR0114")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
-		(lib_id "Device:R")
-		(at 248.92 57.15 0)
-		(unit 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(dnp no)
-		(uuid "c6c8311b-1d57-4467-83e3-945013b2b8ef")
-		(property "Reference" "R103"
-			(at 242.316 55.88 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-			)
-		)
-		(property "Value" "10k"
-			(at 242.316 58.42 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-			)
-		)
-		(property "Footprint" "Resistor_SMD:R_0201_0603Metric"
-			(at 247.142 57.15 90)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Datasheet" "https://jlcpcb.com/partdetail/YAGEO-RC0201FR0710KL/C106225"
-			(at 248.92 57.15 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Description" "10 kΩ +- 1.0% Power = 50 mW"
-			(at 248.92 57.15 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(pin "2"
-			(uuid "5c242fc7-d45a-473a-8742-6068acbd728f")
-		)
-		(pin "1"
-			(uuid "1e2b4e21-6fd6-4e8c-85f4-690e2865f034")
-		)
-		(instances
-			(project "PUEiE_pcb"
-				(path "/064b0dc2-c3a5-4c74-8cbf-4fc3d8c84854"
-					(reference "R103")
 					(unit 1)
 				)
 			)
@@ -11247,7 +12891,7 @@
 				(hide yes)
 			)
 		)
-		(property "Datasheet" "https://jlcpcb.com/partdetail/YAGEO-CC0805KRX7R9BB104/C49678"
+		(property "Datasheet" "~"
 			(at 134.62 54.61 0)
 			(effects
 				(font
@@ -11257,6 +12901,33 @@
 			)
 		)
 		(property "Description" "100nF 50V X7R ±10% 0805 Multilayer Ceramic Capacitors"
+			(at 134.62 54.61 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Distributor" "https://jlcpcb.com/partdetail/28983-CL21B104KCFNNNE/C28233"
+			(at 134.62 54.61 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "MFR Part" "CL21B104KCFNNNE"
+			(at 134.62 54.61 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Manufacturer" "Samsung Electro-Mechanics"
 			(at 134.62 54.61 0)
 			(effects
 				(font
@@ -11316,7 +12987,7 @@
 				(hide yes)
 			)
 		)
-		(property "Datasheet" "https://jlcpcb.com/partdetail/2131-CL21A475KAQNNNE/C1779"
+		(property "Datasheet" "~"
 			(at 134.62 40.64 0)
 			(effects
 				(font
@@ -11326,6 +12997,33 @@
 			)
 		)
 		(property "Description" "25V 4.7uF X5R ±10% 0805 Multilayer Ceramic Capacitors"
+			(at 134.62 40.64 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Distributor" "https://jlcpcb.com/partdetail/2131-CL21A475KAQNNNE/C1779"
+			(at 134.62 40.64 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "MFR Part" "CL21A475KAQNNNE "
+			(at 134.62 40.64 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Manufacturer" "Samsung Electro-Mechanics"
 			(at 134.62 40.64 0)
 			(effects
 				(font
@@ -11374,7 +13072,7 @@
 				)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "Crystal:Crystal_SMD_2016-4Pin_2.0x1.6mm"
 			(at 201.93 110.49 0)
 			(effects
 				(font
@@ -11392,8 +13090,35 @@
 				(hide yes)
 			)
 		)
-		(property "Description" "Four pin crystal, GND on pins 2 and 4"
+		(property "Description" "NX2016SA-32MHZ-STD-CZS-5"
 			(at 201.93 110.49 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Distributor" "https://jlcpcb.com/partdetail/NDK-NX2016SA_32MHZ_STD_CZS5/C843260"
+			(at 201.93 110.49 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "MFR Part" "NX2016SA-32MHZ-STD-CZS-5 "
+			(at 201.93 110.49 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Manufacturer" "NDK"
+			(at 201.93 110.49 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -11490,7 +13215,7 @@
 	)
 	(symbol
 		(lib_id "Device:C")
-		(at 180.34 39.37 0)
+		(at 180.34 40.64 0)
 		(mirror y)
 		(unit 1)
 		(exclude_from_sim no)
@@ -11499,7 +13224,7 @@
 		(dnp no)
 		(uuid "e280d012-e1b2-4690-bf59-41e40eeddef2")
 		(property "Reference" "C104"
-			(at 177.8 38.1 0)
+			(at 177.8 39.37 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -11508,7 +13233,7 @@
 			)
 		)
 		(property "Value" "100n"
-			(at 177.8 40.64 0)
+			(at 177.8 41.91 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -11517,7 +13242,7 @@
 			)
 		)
 		(property "Footprint" "Capacitor_SMD:C_0805_2012Metric"
-			(at 179.3748 43.18 0)
+			(at 179.3748 44.45 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -11525,8 +13250,8 @@
 				(hide yes)
 			)
 		)
-		(property "Datasheet" "https://jlcpcb.com/partdetail/YAGEO-CC0805KRX7R9BB104/C49678"
-			(at 180.34 39.37 0)
+		(property "Datasheet" "~"
+			(at 180.34 40.64 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -11535,7 +13260,34 @@
 			)
 		)
 		(property "Description" "100nF 50V X7R ±10% 0805 Multilayer Ceramic Capacitors"
-			(at 180.34 39.37 0)
+			(at 180.34 40.64 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Distributor" "https://jlcpcb.com/partdetail/28983-CL21B104KCFNNNE/C28233"
+			(at 180.34 40.64 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "MFR Part" "CL21B104KCFNNNE"
+			(at 180.34 40.64 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Manufacturer" "Samsung Electro-Mechanics"
+			(at 180.34 40.64 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -11560,7 +13312,7 @@
 	)
 	(symbol
 		(lib_id "Switch:SW_Push")
-		(at 271.78 52.07 0)
+		(at 273.05 52.07 0)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -11569,7 +13321,7 @@
 		(fields_autoplaced yes)
 		(uuid "e50a575b-88f1-4a1d-aa23-d56bda58f72d")
 		(property "Reference" "SW101"
-			(at 271.78 44.45 0)
+			(at 273.05 44.45 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -11577,15 +13329,15 @@
 			)
 		)
 		(property "Value" "SW_Push"
-			(at 271.78 46.99 0)
+			(at 273.05 46.99 0)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
 			)
 		)
-		(property "Footprint" ""
-			(at 271.78 46.99 0)
+		(property "Footprint" "PUEiE_pcb_schematic_footprints:SW_2pin_5.5x2.0mm"
+			(at 273.05 46.99 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -11594,7 +13346,7 @@
 			)
 		)
 		(property "Datasheet" "~"
-			(at 271.78 46.99 0)
+			(at 273.05 46.99 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -11603,7 +13355,34 @@
 			)
 		)
 		(property "Description" "Push button switch, generic, two pins"
-			(at 271.78 52.07 0)
+			(at 273.05 52.07 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Distributor" "https://jlcpcb.com/partdetail/XUNPU-TS_1088AR02016/C720477"
+			(at 273.05 52.07 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "MFR Part" "TS-1088-AR02016"
+			(at 273.05 52.07 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Manufacturer" "XUNPU"
+			(at 273.05 52.07 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -11661,7 +13440,7 @@
 				(hide yes)
 			)
 		)
-		(property "Datasheet" "https://jlcpcb.com/partdetail/TDK-DLF162500LT5028A1/C531364"
+		(property "Datasheet" "~"
 			(at 246.38 90.17 0)
 			(effects
 				(font
@@ -11671,6 +13450,33 @@
 			)
 		)
 		(property "Description" "2.4GHz~2.5GHz 50Ω Low Pass RF Filters"
+			(at 246.38 90.17 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Distributor" "https://jlcpcb.com/partdetail/TDK-DLF162500LT5028A1/C531364"
+			(at 246.38 90.17 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "MFR Part" "DLF162500LT-5028A1"
+			(at 246.38 90.17 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Manufacturer" "TDK"
 			(at 246.38 90.17 0)
 			(effects
 				(font
@@ -11695,6 +13501,103 @@
 			(project ""
 				(path "/064b0dc2-c3a5-4c74-8cbf-4fc3d8c84854"
 					(reference "U102")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Device:C")
+		(at 208.28 132.08 0)
+		(mirror y)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(uuid "eeeb953e-77da-4aaa-9fd9-a56a136e7577")
+		(property "Reference" "C118"
+			(at 210.82 130.81 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+		)
+		(property "Value" "10p"
+			(at 210.82 133.35 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+		)
+		(property "Footprint" "Capacitor_SMD:C_0603_1608Metric"
+			(at 207.3148 135.89 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "~"
+			(at 208.28 132.08 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "10pF 50V C0G ±5%"
+			(at 208.28 132.08 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Distributor" "https://jlcpcb.com/partdetail/1986-CL10C100JB8NNNC/C1634"
+			(at 208.28 132.08 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "MFR Part" " CL10C100JB8NNNC"
+			(at 208.28 132.08 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Manufacturer" "Samsung Electro-Mechanics"
+			(at 208.28 132.08 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "e7edb416-ff64-4001-ad37-08e35d82332b")
+		)
+		(pin "2"
+			(uuid "cf636f83-ccdc-44e7-826c-54b7509adc77")
+		)
+		(instances
+			(project "PUEiE_pcb"
+				(path "/064b0dc2-c3a5-4c74-8cbf-4fc3d8c84854"
+					(reference "C118")
 					(unit 1)
 				)
 			)
@@ -11932,7 +13835,7 @@
 				(hide yes)
 			)
 		)
-		(property "Datasheet" "https://jlcpcb.com/partdetail/hanxia-HX_JN1_27_2x5P_ZZ_H49/C42372547"
+		(property "Datasheet" "~"
 			(at 257.81 34.29 0)
 			(effects
 				(font
@@ -11942,6 +13845,33 @@
 			)
 		)
 		(property "Description" ""
+			(at 257.81 25.4 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Distributor" "https://jlcpcb.com/partdetail/hanxia-HX_JN1_27_2x5P_ZZ_H49/C42372547"
+			(at 257.81 25.4 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "MFR Part" "HX JN1.27-2x5P ZZ H4.9 "
+			(at 257.81 25.4 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Manufacturer" "hanxia"
 			(at 257.81 25.4 0)
 			(effects
 				(font
@@ -12063,7 +13993,7 @@
 	)
 	(sheet
 		(at 44.45 57.15)
-		(size 20.32 26.67)
+		(size 22.86 48.26)
 		(exclude_from_sim no)
 		(in_bom yes)
 		(on_board yes)
@@ -12087,12 +14017,152 @@
 			)
 		)
 		(property "Sheetfile" "Interfaces.kicad_sch"
-			(at 44.45 84.4046 0)
+			(at 44.45 105.9946 0)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
 				(justify left top)
+			)
+		)
+		(pin "I2C_SCL" input
+			(at 44.45 92.71 180)
+			(uuid "ea3e8fba-c634-4bba-9f18-56cef78d6178")
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(pin "I2C_SDA" bidirectional
+			(at 44.45 95.25 180)
+			(uuid "08b66b85-7672-4067-ace3-9f74d83288d5")
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(pin "MAG_~{CS}" input
+			(at 44.45 80.01 180)
+			(uuid "93ad7d71-4fd6-4fb4-94f1-b41755b83e84")
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(pin "MOTOR_DIR" input
+			(at 44.45 100.33 180)
+			(uuid "7b7ea5ff-c705-4eb1-b57d-387952440897")
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(pin "MOTOR_PWM" input
+			(at 44.45 102.87 180)
+			(uuid "aeb31eb0-0d33-4b70-bb47-9e7d2ac91629")
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(pin "SMD_DIR" input
+			(at 44.45 72.39 180)
+			(uuid "afcc32a6-e69c-4c00-965b-f17e745aabdc")
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(pin "SMD_ENN" input
+			(at 44.45 74.93 180)
+			(uuid "b5beb42c-f766-4dc4-aeb0-b953215fe504")
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(pin "SMD_STEP" input
+			(at 44.45 69.85 180)
+			(uuid "1439123d-3fbb-4a6e-b312-77b0f4099e5c")
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(pin "SPI_MISO" output
+			(at 44.45 87.63 180)
+			(uuid "80afecb9-d066-4c49-b682-b1704520afc8")
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(pin "SPI_MOSI" input
+			(at 44.45 85.09 180)
+			(uuid "b1dd70ae-e60e-401c-b8e7-c02f364c4f1f")
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(pin "SPI_SCK" input
+			(at 44.45 82.55 180)
+			(uuid "2e0f5a17-3eab-4e0c-83bc-9401a55afaa1")
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(pin "USART_RX" input
+			(at 44.45 59.69 180)
+			(uuid "bb72db11-12e2-4b78-b4b4-1844fae50d8f")
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(pin "USART_TX" output
+			(at 44.45 62.23 180)
+			(uuid "def50dd3-2fda-4df2-b22b-863e8e2ce9ae")
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(pin "~{GPS_RESET}" input
+			(at 44.45 64.77 180)
+			(uuid "9e5bf4d5-2ea8-4cc2-ae62-a1ddcf45dd83")
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
 			)
 		)
 		(instances

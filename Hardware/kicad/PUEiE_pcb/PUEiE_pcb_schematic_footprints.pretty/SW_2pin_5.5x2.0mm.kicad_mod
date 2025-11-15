@@ -1,0 +1,166 @@
+(footprint "SW_2pin_5.5x2.0mm"
+	(version 20241229)
+	(generator "pcbnew")
+	(generator_version "9.0")
+	(layer "F.Cu")
+	(property "Reference" "REF**"
+		(at 0 -6.1 0)
+		(unlocked yes)
+		(layer "F.SilkS")
+		(uuid "30356e95-849a-47d0-b1e9-7a7dc2298d00")
+		(effects
+			(font
+				(size 1 1)
+				(thickness 0.1)
+			)
+		)
+	)
+	(property "Value" "SW_2pin_5.5x2.0mm"
+		(at 0 -4.6 0)
+		(unlocked yes)
+		(layer "F.Fab")
+		(uuid "cdef7edd-6c24-4e9d-9ab3-425863a1e4a1")
+		(effects
+			(font
+				(size 1 1)
+				(thickness 0.15)
+			)
+		)
+	)
+	(property "Datasheet" "https://jlcpcb.com/api/file/downloadByFileSystemAccessId/8588886944068096000"
+		(at 0 0 0)
+		(unlocked yes)
+		(layer "F.Fab")
+		(hide yes)
+		(uuid "9e2b792d-137c-43bb-bcbd-c3cffeae2720")
+		(effects
+			(font
+				(size 1 1)
+				(thickness 0.15)
+			)
+		)
+	)
+	(property "Description" ""
+		(at 0 0 0)
+		(unlocked yes)
+		(layer "F.Fab")
+		(hide yes)
+		(uuid "6926bfcb-211c-44f7-9216-f5f1fd93fa4c")
+		(effects
+			(font
+				(size 1 1)
+				(thickness 0.15)
+			)
+		)
+	)
+	(attr smd)
+	(fp_line
+		(start -1.95 -1.5)
+		(end -1.95 -1.1)
+		(stroke
+			(width 0.1)
+			(type default)
+		)
+		(layer "F.SilkS")
+		(uuid "6ada261d-c556-4ea5-8a43-f993f739b64a")
+	)
+	(fp_line
+		(start -1.95 -1.5)
+		(end 1.95 -1.5)
+		(stroke
+			(width 0.1)
+			(type default)
+		)
+		(layer "F.SilkS")
+		(uuid "56b8f0f0-bf99-49bc-9279-90f68d573b2b")
+	)
+	(fp_line
+		(start -1.95 1.5)
+		(end -1.95 1.1)
+		(stroke
+			(width 0.1)
+			(type default)
+		)
+		(layer "F.SilkS")
+		(uuid "fa921cc9-22ea-4ffd-82cd-05a7219f5766")
+	)
+	(fp_line
+		(start 1.95 -1.5)
+		(end 1.95 -1.1)
+		(stroke
+			(width 0.1)
+			(type default)
+		)
+		(layer "F.SilkS")
+		(uuid "ea1796ba-4a6d-43ce-a86f-ff212153fd7e")
+	)
+	(fp_line
+		(start 1.95 1.5)
+		(end -1.95 1.5)
+		(stroke
+			(width 0.1)
+			(type default)
+		)
+		(layer "F.SilkS")
+		(uuid "2f9ab32d-0e46-4d7f-9210-e6dd76a059ec")
+	)
+	(fp_line
+		(start 1.95 1.5)
+		(end 1.95 1.1)
+		(stroke
+			(width 0.1)
+			(type default)
+		)
+		(layer "F.SilkS")
+		(uuid "ca725c38-7433-4367-b8d0-9f42cddaa751")
+	)
+	(fp_rect
+		(start -3 -1.6)
+		(end 3 1.6)
+		(stroke
+			(width 0.05)
+			(type default)
+		)
+		(fill no)
+		(layer "F.CrtYd")
+		(uuid "7373a545-0516-4bad-88e1-1cd2de441e96")
+	)
+	(fp_text user "${REFERENCE}"
+		(at 0 -3.1 0)
+		(unlocked yes)
+		(layer "F.Fab")
+		(uuid "e829ad5f-192c-45bc-8bed-c9a850cfb8c0")
+		(effects
+			(font
+				(size 1 1)
+				(thickness 0.15)
+			)
+		)
+	)
+	(pad "1" smd roundrect
+		(at -2.225 0)
+		(size 1.05 2)
+		(layers "F.Cu" "F.Mask" "F.Paste")
+		(roundrect_rratio 0.15)
+		(uuid "7ec1213d-b7d2-477c-9e77-ddaf4a3fc0a9")
+	)
+	(pad "2" smd roundrect
+		(at 2.225 0)
+		(size 1.05 2)
+		(layers "F.Cu" "F.Mask" "F.Paste")
+		(roundrect_rratio 0.15)
+		(uuid "b80e8833-eadc-47d2-9521-88b6076448ed")
+	)
+	(embedded_fonts no)
+	(model "${KICAD9_3DMODEL_DIR}/Button_Switch_SMD.3dshapes/SW_SPST_B3U-1000P-B.step"
+		(offset
+			(xyz 0 0 0)
+		)
+		(scale
+			(xyz 1 1 1)
+		)
+		(rotate
+			(xyz 0 0 0)
+		)
+	)
+)

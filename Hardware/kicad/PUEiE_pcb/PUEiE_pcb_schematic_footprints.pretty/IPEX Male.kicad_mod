@@ -1,0 +1,185 @@
+(footprint "IPEX Male"
+	(version 20241229)
+	(generator "pcbnew")
+	(generator_version "9.0")
+	(layer "F.Cu")
+	(descr "IPEX Male Pin SMD Coaxial Connectors")
+	(property "Reference" "REF**"
+		(at 0 -8 0)
+		(unlocked yes)
+		(layer "F.SilkS")
+		(uuid "84227a41-efbf-46b1-b5e2-416038c8bd77")
+		(effects
+			(font
+				(size 1 1)
+				(thickness 0.1)
+			)
+		)
+	)
+	(property "Value" "IPEX Male"
+		(at 0 -6.5 0)
+		(unlocked yes)
+		(layer "F.Fab")
+		(uuid "6cc533d0-45ff-4635-9d0c-d1d16fd5ee8e")
+		(effects
+			(font
+				(size 1 1)
+				(thickness 0.15)
+			)
+		)
+	)
+	(property "Datasheet" "https://jlcpcb.com/api/file/downloadByFileSystemAccessId/8588893599760703488"
+		(at 0 0 0)
+		(unlocked yes)
+		(layer "F.Fab")
+		(hide yes)
+		(uuid "e5679e63-3aea-4637-a99d-81d5679b862b")
+		(effects
+			(font
+				(size 1 1)
+				(thickness 0.15)
+			)
+		)
+	)
+	(property "Description" "IPEX Male Pin SMD Coaxial Connectors"
+		(at 0 0 0)
+		(unlocked yes)
+		(layer "F.Fab")
+		(hide yes)
+		(uuid "26a0cf7e-7155-462f-9017-db8e23d563b6")
+		(effects
+			(font
+				(size 1 1)
+				(thickness 0.15)
+			)
+		)
+	)
+	(attr smd)
+	(fp_line
+		(start -1.511119 -1.511119)
+		(end -1.511119 1.588881)
+		(stroke
+			(width 0.1)
+			(type default)
+		)
+		(layer "F.SilkS")
+		(uuid "f4a253fc-0247-4f8a-99db-556b0dff3208")
+	)
+	(fp_line
+		(start -1.511119 -1.511119)
+		(end -1.2 -1.511119)
+		(stroke
+			(width 0.1)
+			(type default)
+		)
+		(layer "F.SilkS")
+		(uuid "260c8d38-e429-4313-a655-094ac12c53f8")
+	)
+	(fp_line
+		(start -1.511119 1.588881)
+		(end -1.2 1.588881)
+		(stroke
+			(width 0.1)
+			(type default)
+		)
+		(layer "F.SilkS")
+		(uuid "cac4cce9-9591-49b8-a6d3-d3cc5c892c6d")
+	)
+	(fp_line
+		(start 1.488881 -1.511119)
+		(end 1.2 -1.511119)
+		(stroke
+			(width 0.1)
+			(type default)
+		)
+		(layer "F.SilkS")
+		(uuid "49b93375-3e6d-4f3b-9ccd-cd3c0133cec7")
+	)
+	(fp_line
+		(start 1.488881 -1.511119)
+		(end 1.488881 -0.6)
+		(stroke
+			(width 0.1)
+			(type default)
+		)
+		(layer "F.SilkS")
+		(uuid "d7cbbb24-5049-4530-9c99-d7cfa3e9f1d5")
+	)
+	(fp_line
+		(start 1.488881 1.588881)
+		(end 1.2 1.588881)
+		(stroke
+			(width 0.1)
+			(type default)
+		)
+		(layer "F.SilkS")
+		(uuid "a66971d0-c90d-4279-8e54-b71791d2b1ad")
+	)
+	(fp_line
+		(start 1.488881 1.588881)
+		(end 1.488881 0.6)
+		(stroke
+			(width 0.1)
+			(type default)
+		)
+		(layer "F.SilkS")
+		(uuid "c329bb22-42af-42da-a4e7-aa4bacd0e0e5")
+	)
+	(fp_rect
+		(start -2.1 -2.1)
+		(end 2.1 2.1)
+		(stroke
+			(width 0.05)
+			(type default)
+		)
+		(fill no)
+		(layer "F.CrtYd")
+		(uuid "ac50780a-2ecd-45f8-afaf-d5ee38b5b054")
+	)
+	(fp_text user "${REFERENCE}"
+		(at 0 -5 0)
+		(unlocked yes)
+		(layer "F.Fab")
+		(uuid "bf3de8c5-19da-4559-8dcb-987383b3d78e")
+		(effects
+			(font
+				(size 1 1)
+				(thickness 0.15)
+			)
+		)
+	)
+	(pad "1" smd roundrect
+		(at 1.525 0)
+		(size 1.05 1)
+		(layers "F.Cu" "F.Mask" "F.Paste")
+		(roundrect_rratio 0.15)
+		(uuid "55075ed9-634d-4481-996b-f441f6fb8fde")
+	)
+	(pad "2" smd roundrect
+		(at 0 -1.475)
+		(size 2.2 1.05)
+		(layers "F.Cu" "F.Mask" "F.Paste")
+		(roundrect_rratio 0.15)
+		(uuid "37f53799-441c-4e69-9b9e-bcb90d183adf")
+	)
+	(pad "2" smd roundrect
+		(at 0 1.475)
+		(size 2.2 1.05)
+		(layers "F.Cu" "F.Mask" "F.Paste")
+		(roundrect_rratio 0.15)
+		(uuid "12a9553e-f194-435e-bba8-47505d3a7222")
+	)
+	(embedded_fonts no)
+	(model "${KIPRJMOD}/ipex_connector.step"
+		(opacity 0.9600)
+		(offset
+			(xyz 0 0 0)
+		)
+		(scale
+			(xyz 1 1 1)
+		)
+		(rotate
+			(xyz -90 -0 -0)
+		)
+	)
+)
