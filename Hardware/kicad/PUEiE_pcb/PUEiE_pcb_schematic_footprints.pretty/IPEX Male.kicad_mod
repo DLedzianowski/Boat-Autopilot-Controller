@@ -170,7 +170,7 @@
 		(uuid "12a9553e-f194-435e-bba8-47505d3a7222")
 	)
 	(embedded_fonts no)
-	(model "${KIPRJMOD}/ipex_connector.step"
+	(model "${KIPRJMOD}/models/ipex_connector.step"
 		(opacity 0.9600)
 		(offset
 			(xyz 0 0 0)

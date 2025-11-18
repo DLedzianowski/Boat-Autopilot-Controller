@@ -129,7 +129,7 @@
       },
       "rules": {
         "max_error": 0.005,
-        "min_clearance": 0.15,
+        "min_clearance": 0.2,
         "min_connection": 0.15,
         "min_copper_edge_clearance": 0.2,
         "min_groove_width": 0.0,
@@ -142,7 +142,7 @@
         "min_text_height": 0.8,
         "min_text_thickness": 0.08,
         "min_through_hole_diameter": 0.3,
-        "min_track_width": 0.15,
+        "min_track_width": 0.2,
         "min_via_annular_width": 0.2,
         "min_via_diameter": 0.75,
         "solder_mask_to_copper_clearance": 0.0,
@@ -194,8 +194,8 @@
       ],
       "track_widths": [
         0.0,
-        0.15,
         0.2,
+        0.3,
         0.4,
         0.6,
         1.0
@@ -230,6 +230,10 @@
         {
           "diameter": 0.0,
           "drill": 0.0
+        },
+        {
+          "diameter": 0.5,
+          "drill": 0.3
         },
         {
           "diameter": 0.7,
@@ -512,63 +516,69 @@
         "wire_width": 6
       },
       {
-        "name": "GND",
-        "pcb_color": "rgba(0, 0, 0, 0.000)",
-        "priority": 2,
-        "schematic_color": "rgba(0, 0, 0, 0.000)"
-      },
-      {
-        "name": "I2C",
-        "pcb_color": "rgba(0, 0, 0, 0.000)",
-        "priority": 4,
-        "schematic_color": "rgba(0, 0, 0, 0.000)"
-      },
-      {
-        "name": "MOTOR",
-        "pcb_color": "rgba(0, 0, 0, 0.000)",
-        "priority": 5,
-        "schematic_color": "rgba(0, 0, 0, 0.000)"
-      },
-      {
-        "name": "PWR",
-        "pcb_color": "rgba(0, 0, 0, 0.000)",
-        "priority": 0,
-        "schematic_color": "rgba(0, 0, 0, 0.000)"
-      },
-      {
-        "name": "RF",
-        "pcb_color": "rgba(0, 0, 0, 0.000)",
+        "name": "ANALOG",
+        "pcb_color": "rgb(255, 0, 125)",
         "priority": 1,
         "schematic_color": "rgba(0, 0, 0, 0.000)"
       },
       {
-        "name": "SMD",
-        "pcb_color": "rgba(0, 0, 0, 0.000)",
-        "priority": 9,
-        "schematic_color": "rgba(0, 0, 0, 0.000)"
-      },
-      {
-        "name": "SPI",
-        "pcb_color": "rgba(0, 0, 0, 0.000)",
+        "name": "GND",
+        "pcb_color": "rgb(155, 155, 155)",
         "priority": 8,
         "schematic_color": "rgba(0, 0, 0, 0.000)"
       },
       {
-        "name": "SW",
-        "pcb_color": "rgba(0, 0, 0, 0.000)",
+        "name": "GPS",
+        "pcb_color": "rgb(163, 38, 180)",
         "priority": 3,
         "schematic_color": "rgba(0, 0, 0, 0.000)"
       },
       {
-        "name": "USART",
-        "pcb_color": "rgba(0, 0, 0, 0.000)",
+        "name": "MAG",
+        "pcb_color": "rgb(0, 10, 255)",
+        "priority": 2,
+        "schematic_color": "rgba(0, 0, 0, 0.000)"
+      },
+      {
+        "name": "MEM",
+        "pcb_color": "rgb(237, 0, 255)",
+        "priority": 0,
+        "schematic_color": "rgba(0, 0, 0, 0.000)"
+      },
+      {
+        "name": "MOTOR",
+        "pcb_color": "rgb(39, 135, 141)",
+        "priority": 4,
+        "schematic_color": "rgba(0, 0, 0, 0.000)"
+      },
+      {
+        "name": "PWR",
+        "pcb_color": "rgb(255, 113, 5)",
+        "priority": 6,
+        "schematic_color": "rgba(0, 0, 0, 0.000)"
+      },
+      {
+        "name": "RF",
+        "pcb_color": "rgb(255, 255, 0)",
         "priority": 7,
+        "schematic_color": "rgba(0, 0, 0, 0.000)"
+      },
+      {
+        "name": "SMD",
+        "pcb_color": "rgb(205, 203, 255)",
+        "priority": 5,
+        "schematic_color": "rgba(0, 0, 0, 0.000)"
+      },
+      {
+        "name": "SWD",
+        "pcb_color": "rgb(1, 2, 255)",
+        "priority": 9,
         "schematic_color": "rgba(0, 0, 0, 0.000)"
       },
       {
         "name": "USB",
         "pcb_color": "rgba(0, 0, 0, 0.000)",
-        "priority": 6,
+        "priority": 10,
         "schematic_color": "rgba(0, 0, 0, 0.000)"
       }
     ],
@@ -579,44 +589,44 @@
     "netclass_assignments": null,
     "netclass_patterns": [
       {
-        "netclass": "Default",
-        "pattern": "/RF*"
+        "netclass": "RF",
+        "pattern": "*RF*"
       },
       {
-        "netclass": "Default",
+        "netclass": "PWR",
         "pattern": "+*"
       },
       {
-        "netclass": "Default",
+        "netclass": "GND",
         "pattern": "GND"
       },
       {
-        "netclass": "Default",
-        "pattern": "/SW*"
+        "netclass": "SWD",
+        "pattern": "SW*"
       },
       {
-        "netclass": "Default",
-        "pattern": "/I2C*"
+        "netclass": "MOTOR",
+        "pattern": "*MOTOR*"
       },
       {
-        "netclass": "Default",
-        "pattern": "/MOTOR*"
-      },
-      {
-        "netclass": "Default",
+        "netclass": "USB",
         "pattern": "/USB*"
       },
       {
-        "netclass": "Default",
-        "pattern": "/USART*"
+        "netclass": "MEM",
+        "pattern": "*MEM*"
       },
       {
-        "netclass": "Default",
-        "pattern": "/SPI*"
+        "netclass": "SMD",
+        "pattern": "*SMD*"
       },
       {
-        "netclass": "Default",
-        "pattern": "/SMD*"
+        "netclass": "GPS",
+        "pattern": "*GPS*"
+      },
+      {
+        "netclass": "ANALOG",
+        "pattern": "*ADC*"
       }
     ]
   },
@@ -680,12 +690,6 @@
           "label": "Qty",
           "name": "${QUANTITY}",
           "show": true
-        },
-        {
-          "group_by": false,
-          "label": "Part",
-          "name": "Part",
-          "show": false
         },
         {
           "group_by": false,

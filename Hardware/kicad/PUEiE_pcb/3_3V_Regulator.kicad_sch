@@ -2941,6 +2941,26 @@
 		)
 		(uuid "369c9ffb-ecc7-4d5f-b7fa-ef5c772bb7fe")
 	)
+	(label "+3.3Vbat"
+		(at 190.5 43.18 0)
+		(effects
+			(font
+				(size 0.5 0.5)
+			)
+			(justify left bottom)
+		)
+		(uuid "6c81b049-3bd9-44b9-9f64-f73e64a5b851")
+	)
+	(label "LDO_SW"
+		(at 163.83 26.67 0)
+		(effects
+			(font
+				(size 0.5 0.5)
+			)
+			(justify left bottom)
+		)
+		(uuid "9226c565-7d71-45bc-954f-2c5600dca0cc")
+	)
 	(label "SBD_K"
 		(at 87.63 43.18 0)
 		(effects
@@ -2951,6 +2971,16 @@
 		)
 		(uuid "964be8b5-f0ca-4d61-91c4-ae955bb839d5")
 	)
+	(label "LDO_VFB"
+		(at 179.07 53.34 0)
+		(effects
+			(font
+				(size 0.5 0.5)
+			)
+			(justify left bottom)
+		)
+		(uuid "99d2053b-3a09-4316-a271-d229385dde28")
+	)
 	(label "+3.3V_K"
 		(at 212.09 148.59 270)
 		(effects
@@ -2960,6 +2990,16 @@
 			(justify right bottom)
 		)
 		(uuid "b823ab74-63b7-43d4-8157-cf0a8796fff9")
+	)
+	(label "LDO_VBST"
+		(at 162.56 45.72 0)
+		(effects
+			(font
+				(size 0.5 0.5)
+			)
+			(justify left bottom)
+		)
+		(uuid "ecaadf39-3821-4a0e-a1b8-38978b416b68")
 	)
 	(hierarchical_label "Vbat+"
 		(shape output)
@@ -3775,7 +3815,7 @@
 				(hide yes)
 			)
 		)
-		(property "MFR Part" " TPS563240DDCR"
+		(property "MFR Part" "TPS563240DDCR"
 			(at 152.4 45.72 0)
 			(effects
 				(font
@@ -6136,7 +6176,7 @@
 				(justify right)
 			)
 		)
-		(property "Value" "RED"
+		(property "Value" "+3.3V"
 			(at 215.9 147.6374 90)
 			(effects
 				(font
@@ -6163,7 +6203,7 @@
 				(hide yes)
 			)
 		)
-		(property "Description" "Light emitting diode"
+		(property "Description" "RED"
 			(at 212.09 144.78 0)
 			(effects
 				(font

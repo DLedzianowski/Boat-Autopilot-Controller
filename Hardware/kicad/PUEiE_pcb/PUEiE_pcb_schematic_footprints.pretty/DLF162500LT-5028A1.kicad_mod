@@ -27,7 +27,7 @@
 			)
 		)
 	)
-	(property "Datasheet" ""
+	(property "Datasheet" "https://jlcpcb.com/api/file/downloadByFileSystemAccessId/8588915530636279808"
 		(at 0 0 0)
 		(unlocked yes)
 		(layer "F.Fab")
@@ -107,28 +107,28 @@
 		(uuid "93f62682-9bc3-4417-98d3-ec96a94c2e45")
 	)
 	(pad "2" smd roundrect
-		(at 0.6125 0)
-		(size 0.275 0.7)
-		(layers "F.Cu" "F.Mask" "F.Paste")
-		(roundrect_rratio 0.25)
-		(uuid "5a934c42-948c-4c2f-bf5d-2ca005a35ae0")
-	)
-	(pad "3" smd roundrect
-		(at 0 0.2275)
-		(size 0.45 0.245)
-		(layers "F.Cu" "F.Mask" "F.Paste")
-		(roundrect_rratio 0.25)
-		(uuid "95be76d7-bc86-4da3-956b-a6f07ab38141")
-	)
-	(pad "4" smd roundrect
 		(at 0 -0.2275)
 		(size 0.45 0.245)
 		(layers "F.Cu" "F.Mask" "F.Paste")
 		(roundrect_rratio 0.25)
 		(uuid "3bba6c39-acb5-4b2f-ab3a-2c9b96ead6dd")
 	)
+	(pad "3" smd roundrect
+		(at 0.6125 0)
+		(size 0.275 0.7)
+		(layers "F.Cu" "F.Mask" "F.Paste")
+		(roundrect_rratio 0.25)
+		(uuid "5a934c42-948c-4c2f-bf5d-2ca005a35ae0")
+	)
+	(pad "4" smd roundrect
+		(at 0 0.2275)
+		(size 0.45 0.245)
+		(layers "F.Cu" "F.Mask" "F.Paste")
+		(roundrect_rratio 0.25)
+		(uuid "95be76d7-bc86-4da3-956b-a6f07ab38141")
+	)
 	(embedded_fonts no)
-	(model "${KIPRJMOD}/DLF162500LT-5028A1.step"
+	(model "${KIPRJMOD}/models/DLF162500LT-5028A1.step"
 		(opacity 0.9900)
 		(offset
 			(xyz 0 0 0)
