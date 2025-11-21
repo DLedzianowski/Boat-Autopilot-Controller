@@ -565,7 +565,7 @@
       },
       {
         "name": "SMD",
-        "pcb_color": "rgb(205, 203, 255)",
+        "pcb_color": "rgb(93, 102, 255)",
         "priority": 5,
         "schematic_color": "rgba(0, 0, 0, 0.000)"
       },

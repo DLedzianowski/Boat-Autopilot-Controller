@@ -3788,7 +3788,7 @@
 				(hide yes)
 			)
 		)
-		(property "Datasheet" "www.ti.com/lit/ds/symlink/tps563240.pdf"
+		(property "Datasheet" "https://www.ti.com/lit/ds/symlink/tps563240.pdf"
 			(at 152.4 45.72 0)
 			(effects
 				(font
@@ -6167,8 +6167,8 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "b5da2017-5f67-41c7-b3a5-45c5bae3e76e")
-		(property "Reference" "D203"
-			(at 215.9 145.0974 90)
+		(property "Reference" "LD3V3"
+			(at 215.9 146.3674 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -6183,6 +6183,7 @@
 					(size 1.27 1.27)
 				)
 				(justify right)
+				(hide yes)
 			)
 		)
 		(property "Footprint" "LED_SMD:LED_0805_2012Metric"
@@ -6248,7 +6249,7 @@
 		(instances
 			(project ""
 				(path "/064b0dc2-c3a5-4c74-8cbf-4fc3d8c84854/14f85070-237d-42f7-a449-5fde0a107bb8"
-					(reference "D203")
+					(reference "LD3V3")
 					(unit 1)
 				)
 			)
@@ -7025,7 +7026,7 @@
 				(hide yes)
 			)
 		)
-		(property "Footprint" "Button_Switch_THT:SW_Slide-03_Wuerth-WS-SLTV_10x2.5x6.4_P2.54mm"
+		(property "Footprint" "Connector_PinHeader_2.54mm:PinHeader_1x03_P2.54mm_Vertical"
 			(at 68.58 55.88 0)
 			(effects
 				(font
