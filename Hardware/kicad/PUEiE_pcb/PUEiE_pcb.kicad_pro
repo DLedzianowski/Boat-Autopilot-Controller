@@ -63,48 +63,7 @@
           "width": 0.22
         }
       ],
-      "drc_exclusions": [
-        [
-          "clearance|113941757|152976601|96a8050f-5b4d-4888-85b5-cc738e141407|177646eb-b9b5-45b6-b4f3-ad2dbe0545a1",
-          "?"
-        ],
-        [
-          "clearance|113941757|153976601|a1f7518e-8357-4673-96eb-3a675557040c|f0d2b441-d390-4213-9d58-140dedae6209",
-          "?"
-        ],
-        [
-          "clearance|114316757|152976601|96a8050f-5b4d-4888-85b5-cc738e141407|431cce6e-7d6e-47fc-9d1e-e2d83898cacd",
-          "?"
-        ],
-        [
-          "clearance|114316757|154476601|f0d2b441-d390-4213-9d58-140dedae6209|998b96ba-7a8a-46a9-bdda-2d18743984c6",
-          "?"
-        ],
-        [
-          "clearance|114966757|152976601|64f899e3-5a2f-4e8d-8e19-fbdadf20b90b|431cce6e-7d6e-47fc-9d1e-e2d83898cacd",
-          "?"
-        ],
-        [
-          "clearance|115316757|154126601|de04cbc5-aa0e-4eb5-a0b4-24767b8316d7|c53bc471-ee13-42f5-8fd2-ac44466f2235",
-          "?"
-        ],
-        [
-          "clearance|115466757|152976601|de98862a-a319-44c7-8314-ecd8eb81ba44|64f899e3-5a2f-4e8d-8e19-fbdadf20b90b",
-          "?"
-        ],
-        [
-          "clearance|115466757|153126601|6d28c60a-d608-4cac-9a15-d8a140c8492f|de98862a-a319-44c7-8314-ecd8eb81ba44",
-          "?"
-        ],
-        [
-          "clearance|115466757|153626601|661e492f-ef3d-48ec-b715-28c2f2a74176|6d28c60a-d608-4cac-9a15-d8a140c8492f",
-          "?"
-        ],
-        [
-          "clearance|115466757|154126601|c53bc471-ee13-42f5-8fd2-ac44466f2235|661e492f-ef3d-48ec-b715-28c2f2a74176",
-          "?"
-        ]
-      ],
+      "drc_exclusions": [],
       "meta": {
         "version": 2
       },
@@ -172,7 +131,7 @@
         "max_error": 0.005,
         "min_clearance": 0.15,
         "min_connection": 0.15,
-        "min_copper_edge_clearance": 0.15,
+        "min_copper_edge_clearance": 0.5,
         "min_groove_width": 0.0,
         "min_hole_clearance": 0.2,
         "min_hole_to_hole": 0.25,
@@ -183,8 +142,8 @@
         "min_text_height": 0.8,
         "min_text_thickness": 0.08,
         "min_through_hole_diameter": 0.3,
-        "min_track_width": 0.2,
-        "min_via_annular_width": 0.15,
+        "min_track_width": 0.15,
+        "min_via_annular_width": 0.125,
         "min_via_diameter": 0.7,
         "solder_mask_to_copper_clearance": 0.0,
         "use_height_for_length_calcs": true
@@ -540,10 +499,10 @@
     "classes": [
       {
         "bus_width": 12,
-        "clearance": 0.2,
-        "diff_pair_gap": 0.25,
+        "clearance": 0.15,
+        "diff_pair_gap": 0.2,
         "diff_pair_via_gap": 0.25,
-        "diff_pair_width": 0.2,
+        "diff_pair_width": 0.45,
         "line_style": 0,
         "microvia_diameter": 0.3,
         "microvia_drill": 0.1,
@@ -600,15 +559,13 @@
       },
       {
         "clearance": 0.2,
-        "diff_pair_gap": 0.25,
-        "diff_pair_width": 0.2,
         "microvia_diameter": 0.0,
         "microvia_drill": 0.0,
         "name": "RF",
         "pcb_color": "rgb(255, 255, 0)",
         "priority": 0,
         "schematic_color": "rgba(0, 0, 0, 0.000)",
-        "track_width": 0.355476,
+        "track_width": 0.8,
         "via_diameter": 0.0,
         "via_drill": 0.0
       },
@@ -625,6 +582,8 @@
         "schematic_color": "rgba(0, 0, 0, 0.000)"
       },
       {
+        "diff_pair_gap": 0.2,
+        "diff_pair_width": 0.45,
         "name": "USB",
         "pcb_color": "rgba(0, 0, 0, 0.000)",
         "priority": 10,
@@ -676,14 +635,6 @@
       {
         "netclass": "ANALOG",
         "pattern": "*ADC*"
-      },
-      {
-        "netclass": "RF",
-        "pattern": "*HSE_*"
-      },
-      {
-        "netclass": "RF",
-        "pattern": "*LSE_*"
       }
     ]
   },
@@ -692,7 +643,7 @@
       "gencad": "",
       "idf": "",
       "netlist": "",
-      "plot": "",
+      "plot": "../../../3Gerber/",
       "pos_files": "",
       "specctra_dsn": "",
       "step": "",
@@ -703,7 +654,7 @@
   },
   "schematic": {
     "annotate_start_num": 0,
-    "bom_export_filename": "",
+    "bom_export_filename": "..\\..\\..\\4BOM\\PUEiE_pcb.csv",
     "bom_fmt_presets": [],
     "bom_fmt_settings": {
       "field_delimiter": ",",
@@ -737,7 +688,7 @@
           "show": true
         },
         {
-          "group_by": false,
+          "group_by": true,
           "label": "Footprint",
           "name": "Footprint",
           "show": true
@@ -749,10 +700,10 @@
           "show": true
         },
         {
-          "group_by": false,
-          "label": "Description",
-          "name": "Description",
-          "show": false
+          "group_by": true,
+          "label": "DNP",
+          "name": "${DNP}",
+          "show": true
         },
         {
           "group_by": false,
@@ -776,6 +727,12 @@
           "group_by": false,
           "label": "#",
           "name": "${ITEM_NUMBER}",
+          "show": false
+        },
+        {
+          "group_by": false,
+          "label": "Description",
+          "name": "Description",
           "show": false
         }
       ],
@@ -823,7 +780,7 @@
       "workbook_filename": ""
     },
     "page_layout_descr_file": "",
-    "plot_directory": "",
+    "plot_directory": "../../../2Schemat/",
     "space_save_all_events": true,
     "spice_current_sheet_as_root": false,
     "spice_external_command": "spice \"%I\"",

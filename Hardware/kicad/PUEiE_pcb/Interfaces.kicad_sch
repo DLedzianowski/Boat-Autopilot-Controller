@@ -6049,6 +6049,17 @@
 		)
 		(uuid "6b114032-8d26-4cb4-a858-b468ff3d9e80")
 	)
+	(polyline
+		(pts
+			(xy 217.17 92.71) (xy 217.17 165.1)
+		)
+		(stroke
+			(width 0)
+			(type dash_dot)
+			(color 0 0 0 1)
+		)
+		(uuid "72e62acc-1e2f-4fd6-8c04-3352f7aad783")
+	)
 	(wire
 		(pts
 			(xy 104.14 137.16) (xy 111.76 137.16)
